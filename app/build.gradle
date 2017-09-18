@@ -1,0 +1,53 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion '25.0.0'
+    aaptOptions.cruncherEnabled = false
+    aaptOptions.useNewCruncher = false
+
+    packagingOptions {
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/NOTICE'
+    }
+
+    defaultConfig {
+        applicationId "com.cnyssj.pos"
+        minSdkVersion 14
+        targetSdkVersion 21
+        multiDexEnabled true
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles 'proguard.cfg'
+        }
+    }
+}
+
+dependencies {
+    compile 'com.android.support:support-v4:21.0.0'
+    //    compile 'com.android.support:appcompat-v7:21.0.0'
+    compile 'com.google.code.gson:gson:2.2.4'
+    compile files('libs/bw_pos_sdk2.0.18.jar')
+    compile files('libs/codec.jar')
+    compile files('libs/commons-codec-1.9.jar')
+    compile files('libs/commons-httpclient-3.0.1.jar')
+    compile files('libs/commons-logging-1.1.1-sources.jar')
+    compile files('libs/commons-logging-1.1.1.jar')
+    compile files('libs/core4.7.5.jar')
+    compile files('libs/dom4j-1.6.1.jar')
+    compile files('libs/glide-3.6.1.jar')
+    compile files('libs/J1013.jar')
+    compile files('libs/libammsdk.jar')
+    compile files('libs/platform_sdk_v2.2.3.jar')
+    compile files('libs/poslib20160411.jar')
+    compile files('libs/umeng-analytics-v5.5.3.jar')
+    compile files('libs/umeng-update-v2.6.0.1.jar')
+    compile files('libs/zbar.jar')
+    compile 'com.journeyapps:zxing-android-embedded:3.5.0'
+    compile 'com.google.zxing:core:3.3.0'
+}
+
+

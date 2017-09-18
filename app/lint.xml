@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lint>
+    <issue id="ClickableViewAccessibility" severity="ignore" />
+    <issue id="CutPasteId">
+        <ignore path="src/com/ven/pos/TitleBar.java" />
+    </issue>
+    <issue id="HandlerLeak" severity="ignore" />
+    <issue id="SetJavaScriptEnabled" severity="ignore" />
+    <issue id="ShowToast" severity="ignore" />
+    <issue id="SimpleDateFormat" severity="ignore" />
+</lint>

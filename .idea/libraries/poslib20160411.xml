@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="poslib20160411">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/poslib20160411.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

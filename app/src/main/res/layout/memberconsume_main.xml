@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_gray"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/min_interval_40"
+        android:layout_marginRight="@dimen/min_interval_40"
+        android:layout_marginTop="@dimen/min_interval_40"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/MemberConsume_Barcode_edt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/sc_text_search"
+            android:gravity="center_vertical"
+            android:hint="请输入条码..."
+            android:selectAllOnFocus="true"
+            android:textColor="@color/hint_font_color_1"
+            android:textSize="@dimen/font_size_mf" />
+
+        <Button
+            android:id="@+id/MemberConsume_AddBarcode_add_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/min_interval_40"
+            android:background="@drawable/cc_btn_add" />
+
+        <ImageButton
+            android:id="@+id/Camera_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/min_interval_40"
+            android:background="@null"
+            android:src="@drawable/cc_btn_saoyisao" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/main_left_120"
+        android:layout_marginLeft="@dimen/min_interval_40"
+        android:layout_marginRight="@dimen/min_interval_40"
+        android:layout_marginTop="@dimen/min_interval_40"
+        android:background="@null"
+        android:scaleType="centerCrop"
+        android:src="@drawable/cc_img_xiaofeixiangmu" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/main_left_120"
+        android:layout_marginLeft="@dimen/min_interval_40"
+        android:layout_marginRight="@dimen/min_interval_40"
+        android:background="@color/white"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:singleLine="false"
+            android:text="名称（编码）"
+            android:textColor="@color/nomal_font_color"
+            android:textSize="@dimen/font_size_sb" />
+
+        <View
+            android:layout_width="1px"
+            android:layout_height="@dimen/login_98px"
+            android:layout_gravity="center_vertical"
+            android:background="#BABABA" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.5"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="数量"
+            android:textColor="@color/nomal_font_color"
+            android:textSize="@dimen/font_size_sb" />
+
+        <View
+            android:layout_width="1px"
+            android:layout_height="@dimen/login_98px"
+            android:layout_gravity="center_vertical"
+            android:background="#BABABA" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.5"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="折后金额"
+            android:textColor="@color/nomal_font_color"
+            android:textSize="@dimen/font_size_sb" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="0.7dip"
+        android:layout_marginLeft="@dimen/min_interval_40"
+        android:layout_marginRight="@dimen/min_interval_40"
+        android:background="#000000" />
+
+    <ListView
+        android:id="@+id/consume_list"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="@dimen/min_interval_40"
+        android:layout_marginRight="@dimen/min_interval_40"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/min_interval_40"
+        android:layout_marginRight="@dimen/min_interval_40"
+        android:layout_marginTop="@dimen/min_interval_40"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/login_mid_540px"
+            android:background="@null"
+            android:src="@drawable/cc_icon_qian" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="合计："
+            android:textColor="@color/nomal_font_color"
+            android:textSize="@dimen/font_size_mf" />
+
+        <TextView
+            android:id="@+id/MemberConsume_TotalMoney_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="0.00"
+            android:textColor="@color/text_discount_red"
+            android:textSize="@dimen/font_size_md_20" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="元"
+            android:textColor="@color/nomal_font_color"
+            android:textSize="@dimen/font_size_mf" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/main_left_87"
+        android:layout_marginTop="@dimen/main_left_87" >
+
+        <Button
+            android:id="@+id/item_delete_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/line_interval_80"
+            android:layout_weight="1"
+            android:background="@drawable/memberconsume_delete"
+            android:gravity="center"
+            android:text="删除"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/item_search_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/line_interval_80"
+            android:layout_weight="1"
+            android:background="@drawable/memberconsume_serch"
+            android:gravity="center"
+            android:text="商品搜索"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/bill_pay_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="@dimen/line_interval_80"
+            android:layout_marginRight="@dimen/line_interval_80"
+            android:layout_weight="1"
+            android:background="@drawable/memberconsume_account"
+            android:gravity="center"
+            android:text="结账"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,45 @@
+[
+    {
+        "outputFile": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-large-v14\\values-large-v14.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 107,
+                    "endOffset": 158
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\.android\\build-cache\\2e0c26e27769c2c358a318c32a052c46c29c9bd6\\output\\res\\values-large-v14\\values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 289,
+                        "endColumn": 108,
+                        "endOffset": 393
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 163,
+                    "endColumn": 119,
+                    "endOffset": 278
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\.android\\build-cache\\2e0c26e27769c2c358a318c32a052c46c29c9bd6\\output\\res\\values-large-v14\\values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 399,
+                        "endColumn": 120,
+                        "endOffset": 515
+                    }
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffffff"
+    android:keepScreenOn="true" >
+
+    <LinearLayout
+        android:id="@+id/money_ll"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/code_img_ll"
+        android:background="@color/pay_bg"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/LargeText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="￥"
+            android:textColor="@color/iamge_bar"
+            android:textSize="45.0sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/pay_notice_money_tv"
+            style="@style/NormalText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0.00"
+            android:textColor="@color/iamge_bar"
+            android:textSize="60.0sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/code_img_ll"
+        android:layout_width="fill_parent"
+        android:layout_height="250.0dip"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="1.0dip"
+        android:background="@color/white"
+        android:orientation="vertical" >
+
+        <!-- <Button android:layout_gravity="center" android:id="@+id/code_img" android:background="@android:color/transparent" android:layout_width="250.0dip" android:layout_height="250.0dip" style="@style/LargeText" /> -->
+
+        <ImageView
+            android:id="@+id/code_img"
+            style="@style/LargeText"
+            android:layout_width="250.0dip"
+            android:layout_height="250.0dip"
+            android:layout_gravity="center"
+            android:background="@android:color/transparent" />
+    </LinearLayout>
+
+    <!-- 会员卡支付 -->
+
+    <LinearLayout
+        android:id="@+id/member_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="250.0dip"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="1.0dip"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:visibility="gone"
+         >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="80dp"
+            android:orientation="horizontal" 
+            android:visibility="invisible">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="fill_parent"
+                android:gravity="center_vertical|center"
+                android:text="用户名："
+                android:textColor="#ff000000"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/member_layout_account"
+                android:layout_width="200dp"
+                android:layout_height="fill_parent"
+                android:hint="手机号、会员卡号"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="fill_parent"
+                android:gravity="center_vertical|center"
+                android:text="密码："
+                android:textColor="#ff000000"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/member_layout_password"
+                android:layout_width="200dp"
+                android:layout_height="fill_parent"
+                android:hint="请输入密码"
+                android:password="true"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/member_pay_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_weight="0.31"
+            android:background="#ff33f3f3"
+            android:orientation="horizontal" >
+            
+          
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center_vertical|center"
+                android:text="确认支付"
+                android:textColor="#ff000000"
+                android:textSize="16sp" />
+            
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/code_tv"
+        style="@style/SmallText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/code_img_ll"
+        android:layout_marginTop="5.0dip"
+        android:gravity="center"
+        android:text=""
+        android:textColor="@color/gray_conupon_press" />
+
+</RelativeLayout>

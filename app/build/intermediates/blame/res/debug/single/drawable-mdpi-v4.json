@@ -1,0 +1,1114 @@
+[
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_clear_disabled.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\29a7116cbccf8cd2514de3fe32ee5c373e0473a8\\output\\res\\drawable-mdpi\\abc_ic_clear_disabled.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\returns.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\returns.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\home_buttonbar.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\home_buttonbar.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\payment_purse_choose.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\payment_purse_choose.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\giftlist.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\giftlist.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\mainlayout_bg.jpg",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\mainlayout_bg.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\payment_back.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\payment_back.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_btn_radio_to_on_mtrl_015.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7a75df3497e219a93a33d15ceab3b4ee1c6c6c19\\output\\res\\drawable-mdpi\\abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\call_logo.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\call_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\countconsume.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\countconsume.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\payment_calculator_meno.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\payment_calculator_meno.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\arrow.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\arrow.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\paymode_point.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\paymode_point.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\menu_tel.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\menu_tel.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\transferout.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\transferout.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_list_divider_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\11e7fa2c4f48adf6e5b2bd788ea64be4b52e8ab2\\output\\res\\drawable-mdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\addcount.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\addcount.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\meno.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\meno.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\11e7fa2c4f48adf6e5b2bd788ea64be4b52e8ab2\\output\\res\\drawable-mdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\set_s.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\set_s.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\payment_point_choosed.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\payment_point_choosed.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\main_view_handover.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\main_view_handover.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\icon_orderno.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\icon_orderno.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\oher_s.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\oher_s.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\11e7fa2c4f48adf6e5b2bd788ea64be4b52e8ab2\\output\\res\\drawable-mdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\tagpage_right_sel.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\tagpage_right_sel.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\checkorders.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\checkorders.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_commit_search_api_holo_dark.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\29a7116cbccf8cd2514de3fe32ee5c373e0473a8\\output\\res\\drawable-mdpi\\abc_ic_commit_search_api_holo_dark.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\main_view_exit.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\main_view_exit.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\more.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\more.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\tagpage_left_nor.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\tagpage_left_nor.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\main_view_menu.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\main_view_menu.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7a75df3497e219a93a33d15ceab3b4ee1c6c6c19\\output\\res\\drawable-mdpi\\abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\delete.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\delete.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\start.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\start.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\icon_reference.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\icon_reference.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\login.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\login.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\menu_icon_pay.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\menu_icon_pay.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\manuelpoint.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\manuelpoint.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_search_api_mtrl_alpha.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7a75df3497e219a93a33d15ceab3b4ee1c6c6c19\\output\\res\\drawable-mdpi\\abc_ic_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_popup_background_mtrl_mult.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\11e7fa2c4f48adf6e5b2bd788ea64be4b52e8ab2\\output\\res\\drawable-mdpi-v4\\abc_popup_background_mtrl_mult.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\lakala_item_s.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\lakala_item_s.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\main_view_logoff.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\main_view_logoff.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_btn_check_to_on_mtrl_000.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7a75df3497e219a93a33d15ceab3b4ee1c6c6c19\\output\\res\\drawable-mdpi\\abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\tagpage_single_sel.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\tagpage_single_sel.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_text_select_handle_right_mtrl_dark.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\11e7fa2c4f48adf6e5b2bd788ea64be4b52e8ab2\\output\\res\\drawable-mdpi-v4\\abc_text_select_handle_right_mtrl_dark.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\multiselect_choose.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\multiselect_choose.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\paymode_money.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\paymode_money.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_list_selector_disabled_holo_light.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\11e7fa2c4f48adf6e5b2bd788ea64be4b52e8ab2\\output\\res\\drawable-mdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\lock.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\lock.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\transferorder.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\transferorder.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\messagealert.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\messagealert.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\valueconsume.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\valueconsume.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\pay_fails.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\pay_fails.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_text_select_handle_left_mtrl_light.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\11e7fa2c4f48adf6e5b2bd788ea64be4b52e8ab2\\output\\res\\drawable-mdpi-v4\\abc_text_select_handle_left_mtrl_light.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7a75df3497e219a93a33d15ceab3b4ee1c6c6c19\\output\\res\\drawable-mdpi\\abc_ic_menu_selectall_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\printer.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\printer.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_star_black_48dp.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\11e7fa2c4f48adf6e5b2bd788ea64be4b52e8ab2\\output\\res\\drawable-mdpi-v4\\abc_ic_star_black_48dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\back.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\back.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\lakala.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\lakala.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_menu_moreoverflow_normal_holo_dark.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\29a7116cbccf8cd2514de3fe32ee5c373e0473a8\\output\\res\\drawable-mdpi\\abc_ic_menu_moreoverflow_normal_holo_dark.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\payment_alipay_paid_icon.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\payment_alipay_paid_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\la_query.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\la_query.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\date.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\date.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\usecoupon.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\usecoupon.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\memberlist.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\memberlist.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\inventoryin.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\inventoryin.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\goodsitem.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\goodsitem.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\opt.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\opt.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\lakala_item_d.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\lakala_item_d.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\payment_purse_unchoose.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\payment_purse_unchoose.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\submit.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\submit.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\inventoryorder.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\inventoryorder.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\sta_s.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\sta_s.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\payment_jiantou.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\payment_jiantou.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\confirm_blue.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\confirm_blue.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\lakala_revoke_bg.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\lakala_revoke_bg.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\icon_amount.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\icon_amount.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\sendcoupon.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\sendcoupon.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\meno_s.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\meno_s.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\exchange.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\exchange.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\menu.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\menu.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\tagpage_middle_sel.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\tagpage_middle_sel.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\payment_calculator_delete_s.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\payment_calculator_delete_s.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\tagpage_middle_nor.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\tagpage_middle_nor.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_undo.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\ic_undo.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\btn_insert_pic_d.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\btn_insert_pic_d.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_list_focused_holo.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\11e7fa2c4f48adf6e5b2bd788ea64be4b52e8ab2\\output\\res\\drawable-mdpi-v4\\abc_list_focused_holo.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\right.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\right.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\la_getmoney.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\la_getmoney.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_list_selector_disabled_holo_dark.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\11e7fa2c4f48adf6e5b2bd788ea64be4b52e8ab2\\output\\res\\drawable-mdpi-v4\\abc_list_selector_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_menu_share_mtrl_alpha.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7a75df3497e219a93a33d15ceab3b4ee1c6c6c19\\output\\res\\drawable-mdpi\\abc_ic_menu_share_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\confirm.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\confirm.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\btn_insert_pic_p.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\btn_insert_pic_p.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\check_s.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\check_s.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\payment_back_s.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\payment_back_s.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7a75df3497e219a93a33d15ceab3b4ee1c6c6c19\\output\\res\\drawable-mdpi\\abc_scrubber_control_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\sendcoupon_32.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\sendcoupon_32.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\icon_authorize.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\icon_authorize.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\add_goods_item_s.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\add_goods_item_s.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\set.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\set.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_btn_check_to_on_mtrl_015.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7a75df3497e219a93a33d15ceab3b4ee1c6c6c19\\output\\res\\drawable-mdpi\\abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_text_select_handle_right_mtrl_light.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\11e7fa2c4f48adf6e5b2bd788ea64be4b52e8ab2\\output\\res\\drawable-mdpi-v4\\abc_text_select_handle_right_mtrl_light.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7a75df3497e219a93a33d15ceab3b4ee1c6c6c19\\output\\res\\drawable-mdpi\\abc_ic_commit_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_star_black_16dp.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\11e7fa2c4f48adf6e5b2bd788ea64be4b52e8ab2\\output\\res\\drawable-mdpi-v4\\abc_ic_star_black_16dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\search_icon_p.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\search_icon_p.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\cart_reduce_nm.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\cart_reduce_nm.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_go_search_api_holo_light.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\29a7116cbccf8cd2514de3fe32ee5c373e0473a8\\output\\res\\drawable-mdpi\\abc_ic_go_search_api_holo_light.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\go_serivce.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\go_serivce.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\11e7fa2c4f48adf6e5b2bd788ea64be4b52e8ab2\\output\\res\\drawable-mdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\menu_icon_search.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\menu_icon_search.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_text_select_handle_left_mtrl_dark.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\11e7fa2c4f48adf6e5b2bd788ea64be4b52e8ab2\\output\\res\\drawable-mdpi-v4\\abc_text_select_handle_left_mtrl_dark.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\main_view_option.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\main_view_option.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\btn_insert_voice.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\btn_insert_voice.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\cart_reduce_dw.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\cart_reduce_dw.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_ab_back_holo_light.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\29a7116cbccf8cd2514de3fe32ee5c373e0473a8\\output\\res\\drawable-mdpi\\abc_ic_ab_back_holo_light.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\la_rate.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\la_rate.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\img1.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\img1.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_menu_moreoverflow_normal_holo_light.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\29a7116cbccf8cd2514de3fe32ee5c373e0473a8\\output\\res\\drawable-mdpi\\abc_ic_menu_moreoverflow_normal_holo_light.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\11e7fa2c4f48adf6e5b2bd788ea64be4b52e8ab2\\output\\res\\drawable-mdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_text_cursor_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8e959db7dea94fc9d5250446c1796066ec0742c5\\output\\res\\drawable-mdpi-v4\\abc_text_cursor_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\arrow_ok.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\arrow_ok.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_star_half_black_48dp.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\11e7fa2c4f48adf6e5b2bd788ea64be4b52e8ab2\\output\\res\\drawable-mdpi-v4\\abc_ic_star_half_black_48dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\notification_bg_normal_pressed.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\11e7fa2c4f48adf6e5b2bd788ea64be4b52e8ab2\\output\\res\\drawable-mdpi-v4\\notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7a75df3497e219a93a33d15ceab3b4ee1c6c6c19\\output\\res\\drawable-mdpi\\abc_scrubber_control_to_pressed_mtrl_005.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_clear_search_api_holo_light.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\29a7116cbccf8cd2514de3fe32ee5c373e0473a8\\output\\res\\drawable-mdpi\\abc_ic_clear_search_api_holo_light.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_menu_share_holo_light.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\29a7116cbccf8cd2514de3fe32ee5c373e0473a8\\output\\res\\drawable-mdpi\\abc_ic_menu_share_holo_light.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\inventoryout.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\inventoryout.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\tagpage_single_nor.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\tagpage_single_nor.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\tagpage_left_sel.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\tagpage_left_sel.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\search_clear_pressed.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\search_clear_pressed.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\delete_s.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\delete_s.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\custume.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\custume.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_list_pressed_holo_dark.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\11e7fa2c4f48adf6e5b2bd788ea64be4b52e8ab2\\output\\res\\drawable-mdpi-v4\\abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\sta.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\sta.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\paymode_storedvalue.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\paymode_storedvalue.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_commit_search_api_holo_light.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\29a7116cbccf8cd2514de3fe32ee5c373e0473a8\\output\\res\\drawable-mdpi\\abc_ic_commit_search_api_holo_light.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_go_search_api_mtrl_alpha.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7a75df3497e219a93a33d15ceab3b4ee1c6c6c19\\output\\res\\drawable-mdpi\\abc_ic_go_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\hangmeno.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\hangmeno.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\content_discard.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\content_discard.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\zhi.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\zhi.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_ab_back_mtrl_am_alpha.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7a75df3497e219a93a33d15ceab3b4ee1c6c6c19\\output\\res\\drawable-mdpi\\abc_ic_ab_back_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\memberregister.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\memberregister.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\san_jiao_dwon.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\san_jiao_dwon.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_clear_normal.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\29a7116cbccf8cd2514de3fe32ee5c373e0473a8\\output\\res\\drawable-mdpi\\abc_ic_clear_normal.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\notify_panel_notification_icon_bg.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\11e7fa2c4f48adf6e5b2bd788ea64be4b52e8ab2\\output\\res\\drawable-mdpi-v4\\notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\cart_add_nm.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\cart_add_nm.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\icon_phone.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\icon_phone.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\readcard.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\readcard.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\payment_calculator_delete.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\payment_calculator_delete.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_star_half_black_16dp.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\11e7fa2c4f48adf6e5b2bd788ea64be4b52e8ab2\\output\\res\\drawable-mdpi-v4\\abc_ic_star_half_black_16dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_btn_radio_to_on_mtrl_000.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7a75df3497e219a93a33d15ceab3b4ee1c6c6c19\\output\\res\\drawable-mdpi\\abc_btn_radio_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\button_long_blue_select.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\button_long_blue_select.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\in_notice.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\in_notice.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\history.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\history.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\11e7fa2c4f48adf6e5b2bd788ea64be4b52e8ab2\\output\\res\\drawable-mdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\landscape_button_red.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\landscape_button_red.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\search_clear_normal.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\search_clear_normal.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\payment_btn_unpressed.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\payment_btn_unpressed.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\la_help.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\la_help.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\refresh.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\refresh.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\pointdeduct.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\pointdeduct.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_launcher.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_list_longpressed_holo.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\11e7fa2c4f48adf6e5b2bd788ea64be4b52e8ab2\\output\\res\\drawable-mdpi-v4\\abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_go.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\29a7116cbccf8cd2514de3fe32ee5c373e0473a8\\output\\res\\drawable-mdpi\\abc_ic_go.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\login_icon.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\login_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_search.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\29a7116cbccf8cd2514de3fe32ee5c373e0473a8\\output\\res\\drawable-mdpi\\abc_ic_search.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\paymode_card.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\paymode_card.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\11e7fa2c4f48adf6e5b2bd788ea64be4b52e8ab2\\output\\res\\drawable-mdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\notification_bg_low_normal.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\11e7fa2c4f48adf6e5b2bd788ea64be4b52e8ab2\\output\\res\\drawable-mdpi-v4\\notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\transferin.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\transferin.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\scan.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\scan.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\sendmessage_32.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\sendmessage_32.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\paymode_coupon.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\paymode_coupon.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\billmanagement.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\billmanagement.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7a75df3497e219a93a33d15ceab3b4ee1c6c6c19\\output\\res\\drawable-mdpi\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\payment_menu.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\payment_menu.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\other.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\other.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_star_black_36dp.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\11e7fa2c4f48adf6e5b2bd788ea64be4b52e8ab2\\output\\res\\drawable-mdpi-v4\\abc_ic_star_black_36dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\input.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\input.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\cart_add_dw.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\cart_add_dw.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\statisc.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\statisc.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\countdddbyrule.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\countdddbyrule.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_cab_done_holo_dark.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\29a7116cbccf8cd2514de3fe32ee5c373e0473a8\\output\\res\\drawable-mdpi\\abc_ic_cab_done_holo_dark.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\mag_s.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\mag_s.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\san_jiao_dwon_01.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\san_jiao_dwon_01.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_menu_moreoverflow_mtrl_alpha.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7a75df3497e219a93a33d15ceab3b4ee1c6c6c19\\output\\res\\drawable-mdpi\\abc_ic_menu_moreoverflow_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\payment_arrow.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\payment_arrow.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\no_state.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\no_state.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\date_p.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\date_p.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\checkorder.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\checkorder.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_text_select_handle_middle_mtrl_dark.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\11e7fa2c4f48adf6e5b2bd788ea64be4b52e8ab2\\output\\res\\drawable-mdpi-v4\\abc_text_select_handle_middle_mtrl_dark.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_ab_back_holo_dark.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\29a7116cbccf8cd2514de3fe32ee5c373e0473a8\\output\\res\\drawable-mdpi\\abc_ic_ab_back_holo_dark.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\payment_point_unchoosed.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\payment_point_unchoosed.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\returnconsume.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\returnconsume.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\membergroup.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\membergroup.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\navbar.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\navbar.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\11e7fa2c4f48adf6e5b2bd788ea64be4b52e8ab2\\output\\res\\drawable-mdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\mag.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\mag.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\payment_unchoosed.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\payment_unchoosed.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\businesscenter.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\businesscenter.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\arrow_h.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\arrow_h.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_spinner_mtrl_am_alpha.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\11e7fa2c4f48adf6e5b2bd788ea64be4b52e8ab2\\output\\res\\drawable-mdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\end.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\end.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\payment_wechat_paid_icon.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\payment_wechat_paid_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_text_select_handle_middle_mtrl_light.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\11e7fa2c4f48adf6e5b2bd788ea64be4b52e8ab2\\output\\res\\drawable-mdpi-v4\\abc_text_select_handle_middle_mtrl_light.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\payment_choosed.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\payment_choosed.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\checkbill.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\checkbill.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_btn_rating_star_on_mtrl_alpha.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7a75df3497e219a93a33d15ceab3b4ee1c6c6c19\\output\\res\\drawable-mdpi\\abc_btn_rating_star_on_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\hangform.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\hangform.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\san_jiao_up.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\san_jiao_up.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\addvalue.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\addvalue.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\left.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\left.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_voice_search.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\29a7116cbccf8cd2514de3fe32ee5c373e0473a8\\output\\res\\drawable-mdpi\\abc_ic_voice_search.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\cancel.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\cancel.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7a75df3497e219a93a33d15ceab3b4ee1c6c6c19\\output\\res\\drawable-mdpi\\abc_scrubber_control_to_pressed_mtrl_000.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\kuaishualogo.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\kuaishualogo.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\notification_bg_normal.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\11e7fa2c4f48adf6e5b2bd788ea64be4b52e8ab2\\output\\res\\drawable-mdpi-v4\\notification_bg_normal.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_star_half_black_36dp.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\11e7fa2c4f48adf6e5b2bd788ea64be4b52e8ab2\\output\\res\\drawable-mdpi-v4\\abc_ic_star_half_black_36dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\payment_calculator_meno_s.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\payment_calculator_meno_s.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_search_api_holo_light.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\29a7116cbccf8cd2514de3fe32ee5c373e0473a8\\output\\res\\drawable-mdpi\\abc_ic_search_api_holo_light.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\multiselect_unchoose.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\multiselect_unchoose.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_clear_search_api_disabled_holo_light.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\29a7116cbccf8cd2514de3fe32ee5c373e0473a8\\output\\res\\drawable-mdpi\\abc_ic_clear_search_api_disabled_holo_light.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\memberconsume.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\memberconsume.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\sendmessage.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\sendmessage.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\menu_bg.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\menu_bg.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_textfield_default_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\11e7fa2c4f48adf6e5b2bd788ea64be4b52e8ab2\\output\\res\\drawable-mdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7a75df3497e219a93a33d15ceab3b4ee1c6c6c19\\output\\res\\drawable-mdpi\\abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\type.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\type.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\menu_icon_returns.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\menu_icon_returns.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\search.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\search.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\landscape_button_blue.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\landscape_button_blue.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_voice_search_api_mtrl_alpha.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7a75df3497e219a93a33d15ceab3b4ee1c6c6c19\\output\\res\\drawable-mdpi\\abc_ic_voice_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\payment_btn_pressed.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\payment_btn_pressed.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\payment_sucessful.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\payment_sucessful.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_menu_share_holo_dark.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\29a7116cbccf8cd2514de3fe32ee5c373e0473a8\\output\\res\\drawable-mdpi\\abc_ic_menu_share_holo_dark.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\icon_product.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\icon_product.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\search_icon.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\search_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_delete.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\ic_delete.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\11e7fa2c4f48adf6e5b2bd788ea64be4b52e8ab2\\output\\res\\drawable-mdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_btn_rating_star_off_mtrl_alpha.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7a75df3497e219a93a33d15ceab3b4ee1c6c6c19\\output\\res\\drawable-mdpi\\abc_btn_rating_star_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\payment_drop_down.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\payment_drop_down.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\inventory.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\inventory.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\icon_arrow_right.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\icon_arrow_right.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\check_d.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\check_d.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\repeal.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\repeal.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_cab_done_holo_light.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\29a7116cbccf8cd2514de3fe32ee5c373e0473a8\\output\\res\\drawable-mdpi\\abc_ic_cab_done_holo_light.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\logout.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\logout.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\11e7fa2c4f48adf6e5b2bd788ea64be4b52e8ab2\\output\\res\\drawable-mdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\unlock.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\unlock.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\payment_bank_paid_icon.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\payment_bank_paid_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_switch_track_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\11e7fa2c4f48adf6e5b2bd788ea64be4b52e8ab2\\output\\res\\drawable-mdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\select.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\select.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\payment_search.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\payment_search.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_list_pressed_holo_light.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\11e7fa2c4f48adf6e5b2bd788ea64be4b52e8ab2\\output\\res\\drawable-mdpi-v4\\abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\baidu.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\baidu.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\sync.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\sync.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_clear_mtrl_alpha.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7a75df3497e219a93a33d15ceab3b4ee1c6c6c19\\output\\res\\drawable-mdpi\\abc_ic_clear_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\unionpay.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\unionpay.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\la_revoke.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\la_revoke.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_voice_search_api_holo_light.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\29a7116cbccf8cd2514de3fe32ee5c373e0473a8\\output\\res\\drawable-mdpi\\abc_ic_voice_search_api_holo_light.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\11e7fa2c4f48adf6e5b2bd788ea64be4b52e8ab2\\output\\res\\drawable-mdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\payment_menu_s.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\payment_menu_s.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\giftexchange.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\giftexchange.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\businessinfo_bg.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\businessinfo_bg.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\shoukuan.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\shoukuan.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\11e7fa2c4f48adf6e5b2bd788ea64be4b52e8ab2\\output\\res\\drawable-mdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\tagpage_right_nor.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\tagpage_right_nor.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\san_jiao_dwon_p.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\san_jiao_dwon_p.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\qrcode.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\qrcode.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\opt_s.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\opt_s.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\add_goods_item.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\add_goods_item.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\back_green.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\back_green.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\inventorycheck.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\inventorycheck.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\up.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\up.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\paymode_other.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\paymode_other.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\read_state.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable-mdpi\\read_state.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\notification_bg_low_pressed.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\11e7fa2c4f48adf6e5b2bd788ea64be4b52e8ab2\\output\\res\\drawable-mdpi-v4\\notification_bg_low_pressed.9.png"
+    }
+]

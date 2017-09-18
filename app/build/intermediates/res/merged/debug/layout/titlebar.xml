@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/titlebar_background"
+    android:layout_width="fill_parent"
+    android:layout_height="50.0dip"
+    android:background="@color/titlebar_bg_new" >
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="80dp"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10.0dip"
+        android:background="@android:color/transparent"
+        android:drawableLeft="@drawable/payment_back"
+        android:text="返回"
+        android:textColor="@color/white"
+        android:textSize="14.0sp" />
+
+    <TextView
+        android:id="@+id/titlebar_text"
+        android:layout_width="240dp"
+        android:layout_height="fill_parent"
+        android:layout_weight = "1"
+        android:layout_toLeftOf="@+id/rimageview"
+        android:layout_toRightOf="@+id/btnBack"
+        android:gravity="center_vertical|center"
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:singleLine="true"
+        android:text=""
+        android:textColor="#ffffffff"
+        android:textSize="20.0dip" />
+
+    <Button
+        android:id="@+id/rimageview"
+        android:layout_width="80dp"
+        android:layout_height="fill_parent"
+        android:layout_weight = "1"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10.0dip"
+        android:background="@android:color/transparent"
+        android:textColor="@color/white"
+        android:textSize="14.0sp" />
+
+</RelativeLayout>

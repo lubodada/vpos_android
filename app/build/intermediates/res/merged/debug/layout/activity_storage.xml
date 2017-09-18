@@ -1,0 +1,100 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/base_background"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dip"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dip"
+            android:selectAllOnFocus="true"
+            android:text="条码："
+            android:textSize="20dip" />
+
+        <EditText
+            android:id="@+id/storage_ed_qc"
+            android:layout_width="match_parent"
+            android:layout_height="50dip"
+            android:layout_marginRight="20dip"
+            android:background="#ffe332"
+            android:digits="1234567890" 
+            android:inputType="number" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dip"
+            android:text="数量："
+            android:textSize="20dip" />
+
+        <EditText
+            android:id="@+id/storage_ed_num"
+            android:layout_width="match_parent"
+            android:layout_height="50dip"
+            android:layout_marginRight="20dip"
+            android:background="#ffe332"
+            android:digits="1234567890." 
+            android:inputType="numberDecimal" >
+        </EditText>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/goods_name_storage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="22dip"
+        android:layout_marginTop="20dip"
+        android:textColor="#ff0000" />
+
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dip"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/but_storage_updata"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="10dip"
+            android:layout_weight="1"
+            android:background="@anim/round_imageview_grw"
+            android:text="提    交" />
+
+        <Button
+            android:id="@+id/but_storage_exit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dip"
+            android:layout_weight="1"
+            android:background="@anim/round_imageview_grw"
+            android:text="退    出" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="0.56"
+        android:orientation="horizontal" 
+        android:gravity="center_horizontal"
+        android:layout_marginTop="2dip">
+    </LinearLayout>
+
+</LinearLayout>

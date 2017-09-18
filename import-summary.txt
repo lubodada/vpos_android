@@ -1,0 +1,107 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .gitignore
+* README.md
+* external_libs\
+* external_libs\bw_odm_20160526.jar
+* external_libs\classes_2.1.11_20160907.jar
+* ic_launcher-web.png
+* proguard-project.txt
+* proguard\
+* proguard\dump.txt
+* proguard\mapping.txt
+* proguard\seeds.txt
+* proguard\usage.txt
+* sign.key
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:19.1.0
+android-support-v7-appcompat.jar => com.android.support:appcompat-v7:19.1.0
+gson-2.2.4.jar => com.google.code.gson:gson:2.2.4
+
+Potentially Missing Dependency:
+-------------------------------
+When we replaced the following .jar files with a Gradle dependency, we
+inferred the dependency version number from the filename. This
+specific version may not actually be available from the repository.
+If you get a build error stating that the dependency is missing, edit
+the version number to for example "+" to pick up the latest version
+instead. (This may require you to update your code if the library APIs
+have changed.)
+
+gson-2.2.4.jar => version 2.2.4 in com.google.code.gson:gson:2.2.4
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* assets\ => app\src\main\assets
+* libs\armeabi-v7a\libiconv.so => app\src\main\jniLibs\armeabi-v7a\libiconv.so
+* libs\armeabi-v7a\libzbarjni.so => app\src\main\jniLibs\armeabi-v7a\libzbarjni.so
+* libs\armeabi\libfreetypefont.so => app\src\main\jniLibs\armeabi\libfreetypefont.so
+* libs\armeabi\libiconv.so => app\src\main\jniLibs\armeabi\libiconv.so
+* libs\armeabi\libS1011.so => app\src\main\jniLibs\armeabi\libS1011.so
+* libs\armeabi\libzbarjni.so => app\src\main\jniLibs\armeabi\libzbarjni.so
+* libs\bw_pos_sdk2.0.18.jar => app\libs\bw_pos_sdk2.0.18.jar
+* libs\codec.jar => app\libs\codec.jar
+* libs\commons-codec-1.9.jar => app\libs\commons-codec-1.9.jar
+* libs\commons-httpclient-3.0.1.jar => app\libs\commons-httpclient-3.0.1.jar
+* libs\commons-logging-1.1.1-sources.jar => app\libs\commons-logging-1.1.1-sources.jar
+* libs\commons-logging-1.1.1.jar => app\libs\commons-logging-1.1.1.jar
+* libs\core4.7.5.jar => app\libs\core4.7.5.jar
+* libs\dom4j-1.6.1.jar => app\libs\dom4j-1.6.1.jar
+* libs\glide-3.6.1.jar => app\libs\glide-3.6.1.jar
+* libs\J1013.jar => app\libs\J1013.jar
+* libs\libammsdk.jar => app\libs\libammsdk.jar
+* libs\mips\libZBarDecoder.so => app\src\main\jniLibs\mips\libZBarDecoder.so
+* libs\platform_sdk_v2.2.3.jar => app\libs\platform_sdk_v2.2.3.jar
+* libs\poslib20160411.jar => app\libs\poslib20160411.jar
+* libs\umeng-analytics-v5.5.3.jar => app\libs\umeng-analytics-v5.5.3.jar
+* libs\umeng-update-v2.6.0.1.jar => app\libs\umeng-update-v2.6.0.1.jar
+* libs\x86\libiconv.so => app\src\main\jniLibs\x86\libiconv.so
+* libs\x86\libzbarjni.so => app\src\main\jniLibs\x86\libzbarjni.so
+* libs\zbar.jar => app\libs\zbar.jar
+* lint.xml => app\lint.xml
+* proguard.cfg => app\proguard.cfg
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+* mm_title_back_focused.9.PNG => mm_title_back_focused.9.png
+* mm_title_back_normal.9.PNG => mm_title_back_normal.9.png
+* mm_title_back_pressed.9.PNG => mm_title_back_pressed.9.png
+* mm_title_btn_focused.9.PNG => mm_title_btn_focused.9.png
+* mm_title_btn_normal.9.PNG => mm_title_btn_normal.9.png
+* mm_title_btn_pressed.9.PNG => mm_title_btn_pressed.9.png
+* mmtitle_bg_alpha.9.PNG => mmtitle_bg_alpha.9.png
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

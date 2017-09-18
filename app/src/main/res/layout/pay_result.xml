@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/bg_gray"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/pay_notice_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/login_98px"
+        android:background="@drawable/ps_icon_yet" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/main_left_120"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="￥"
+            android:textColor="@color/text_money_green"
+            android:textSize="@dimen/font_size_lf" />
+
+        <TextView
+            android:id="@+id/pay_notice_money_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_money_green"
+            android:textSize="@dimen/font_size_lf" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/pay_notice_msg_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/min_interval_60"
+        android:text="付款成功"
+        android:textColor="@color/text_money_green"
+        android:textSize="@dimen/font_size_mb" />
+
+    <TextView
+        android:id="@+id/pay_notice_error_msg_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text=""
+        android:textColor="@color/pay_suc"
+        android:textSize="@dimen/font_size_sc" />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1.0dip"
+        android:layout_marginTop="@dimen/main_left_87"
+        android:background="#ffbebebe" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/main_left_120"
+        android:background="@color/white" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/min_interval_40"
+            android:text="交易单号："
+            android:textColor="@color/hint_font_color"
+            android:textSize="@dimen/font_size_mf" />
+
+        <TextView
+            android:id="@+id/pay_notice_orderno_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/min_interval_40"
+            android:textColor="@color/hint_font_color"
+            android:textSize="@dimen/font_size_mf" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1.0dip"
+        android:background="#ffbebebe" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/main_left_120"
+        android:background="@color/white" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/min_interval_40"
+            android:text="交易时间："
+            android:textColor="@color/hint_font_color"
+            android:textSize="@dimen/font_size_mf" />
+
+        <TextView
+            android:id="@+id/pay_notice_ordertime_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/min_interval_40"
+            android:textColor="@color/hint_font_color"
+            android:textSize="@dimen/font_size_mf" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1.0dip"
+        android:background="#ffbebebe" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/main_left_120"
+        android:background="@color/white" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/min_interval_40"
+            android:text="支付方式："
+            android:textColor="@color/hint_font_color"
+            android:textSize="@dimen/font_size_mf" />
+
+        <TextView
+            android:id="@+id/pay_notice_paytype_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/min_interval_40"
+            android:textColor="@color/hint_font_color"
+            android:textSize="@dimen/font_size_mf" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1.0dip"
+        android:background="#ffbebebe" />
+
+    <Button
+        android:id="@+id/print_ticket_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/min_interval_40"
+        android:layout_marginRight="@dimen/min_interval_40"
+        android:layout_marginTop="@dimen/person_center_exit_login_144"
+        android:background="@drawable/pay_result" />
+
+</LinearLayout>

@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/myScrollView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:background="#c0c0c0" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dip"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dip"
+                    android:background="#c0c0c0" />
+
+                <TextView
+                    android:id="@+id/shezhi_datakey"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff"
+                    android:padding="8dp"
+                    android:text="商户名称"
+                    android:textColor="#000"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dip"
+                    android:background="#c0c0c0" />
+
+                <TextView
+                    android:id="@+id/shezhi_paykey"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff"
+                    android:padding="8dp"
+                    android:text="设备终端号"
+                    android:textColor="#000"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dip"
+                    android:background="#c0c0c0" />
+
+                <TextView
+                    android:id="@+id/shezhi_shh"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff"
+                    android:padding="8dp"
+                    android:text="商户号"
+                    android:textColor="#000000"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:id="@+id/line_money"
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dip"
+                    android:background="#c0c0c0" />
+
+                <TextView
+                    android:id="@+id/shezhi_money"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff"
+                    android:padding="8dp"
+                    android:text="金额"
+                    android:textColor="#000000"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dip"
+                    android:layout_marginBottom="10dip"
+                    android:background="#c0c0c0" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dip"
+                    android:background="#c0c0c0" />
+
+                <TextView
+                    android:id="@+id/mode_monery"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff"
+                    android:drawableRight="@drawable/mm_submenu_normal"
+                    android:padding="8dp"
+                    android:text="设置金额输入模式"
+                    android:textColor="#000"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dip"
+                    android:background="#c0c0c0" />
+
+                <TextView
+                    android:id="@+id/mode"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff"
+                    android:drawableRight="@drawable/mm_submenu_normal"
+                    android:padding="8dp"
+                    android:text="设置扫码模式"
+                    android:textColor="#000"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dip"
+                    android:background="#c0c0c0" />
+
+                <TextView
+                    android:id="@+id/mode_pay_type"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff"
+                    android:drawableRight="@drawable/mm_submenu_normal"
+                    android:padding="8dp"
+                    android:text="设置支付类型"
+                    android:textColor="#000"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dip"
+                    android:layout_marginBottom="10dip"
+                    android:background="#c0c0c0" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dip"
+                    android:background="#c0c0c0" />
+
+                <TextView
+                    android:id="@+id/on_off"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff"
+                    android:drawableRight="@drawable/mm_submenu_normal"
+                    android:padding="8dp"
+                    android:text="打印机状态："
+                    android:textColor="#000"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:id="@+id/line_goods"
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dip"
+                    android:background="#c0c0c0" />
+
+                <TextView
+                    android:id="@+id/on_off_goods"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff"
+                    android:drawableRight="@drawable/mm_submenu_normal"
+                    android:padding="8dp"
+                    android:text="商品打印状态："
+                    android:textColor="#000"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dip"
+                    android:layout_marginBottom="10dip"
+                    android:background="#c0c0c0" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dip"
+                    android:background="#c0c0c0" />
+
+                <TextView
+                    android:id="@+id/print"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff"
+                    android:drawableRight="@drawable/mm_submenu_normal"
+                    android:padding="8dp"
+                    android:text="打印最后一次"
+                    android:textColor="#000"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dip"
+                    android:layout_marginBottom="10dip"
+                    android:background="#c0c0c0" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dip"
+                    android:background="#c0c0c0" />
+
+                <TextView
+                    android:id="@+id/data_updata"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff"
+                    android:drawableRight="@drawable/mm_submenu_normal"
+                    android:padding="8dp"
+                    android:text="更新参数数据"
+                    android:textColor="#000"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dip"
+                    android:background="#c0c0c0" />
+
+                <TextView
+                    android:id="@+id/xinbanben"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff"
+                    android:drawableRight="@drawable/mm_submenu_normal"
+                    android:padding="8dp"
+                    android:text="检查新版本"
+                    android:textColor="#000"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dip"
+                    android:layout_marginBottom="10dip"
+                    android:background="#c0c0c0" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dip"
+                    android:background="#c0c0c0" />
+
+                <TextView
+                    android:id="@+id/about"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff"
+                    android:drawableRight="@drawable/mm_submenu_normal"
+                    android:padding="8dp"
+                    android:text="关于我们"
+                    android:textColor="#000"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dip"
+                    android:layout_marginBottom="10dip"
+                    android:background="#c0c0c0" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dip"
+                android:layout_marginTop="15dip"
+                android:gravity="right"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/ms_ID"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="2dip"
+                    android:layout_marginRight="10dip"
+                    android:textColor="#000000"
+                    android:textSize="10dip" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dip"
+                    android:text="*此号码可作为入库标识*"
+                    android:textColor="#ff0000"
+                    android:textSize="8dip" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

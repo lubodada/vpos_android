@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget33"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/bg_gray"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/min_interval_40"
+        android:layout_marginRight="@dimen/min_interval_40"
+        android:layout_marginTop="@dimen/line_interval_80"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:text="帐号查询"
+            android:textColor="@color/nomal_font_color"
+            android:textSize="@dimen/font_size_mf" />
+
+        <EditText
+            android:id="@+id/search_member_phone_no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/sc_text_search"
+            android:gravity="center_vertical"
+            android:hint=" 手机号/会员卡号"
+            android:textColor="@color/hint_font_color"
+            android:textSize="@dimen/font_size_mf" />
+
+        <Button
+            android:id="@+id/search_member_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/sc_icon_search"
+            android:gravity="center" />
+
+        <Button
+            android:id="@+id/search_member_card_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="会员卡"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1.0px"
+        android:layout_marginTop="@dimen/login_98px"
+        android:background="#BABABA" />
+
+    <LinearLayout
+        android:id="@+id/member_detail_linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/login_edit_left_181px"
+            android:layout_marginLeft="@dimen/min_interval_40"
+            android:layout_marginRight="@dimen/min_interval_40" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:text="头像"
+                android:textColor="@color/hint_font_color"
+                android:textSize="@dimen/font_size_mf" />
+
+            <ImageView
+                android:id="@+id/search_member_result_headPic"
+                android:layout_width="@dimen/main_top_160"
+                android:layout_height="@dimen/main_top_160"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/min_interval_40" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1.0px"
+            android:background="#BABABA" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/person_center_exit_login_140"
+            android:layout_marginLeft="@dimen/min_interval_40"
+            android:layout_marginRight="@dimen/min_interval_40" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:text="用户名"
+                android:textColor="@color/hint_font_color"
+                android:textSize="@dimen/font_size_mf" />
+
+            <TextView
+                android:id="@+id/search_member_result_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:hint="用户名"
+                android:textColor="@color/nomal_font_color"
+                android:textSize="@dimen/font_size_mf" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1.0px"
+            android:background="#BABABA" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/person_center_exit_login_140"
+            android:layout_marginLeft="@dimen/min_interval_40"
+            android:layout_marginRight="@dimen/min_interval_40" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:text="电话"
+                android:textColor="@color/hint_font_color"
+                android:textSize="@dimen/font_size_mf" />
+
+            <TextView
+                android:id="@+id/search_member_result_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:hint="电话"
+                android:textColor="@color/nomal_font_color"
+                android:textSize="@dimen/font_size_mf" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1.0px"
+            android:background="#BABABA" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/person_center_exit_login_140"
+            android:layout_marginLeft="@dimen/min_interval_40"
+            android:layout_marginRight="@dimen/min_interval_40" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:text="等级"
+                android:textColor="@color/hint_font_color"
+                android:textSize="@dimen/font_size_mf" />
+
+            <TextView
+                android:id="@+id/search_member_result_level"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:hint="等级"
+                android:textColor="@color/nomal_font_color"
+                android:textSize="@dimen/font_size_mf" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1.0px"
+            android:background="#BABABA" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/person_center_exit_login_140"
+            android:layout_marginLeft="@dimen/min_interval_40"
+            android:layout_marginRight="@dimen/min_interval_40" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:text="余额"
+                android:textColor="@color/hint_font_color"
+                android:textSize="@dimen/font_size_mf" />
+
+            <TextView
+                android:id="@+id/search_member_result_balance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:hint="余额"
+                android:textColor="@color/nomal_font_color"
+                android:textSize="@dimen/font_size_mf" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1.0px"
+            android:background="#BABABA" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/person_center_exit_login_140"
+            android:layout_marginLeft="@dimen/min_interval_40"
+            android:layout_marginRight="@dimen/min_interval_40" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:text="积分"
+                android:textColor="@color/hint_font_color"
+                android:textSize="@dimen/font_size_mf" />
+
+            <TextView
+                android:id="@+id/search_member_result_score"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:hint="积分"
+                android:textColor="@color/nomal_font_color"
+                android:textSize="@dimen/font_size_mf" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1.0px"
+            android:background="#BABABA" />
+
+        <Button
+            android:id="@+id/search_member_charge_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/min_interval_51"
+            android:layout_marginRight="@dimen/min_interval_51"
+            android:layout_marginTop="@dimen/login_top_256px"
+            android:background="@drawable/member_query_button"
+            android:gravity="center" />
+    </LinearLayout>
+
+</LinearLayout>

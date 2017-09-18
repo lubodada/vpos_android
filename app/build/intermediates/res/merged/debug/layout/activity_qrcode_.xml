@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff9d6f"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <TextView
+        android:id="@+id/qr_code_tx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dip"
+        android:layout_marginTop="30dip"
+        android:text="请用手机扫描下面的二维码"
+        android:textColor="#000000"
+        android:textSize="18dip" />
+
+    <ImageView
+        android:id="@+id/qr_code_iv"
+        android:layout_width="300dip"
+        android:layout_height="300dip"
+        android:layout_gravity="center"
+        android:background="@anim/round_imageview"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/qr_code_refresh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dip"
+        
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/qr_code_zt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dip"
+        android:text="交易状态: "
+        android:textColor="#000000" />
+
+</LinearLayout>

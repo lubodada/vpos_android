@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:id="@+id/cameraPreview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white_alpha"
+        android:orientation="vertical" >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#ffbebebe" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dip"
+            android:layout_marginTop="10dip"
+            android:gravity="left"
+            android:text="温馨提示："
+            android:textColor="@color/orange_color"
+            android:textSize="@dimen/font_size_mf" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dip"
+            android:gravity="left"
+            android:text="请在产品包装盒上找到13位的条形码，并开始扫描"
+            android:textColor="@color/hint_font_color"
+            android:textSize="12sp" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="20dip"
+            android:layout_marginTop="20dip"
+            android:background="@color/white_alpha"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="商品编码:  "
+                android:textColor="@color/hint_font_color"
+                android:textSize="@dimen/font_size_sb" />
+
+            <TextView
+                android:id="@+id/scanText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  Scanning..."
+                android:textColor="@color/orange_color"
+                android:textSize="@dimen/font_size_sb" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="20dip"
+            android:background="@color/white_alpha"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="商品名称:  "
+                android:textColor="@color/hint_font_color"
+                android:textSize="@dimen/font_size_sb" />
+
+            <TextView
+                android:id="@+id/scanShopText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="名称"
+                android:textColor="@color/orange_color"
+                android:textSize="@dimen/font_size_sb" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="20dip"
+            android:background="@color/white_alpha"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="单        价:  "
+                android:textColor="@color/hint_font_color"
+                android:textSize="@dimen/font_size_sb" />
+
+            <TextView
+                android:id="@+id/priceText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="名称"
+                android:textColor="@color/orange_color"
+                android:textSize="@dimen/font_size_sb" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="40dip"
+            android:layout_gravity="left"
+            android:layout_marginLeft="20dip"
+            android:layout_marginTop="10dip"
+            android:background="@color/white_alpha"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginBottom="2dip"
+                android:text="商品数量"
+                android:textColor="@color/hint_font_color"
+                android:textSize="20dip" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="60dip"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/shop_item_amount_minus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/fc_btn_sub" />
+
+                <EditText
+                    android:id="@+id/shop_item_amount_edit"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical|right"
+                    android:numeric="integer"
+                    android:text="0"
+                    android:textColor="@color/hint_font_color"
+                    android:textSize="@dimen/font_size_me" />
+
+                <Button
+                    android:id="@+id/shop_item_amount_plus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/fc_btn_add" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:layout_marginBottom="20dip"
+            android:layout_marginRight="20dip"
+            android:layout_marginTop="10dip"
+            android:background="@color/white_alpha"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="总  价:  "
+                android:textColor="@color/hint_font_color"
+                android:textSize="@dimen/font_size_sb" />
+
+            <TextView
+                android:id="@+id/all_priceText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="总价"
+                android:textColor="@color/orange_color"
+                android:textSize="@dimen/font_size_sb" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

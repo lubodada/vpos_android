@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f0eff4"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#019bdf"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:text="订单信息"
+            android:textColor="#ffffff"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/starttime"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/button_time"
+                android:hint="请选择开始时间"
+                android:textSize="13dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="2dp" />
+
+            <Button
+                android:id="@+id/stoptime"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/button_time"
+                android:hint="请选择结束时间"
+                android:textColor="#000000"
+                android:textSize="13dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="2dp" />
+
+            <EditText
+                android:id="@+id/write_orderid"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/button_time"
+                android:gravity="center"
+                android:hint="请输入订单编号"
+                android:textColor="#000000"
+                android:textSize="13dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="5dp"
+            android:layout_weight="2"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/query_OrderDate"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/bbuton_info_rounded"
+                android:text="查询订单信息"
+                android:textColor="#ffffff"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="2dp" />
+
+            <Button
+                android:id="@+id/query_PayStatistical"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/bbuton_danger_rounded"
+                android:text="查询金额统计"
+                android:textColor="#ffffff"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="2dp" />
+
+            <Button
+                android:id="@+id/query_OrderDates"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/bbuton_info_rounded"
+                android:text="订单查询"
+                android:textColor="#ffffff"
+                android:textSize="15dp" />
+        </LinearLayout>
+    </LinearLayout>
+	<!-- 各支付类型金额统计表格 -->
+    <LinearLayout
+        android:id="@+id/ll_ordersum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        android:visibility="gone"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="15dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:showDividers="middle" 
+            android:padding="5dp"
+            android:background="#189ad6">
+
+            <TextView
+                android:id="@+id/paytype"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="支付类型"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/amount"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="统计金额"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/time"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="统计时间"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <!-- 现金 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:showDividers="middle" 
+            android:padding="7dp"
+            android:background="#add8e6">
+
+            <TextView
+                android:id="@+id/XJ"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="现金"
+                android:textColor="#000000"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/xj_amount"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="0.0"
+                android:textColor="#ee0000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/xj_time"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="2017"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+        </LinearLayout>
+        
+        <!-- 余额 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:showDividers="middle" 
+            android:padding="7dp"
+            android:background="#d1eeee">
+
+            <TextView
+                android:id="@+id/YE"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="余额"
+                android:textColor="#000000"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/ye_amount"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="0.0"
+                android:textColor="#ee0000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/ye_time"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="2017"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+        </LinearLayout>
+        <!-- 支付宝 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:showDividers="middle" 
+            android:padding="7dp"
+            android:background="#add8e6">
+
+            <TextView
+                android:id="@+id/ZFB"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="支付宝"
+                android:textColor="#000000"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/zfb_amount"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="0.0"
+                android:textColor="#ee0000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/zfb_time"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="2017"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+        </LinearLayout>
+        <!-- 微信 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:showDividers="middle" 
+            android:padding="7dp"
+            android:background="#d1eeee">
+
+            <TextView
+                android:id="@+id/WX"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="微信"
+                android:textColor="#000000"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/wx_amount"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="0.0"
+                android:textColor="#ee0000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/wx_time"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="2017"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+        </LinearLayout>
+        <!-- 银联 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:showDividers="middle" 
+            android:padding="7dp"
+            android:background="#add8e6">
+
+            <TextView
+                android:id="@+id/YL"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="银联"
+                android:textColor="#000000"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/yl_amount"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="0.0"
+                android:textColor="#ee0000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/yl_time"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="2017"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+        </LinearLayout>
+        <!-- 翼支付 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:showDividers="middle" 
+            android:padding="7dp"
+            android:background="#d1eeee">
+
+            <TextView
+                android:id="@+id/YZF"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="翼支付"
+                android:textColor="#000000"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/yzf_amount"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="0.0"
+                android:textColor="#ee0000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/yzf_time"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="2017"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+        </LinearLayout>
+        <!-- 统计 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:showDividers="middle" 
+            android:padding="7dp"
+            android:background="#add8e6">
+
+            <TextView
+                android:id="@+id/Sum"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="总计"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/sum_amount"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:text="0.0"
+                android:textColor="#ee0000"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+
+    <ListView
+        android:id="@+id/lv"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="3" >
+    </ListView>
+
+     <LinearLayout
+         android:id="@+id/ll_btn"
+         android:layout_width="match_parent"
+         android:layout_height="0dip"
+         android:layout_weight="0.34"
+         android:gravity="center_horizontal"
+         android:orientation="horizontal" 
+         android:layout_marginBottom="1dp">
+
+        <Button
+            android:id="@+id/leftButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/bbuton_danger_rounded"
+            android:text="上一页"
+            android:textColor="#ffffff"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/rightButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/bbuton_info_rounded"
+            android:text="下一页"
+            android:textColor="#ffffff"
+            android:textSize="15dp" />
+    </LinearLayout>
+</LinearLayout>

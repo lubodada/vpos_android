@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/base_background"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <Button
+        android:id="@+id/storage_but"
+        android:layout_width="match_parent"
+        android:layout_height="100dip"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:layout_marginTop="40dip"
+        android:text="入         库"
+        android:textSize="30dip"
+        android:textColor="#272727"
+        android:background="@anim/round_imageview_col" />
+    
+     <Button
+        android:id="@+id/inventory_but"
+        android:layout_width="match_parent"
+        android:layout_height="100dip"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:layout_marginTop="20dip"
+        android:text="盘         点"
+        android:textSize="30dip"
+        android:textColor="#272727"
+        android:background="@anim/round_imageview_grw" />
+     <Button
+        android:id="@+id/peisong_but"
+        android:layout_width="match_parent"
+        android:layout_height="100dip"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:layout_marginTop="20dip"
+        android:text="配         送"
+        android:textSize="30dip"
+        android:textColor="#272f27"
+        android:background="#e40084" />
+
+</LinearLayout>

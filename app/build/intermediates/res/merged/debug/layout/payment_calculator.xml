@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/dark_gray"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        android:background="@color/black"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/payment_result"
+                android:layout_width="fill_parent"
+                android:layout_height="99dp"
+                android:background="@android:color/transparent"
+                android:gravity="bottom|right|center"
+                android:paddingBottom="2.0dip"
+                android:paddingRight="10.0dip"
+                android:singleLine="true"
+                android:text="0"
+                android:textColor="@color/white"
+                android:textSize="45.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="10.0"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="6.0"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/payment__clean_btn"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.0"
+                    android:background="@drawable/lakala_bg_01"
+                    android:text="C"
+                    android:textColor="#ffadadad"
+                    android:textSize="32.0dip" />
+
+                <Button
+                    android:id="@+id/payment_divide_btn"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="1.0dip"
+                    android:layout_weight="1.0"
+                    android:background="@drawable/lakala_bg_01"
+                    android:text="÷"
+                    android:textColor="#ff808080"
+                    android:textSize="32.0dip" />
+
+                <Button
+                    android:id="@+id/payment_multiply_btn"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="1.0dip"
+                    android:layout_weight="1.0"
+                    android:background="@drawable/lakala_bg_01"
+                    android:text="×"
+                    android:textColor="#ff808080"
+                    android:textSize="32.0dip" />
+
+                <LinearLayout
+                    android:id="@+id/payment_delete_btn"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="1.0dip"
+                    android:layout_weight="1.0"
+                    android:background="@drawable/lakala_bg_01"
+                    android:gravity="center" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/payment_calculator_delete_background"
+                        android:textColor="@color/white" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1.0dip"
+                android:layout_weight="1.0"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/payment_7_btn"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.0"
+                    android:background="@drawable/lakala_bg_01"
+                    android:text="7"
+                    android:textColor="#ff808080"
+                    android:textSize="32.0dip" />
+
+                <Button
+                    android:id="@+id/payment_8_btn"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="1.0dip"
+                    android:layout_weight="1.0"
+                    android:background="@drawable/lakala_bg_01"
+                    android:text="8"
+                    android:textColor="#ff808080"
+                    android:textSize="32.0dip" />
+
+                <Button
+                    android:id="@+id/payment_9_btn"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="1.0dip"
+                    android:layout_weight="1.0"
+                    android:background="@drawable/lakala_bg_01"
+                    android:text="9"
+                    android:textColor="#ff808080"
+                    android:textSize="32.0dip" />
+
+                <Button
+                    android:id="@+id/payment_minus_btn"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="1.0dip"
+                    android:layout_weight="1.0"
+                    android:background="@drawable/lakala_bg_01"
+                    android:text="-"
+                    android:textColor="#ff808080"
+                    android:textSize="32.0dip" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1.0dip"
+                android:layout_weight="1.0"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/payment_4_btn"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.0"
+                    android:background="@drawable/lakala_bg_01"
+                    android:text="4"
+                    android:textColor="#ff808080"
+                    android:textSize="32.0dip" />
+
+                <Button
+                    android:id="@+id/payment_5_btn"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="1.0dip"
+                    android:layout_weight="1.0"
+                    android:background="@drawable/lakala_bg_01"
+                    android:text="5"
+                    android:textColor="#ff808080"
+                    android:textSize="32.0dip" />
+
+                <Button
+                    android:id="@+id/payment_6_btn"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="1.0dip"
+                    android:layout_weight="1.0"
+                    android:background="@drawable/lakala_bg_01"
+                    android:text="6"
+                    android:textColor="#ff808080"
+                    android:textSize="32.0dip" />
+
+                <Button
+                    android:id="@+id/payment_plus_btn"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="1.0dip"
+                    android:layout_weight="1.0"
+                    android:background="@drawable/lakala_bg_01"
+                    android:text="+"
+                    android:textColor="#ff808080"
+                    android:textSize="32.0dip" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1.0dip"
+            android:layout_weight="4.0"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1.0"
+                        android:orientation="horizontal" >
+
+                        <Button
+                            android:id="@+id/payment_1_btn"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="1.0"
+                            android:background="@drawable/lakala_bg_01"
+                            android:text="1"
+                            android:textColor="#ff808080"
+                            android:textSize="32.0dip" />
+
+                        <Button
+                            android:id="@+id/payment_2_btn"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_marginLeft="1.0dip"
+                            android:layout_weight="1.0"
+                            android:background="@drawable/lakala_bg_01"
+                            android:text="2"
+                            android:textColor="#ff808080"
+                            android:textSize="32.0dip" />
+
+                        <Button
+                            android:id="@+id/payment_3_btn"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_marginLeft="1.0dip"
+                            android:layout_weight="1.0"
+                            android:background="@drawable/lakala_bg_01"
+                            android:text="3"
+                            android:textColor="#ff808080"
+                            android:textSize="32.0dip" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginTop="1.0dip"
+                        android:layout_weight="1.0"
+                        android:orientation="horizontal" >
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="1.0"
+                            android:orientation="horizontal" >
+
+                            <Button
+                                android:id="@+id/payment_0_btn"
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1.0"
+                                android:background="@drawable/lakala_bg_01"
+                                android:text="0"
+                                android:textColor="#ff808080"
+                                android:textSize="32.0dip" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="2.0"
+                            android:gravity="center"
+                            android:orientation="horizontal" >
+
+                            <Button
+                                android:id="@+id/payment_point_btn"
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:layout_marginLeft="1.0dip"
+                                android:layout_weight="1.0"
+                                android:background="@drawable/lakala_bg_01"
+                                android:text="."
+                                android:textColor="#ff808080"
+                                android:textSize="32.0dip" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/payment_confirm"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="3.0"
+                android:background="@drawable/payment_calculator_confirm_background"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/payment_confirm_textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="确 认"
+                    android:textColor="@color/white"
+                    android:textSize="27.0sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

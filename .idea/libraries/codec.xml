@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="codec">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/codec.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
