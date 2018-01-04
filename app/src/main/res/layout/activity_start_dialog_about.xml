@@ -8,7 +8,7 @@
     android:layout_marginRight="30dip"
     android:layout_marginTop="60dip"
     android:background="@drawable/txt_sharp"
-    android:orientation="vertical" >
+    android:orientation="vertical">
 
     <TextView
         android:layout_width="wrap_content"
@@ -25,7 +25,7 @@
         android:layout_marginBottom="10dip"
         android:layout_marginTop="15dip"
         android:gravity="right"
-        android:orientation="vertical" >
+        android:orientation="vertical">
 
         <TextView
             android:layout_width="wrap_content"

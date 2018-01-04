@@ -19,19 +19,19 @@ import com.cnyssj.pos.R;
 import com.ven.pos.Payment.ShopItem;
 
 public class GoodAdapter extends BaseAdapter {
-	
-	
+
+
     private static final String TAG = "EquipItemAdapter";
     private List<ShopItem> mContentList;
     private LayoutInflater mInflater;
     private GoodItemClickListener mListener;
-    private Map<String , Integer> mSelectShop;
-    
+    private Map<String, Integer> mSelectShop;
+
 
     public GoodAdapter(Context context,
-                            List<ShopItem> contentList,
-                            GoodItemClickListener listener, 
-                            Map<String , Integer> selectShop) {
+                       List<ShopItem> contentList,
+                       GoodItemClickListener listener,
+                       Map<String, Integer> selectShop) {
         mContentList = contentList;
         mInflater = LayoutInflater.from(context);
         mListener = listener;
@@ -41,13 +41,13 @@ public class GoodAdapter extends BaseAdapter {
     @Override
     public int getCount() {
         Log.i(TAG, "getCount");
-        return  mContentList.size();
+        return mContentList.size();
     }
 
     @Override
     public Object getItem(int position) {
         Log.i(TAG, "getItem");
-        return  mContentList.get(position);
+        return mContentList.get(position);
     }
 
     @Override
@@ -63,11 +63,11 @@ public class GoodAdapter extends BaseAdapter {
         if (convertView == null) {
             convertView = mInflater.inflate(R.layout.good_item, null);
             holder = new ViewHolder();
-            holder.goodImageIV = (ImageView)convertView.findViewById(R.id.good_image);
+            holder.goodImageIV = (ImageView) convertView.findViewById(R.id.good_image);
             holder.goodNameTV = (TextView) convertView.findViewById(R.id.good_name);
-            holder.goodPriceTV = (TextView)convertView.findViewById(R.id.good_price);
-            holder.goodAmountTV = (EditText)convertView.findViewById(R.id.good_amount_ev);
-          //  holder.equipDeleteButton = (Button) convertView.findViewById(R.id.equip_delete);
+            holder.goodPriceTV = (TextView) convertView.findViewById(R.id.good_price);
+            holder.goodAmountTV = (EditText) convertView.findViewById(R.id.good_amount_ev);
+            //  holder.equipDeleteButton = (Button) convertView.findViewById(R.id.equip_delete);
             holder.goodAdd = (ImageView) convertView.findViewById(R.id.good_add_ib);
             holder.goodReduce = (ImageView) convertView.findViewById(R.id.good_reduce_ib);
             convertView.setTag(holder);
@@ -76,37 +76,36 @@ public class GoodAdapter extends BaseAdapter {
         }
         //holder.equipNameEV.setText();
 
-        ShopItem good = (ShopItem)mContentList.get(position);
+        ShopItem good = (ShopItem) mContentList.get(position);
         holder.goodNameTV.setText(good.itemName);
-        
-        if( null != good.itemPic )
-        	holder.goodImageIV.setImageBitmap(good.itemPic);
-        
-        DecimalFormat df = new DecimalFormat("###.00");  
+
+        if (null != good.itemPic)
+            holder.goodImageIV.setImageBitmap(good.itemPic);
+
+        DecimalFormat df = new DecimalFormat("###.00");
         holder.goodPriceTV.setText(df.format(good.price));
-        
-        int amount = mSelectShop.containsKey(good.itemProductsn)?mSelectShop.get(good.itemProductsn):0;
-        holder.goodAmountTV.setText( String.valueOf(amount) );
-        
+
+        int amount = mSelectShop.containsKey(good.itemProductsn) ? mSelectShop.get(good.itemProductsn) : 0;
+        holder.goodAmountTV.setText(String.valueOf(amount));
+
         holder.goodAdd.setOnClickListener(mListener);
         holder.goodAdd.setTag(position);
         holder.goodReduce.setOnClickListener(mListener);
         holder.goodReduce.setTag(position);
         holder.position = position;
-        
-        convertView.setOnClickListener(mListener);
 
+        convertView.setOnClickListener(mListener);
 
 
         return convertView;
     }
 
     public class ViewHolder {
-    	public int position;
+        public int position;
         public ImageView goodImageIV;
         public TextView goodNameTV;
         public TextView goodPriceTV;
-     //   public Button equipDeleteButton;
+        //   public Button equipDeleteButton;
         public TextView goodAmountTV;
         public ImageView goodAdd;    //加
         public ImageView goodReduce;  //减
@@ -114,8 +113,9 @@ public class GoodAdapter extends BaseAdapter {
 
     /**
      * 用于回调的抽象类
+     *
      * @author Ivan Xu
-     * 2014-11-26
+     *         2014-11-26
      */
     public static abstract class GoodItemClickListener implements OnClickListener {
         /**
@@ -124,21 +124,22 @@ public class GoodAdapter extends BaseAdapter {
         @Override
         public void onClick(View v) {
 
-             if (v.getId() == R.id.good_add_ib){
-            	 goodAddOnclick((Integer) v.getTag(), v);
-            	 onChangeAmount((Integer) v.getTag(), true);
-             }
-             if(v.getId() == R.id.good_reduce_ib){
-            	 goodReduceOnclick((Integer) v.getTag(), v);
-            	 onChangeAmount((Integer) v.getTag(), false);
-             }
+            if (v.getId() == R.id.good_add_ib) {
+                goodAddOnclick((Integer) v.getTag(), v);
+                onChangeAmount((Integer) v.getTag(), true);
+            }
+            if (v.getId() == R.id.good_reduce_ib) {
+                goodReduceOnclick((Integer) v.getTag(), v);
+                onChangeAmount((Integer) v.getTag(), false);
+            }
 
         }
-        
-        
-        
+
+
         public abstract void goodAddOnclick(int position, View v);
+
         public abstract void goodReduceOnclick(int position, View v);
+
         public abstract void onChangeAmount(int position, boolean bAdd);
     }
 }

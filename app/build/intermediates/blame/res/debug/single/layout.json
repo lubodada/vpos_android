@@ -8,20 +8,16 @@
         "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\layout\\activity_start_dialog_money_mode.xml"
     },
     {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\orders_listview_activity.xml",
-        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\layout\\orders_listview_activity.xml"
-    },
-    {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_start_dialog_about.xml",
         "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\layout\\activity_start_dialog_about.xml"
     },
     {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main_activity.xml",
-        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\layout\\main_activity.xml"
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\orders_listview_activity.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\layout\\orders_listview_activity.xml"
     },
     {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7a75df3497e219a93a33d15ceab3b4ee1c6c6c19\\output\\res\\layout\\abc_select_dialog_material.xml"
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main_activity.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\layout\\main_activity.xml"
     },
     {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_storage.xml",
@@ -36,68 +32,40 @@
         "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\layout\\activity_start_dialog_dtn.xml"
     },
     {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_icon_group.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\11e7fa2c4f48adf6e5b2bd788ea64be4b52e8ab2\\output\\res\\layout\\notification_template_icon_group.xml"
-    },
-    {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_exchange.xml",
         "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\layout\\activity_exchange.xml"
     },
     {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines_media.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\11e7fa2c4f48adf6e5b2bd788ea64be4b52e8ab2\\output\\res\\layout\\notification_template_lines_media.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_decor_overlay.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\29a7116cbccf8cd2514de3fe32ee5c373e0473a8\\output\\res\\layout\\abc_action_bar_decor_overlay.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\single_choice_list_item_layout.xml",
-        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\layout\\single_choice_list_item_layout.xml"
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_start_dialog_land_port.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\layout\\activity_start_dialog_land_port.xml"
     },
     {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\zxing_capture.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\ac3bf6e66edcf462fb7b5b7e5d1041816793947e\\output\\res\\layout\\zxing_capture.xml"
     },
     {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7a75df3497e219a93a33d15ceab3b4ee1c6c6c19\\output\\res\\layout\\select_dialog_multichoice_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7a75df3497e219a93a33d15ceab3b4ee1c6c6c19\\output\\res\\layout\\abc_screen_content_include.xml"
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\single_choice_list_item_layout.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\layout\\single_choice_list_item_layout.xml"
     },
     {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\orders_activity.xml",
         "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\layout\\orders_activity.xml"
     },
     {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7a75df3497e219a93a33d15ceab3b4ee1c6c6c19\\output\\res\\layout\\select_dialog_item_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7a75df3497e219a93a33d15ceab3b4ee1c6c6c19\\output\\res\\layout\\abc_dialog_title_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7a75df3497e219a93a33d15ceab3b4ee1c6c6c19\\output\\res\\layout\\notification_template_big_media_narrow.xml"
-    },
-    {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7a75df3497e219a93a33d15ceab3b4ee1c6c6c19\\output\\res\\layout\\abc_action_bar_title_item.xml"
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\42d4ce1b0e4036738c2c58f5936e3d8b5ab423e5\\output\\res\\layout\\abc_action_bar_title_item.xml"
     },
     {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7a75df3497e219a93a33d15ceab3b4ee1c6c6c19\\output\\res\\layout\\abc_list_menu_item_radio.xml"
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\42d4ce1b0e4036738c2c58f5936e3d8b5ab423e5\\output\\res\\layout\\abc_list_menu_item_radio.xml"
     },
     {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\help.xml",
         "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\layout\\help.xml"
     },
     {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_custom.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\1f40cd5d6278cc01eb61e6b344c0d3a64b23c286\\output\\res\\layout\\notification_template_big_media_custom.xml"
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\login_land.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\layout\\login_land.xml"
     },
     {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_recharge.xml",
@@ -105,31 +73,23 @@
     },
     {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7a75df3497e219a93a33d15ceab3b4ee1c6c6c19\\output\\res\\layout\\abc_activity_chooser_view.xml"
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\42d4ce1b0e4036738c2c58f5936e3d8b5ab423e5\\output\\res\\layout\\abc_activity_chooser_view.xml"
     },
     {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7a75df3497e219a93a33d15ceab3b4ee1c6c6c19\\output\\res\\layout\\abc_action_menu_item_layout.xml"
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\42d4ce1b0e4036738c2c58f5936e3d8b5ab423e5\\output\\res\\layout\\abc_action_menu_item_layout.xml"
     },
     {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\titlebar.xml",
         "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\layout\\titlebar.xml"
     },
     {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7a75df3497e219a93a33d15ceab3b4ee1c6c6c19\\output\\res\\layout\\abc_alert_dialog_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_tabbar.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\29a7116cbccf8cd2514de3fe32ee5c373e0473a8\\output\\res\\layout\\abc_action_bar_tabbar.xml"
-    },
-    {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7a75df3497e219a93a33d15ceab3b4ee1c6c6c19\\output\\res\\layout\\abc_expanded_menu_layout.xml"
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\42d4ce1b0e4036738c2c58f5936e3d8b5ab423e5\\output\\res\\layout\\abc_expanded_menu_layout.xml"
     },
     {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7a75df3497e219a93a33d15ceab3b4ee1c6c6c19\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\42d4ce1b0e4036738c2c58f5936e3d8b5ab423e5\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
     },
     {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\webview.xml",
@@ -145,19 +105,15 @@
     },
     {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7a75df3497e219a93a33d15ceab3b4ee1c6c6c19\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_start_dialog_recharge.xml",
-        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\layout\\activity_start_dialog_recharge.xml"
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\42d4ce1b0e4036738c2c58f5936e3d8b5ab423e5\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
     },
     {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\msg_box.xml",
         "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\layout\\msg_box.xml"
     },
     {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\11e7fa2c4f48adf6e5b2bd788ea64be4b52e8ab2\\output\\res\\layout\\notification_action.xml"
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_start_dialog_recharge.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\layout\\activity_start_dialog_recharge.xml"
     },
     {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_item.xml",
@@ -184,14 +140,6 @@
         "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\layout\\loading.xml"
     },
     {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_title_material.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\11e7fa2c4f48adf6e5b2bd788ea64be4b52e8ab2\\output\\res\\layout\\abc_alert_dialog_title_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7a75df3497e219a93a33d15ceab3b4ee1c6c6c19\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
-    },
-    {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\zxing_barcode_scanner.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\ac3bf6e66edcf462fb7b5b7e5d1041816793947e\\output\\res\\layout\\zxing_barcode_scanner.xml"
     },
@@ -216,6 +164,10 @@
         "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\layout\\shop_qcode_main.xml"
     },
     {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_vicescreen.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\layout\\activity_vicescreen.xml"
+    },
+    {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\history_list_item.xml",
         "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\layout\\history_list_item.xml"
     },
@@ -224,44 +176,36 @@
         "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\layout\\member_charge_service.xml"
     },
     {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_tab.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\29a7116cbccf8cd2514de3fe32ee5c373e0473a8\\output\\res\\layout\\abc_action_bar_tab.xml"
-    },
-    {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_simple_dropdown_hint.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\fa7b9ecb3e378317a545e15dbe19875f83fc3a68\\output\\res\\layout\\abc_simple_dropdown_hint.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\good_item.xml",
-        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\layout\\good_item.xml"
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\42d4ce1b0e4036738c2c58f5936e3d8b5ab423e5\\output\\res\\layout\\abc_simple_dropdown_hint.xml"
     },
     {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_start_dialog_scancode.xml",
         "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\layout\\activity_start_dialog_scancode.xml"
     },
     {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\good_item.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\layout\\good_item.xml"
+    },
+    {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_dialog.xml",
         "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\layout\\layout_dialog.xml"
     },
     {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7a75df3497e219a93a33d15ceab3b4ee1c6c6c19\\output\\res\\layout\\notification_template_media.xml"
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\consume_list_view_vs.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\layout\\consume_list_view_vs.xml"
     },
     {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_qrcode_.xml",
         "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\layout\\activity_qrcode_.xml"
     },
     {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7a75df3497e219a93a33d15ceab3b4ee1c6c6c19\\output\\res\\layout\\notification_template_part_chronometer.xml"
-    },
-    {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7a75df3497e219a93a33d15ceab3b4ee1c6c6c19\\output\\res\\layout\\abc_screen_simple.xml"
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\42d4ce1b0e4036738c2c58f5936e3d8b5ab423e5\\output\\res\\layout\\abc_screen_simple.xml"
     },
     {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7a75df3497e219a93a33d15ceab3b4ee1c6c6c19\\output\\res\\layout\\abc_search_view.xml"
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\42d4ce1b0e4036738c2c58f5936e3d8b5ab423e5\\output\\res\\layout\\abc_search_view.xml"
     },
     {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_start_dialog_update.xml",
@@ -289,7 +233,7 @@
     },
     {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7a75df3497e219a93a33d15ceab3b4ee1c6c6c19\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\42d4ce1b0e4036738c2c58f5936e3d8b5ab423e5\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
     },
     {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_pay_error.xml",
@@ -304,6 +248,10 @@
         "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\layout\\listview_item.xml"
     },
     {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_start.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\layout\\activity_start.xml"
+    },
+    {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\bookmark_picker_list_item.xml",
         "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\layout\\bookmark_picker_list_item.xml"
     },
@@ -312,12 +260,12 @@
         "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\layout\\activity_ccguanli.xml"
     },
     {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\checkdatail_activaty.xml",
-        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\layout\\checkdatail_activaty.xml"
-    },
-    {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\app_picker_list_item.xml",
         "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\layout\\app_picker_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\checkdatail_activaty.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\layout\\checkdatail_activaty.xml"
     },
     {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\shop_qcode_main_second.xml",
@@ -328,12 +276,12 @@
         "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\layout\\custom_dialog_layout.xml"
     },
     {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\capture.xml",
-        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\layout\\capture.xml"
-    },
-    {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\share.xml",
         "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\layout\\share.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\capture.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\layout\\capture.xml"
     },
     {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_start_dialog_mode.xml",
@@ -352,12 +300,8 @@
         "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\layout\\activity_register.xml"
     },
     {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7a75df3497e219a93a33d15ceab3b4ee1c6c6c19\\output\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media_custom.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\11e7fa2c4f48adf6e5b2bd788ea64be4b52e8ab2\\output\\res\\layout\\notification_template_media_custom.xml"
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_start_dialog_vs.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\layout\\activity_start_dialog_vs.xml"
     },
     {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_start_dialog_merchantid.xml",
@@ -365,7 +309,7 @@
     },
     {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7a75df3497e219a93a33d15ceab3b4ee1c6c6c19\\output\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\42d4ce1b0e4036738c2c58f5936e3d8b5ab423e5\\output\\res\\layout\\abc_activity_chooser_view_list_item.xml"
     },
     {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\good_search.xml",
@@ -385,15 +329,11 @@
     },
     {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7a75df3497e219a93a33d15ceab3b4ee1c6c6c19\\output\\res\\layout\\abc_action_mode_bar.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action_tombstone.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\11e7fa2c4f48adf6e5b2bd788ea64be4b52e8ab2\\output\\res\\layout\\notification_action_tombstone.xml"
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\42d4ce1b0e4036738c2c58f5936e3d8b5ab423e5\\output\\res\\layout\\abc_action_mode_bar.xml"
     },
     {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7a75df3497e219a93a33d15ceab3b4ee1c6c6c19\\output\\res\\layout\\abc_action_bar_up_container.xml"
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\42d4ce1b0e4036738c2c58f5936e3d8b5ab423e5\\output\\res\\layout\\abc_action_bar_up_container.xml"
     },
     {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_inventory.xml",
@@ -404,36 +344,20 @@
         "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\layout\\popwindow_listview_layout.xml"
     },
     {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow_custom.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\1f40cd5d6278cc01eb61e6b344c0d3a64b23c286\\output\\res\\layout\\notification_template_big_media_narrow_custom.xml"
-    },
-    {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pay_qcode_main.xml",
         "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\layout\\pay_qcode_main.xml"
     },
     {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\11e7fa2c4f48adf6e5b2bd788ea64be4b52e8ab2\\output\\res\\layout\\abc_popup_menu_header_item_layout.xml"
-    },
-    {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7a75df3497e219a93a33d15ceab3b4ee1c6c6c19\\output\\res\\layout\\abc_screen_toolbar.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_decor_include.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\29a7116cbccf8cd2514de3fe32ee5c373e0473a8\\output\\res\\layout\\abc_action_bar_decor_include.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7a75df3497e219a93a33d15ceab3b4ee1c6c6c19\\output\\res\\layout\\notification_media_cancel_action.xml"
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\42d4ce1b0e4036738c2c58f5936e3d8b5ab423e5\\output\\res\\layout\\abc_screen_toolbar.xml"
     },
     {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7a75df3497e219a93a33d15ceab3b4ee1c6c6c19\\output\\res\\layout\\abc_list_menu_item_icon.xml"
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\42d4ce1b0e4036738c2c58f5936e3d8b5ab423e5\\output\\res\\layout\\abc_list_menu_item_icon.xml"
     },
     {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7a75df3497e219a93a33d15ceab3b4ee1c6c6c19\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\42d4ce1b0e4036738c2c58f5936e3d8b5ab423e5\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
     },
     {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_radioitem.xml",
@@ -441,7 +365,7 @@
     },
     {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7a75df3497e219a93a33d15ceab3b4ee1c6c6c19\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\42d4ce1b0e4036738c2c58f5936e3d8b5ab423e5\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
     },
     {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\member_query.xml",
@@ -449,23 +373,15 @@
     },
     {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7a75df3497e219a93a33d15ceab3b4ee1c6c6c19\\output\\res\\layout\\abc_action_menu_layout.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7a75df3497e219a93a33d15ceab3b4ee1c6c6c19\\output\\res\\layout\\notification_template_lines.xml"
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\42d4ce1b0e4036738c2c58f5936e3d8b5ab423e5\\output\\res\\layout\\abc_action_menu_layout.xml"
     },
     {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7a75df3497e219a93a33d15ceab3b4ee1c6c6c19\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\42d4ce1b0e4036738c2c58f5936e3d8b5ab423e5\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
     },
     {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7a75df3497e219a93a33d15ceab3b4ee1c6c6c19\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_home.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\29a7116cbccf8cd2514de3fe32ee5c373e0473a8\\output\\res\\layout\\abc_action_bar_home.xml"
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\42d4ce1b0e4036738c2c58f5936e3d8b5ab423e5\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
     },
     {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_capture.xml",
@@ -473,31 +389,7 @@
     },
     {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7a75df3497e219a93a33d15ceab3b4ee1c6c6c19\\output\\res\\layout\\abc_list_menu_item_layout.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7a75df3497e219a93a33d15ceab3b4ee1c6c6c19\\output\\res\\layout\\notification_media_action.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_include.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\fa7b9ecb3e378317a545e15dbe19875f83fc3a68\\output\\res\\layout\\abc_activity_chooser_view_include.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7a75df3497e219a93a33d15ceab3b4ee1c6c6c19\\output\\res\\layout\\notification_template_part_time.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_custom_big.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\11e7fa2c4f48adf6e5b2bd788ea64be4b52e8ab2\\output\\res\\layout\\notification_template_custom_big.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7a75df3497e219a93a33d15ceab3b4ee1c6c6c19\\output\\res\\layout\\notification_template_big_media.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\29a7116cbccf8cd2514de3fe32ee5c373e0473a8\\output\\res\\layout\\abc_action_mode_close_item.xml"
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\42d4ce1b0e4036738c2c58f5936e3d8b5ab423e5\\output\\res\\layout\\abc_list_menu_item_layout.xml"
     },
     {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\checkdetail_listview.xml",

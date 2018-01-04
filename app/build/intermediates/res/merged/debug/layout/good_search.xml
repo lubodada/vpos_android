@@ -7,16 +7,16 @@
     <!-- The primary full-screen view. This can be replaced with whatever view
          is needed to present your content, e.g. VideoView, SurfaceView,
          TextureView, etc. -->
-     <!--   <TextView
-        android:id="@+id/fullscreen_content"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:gravity="center"
-        android:keepScreenOn="true"
-        android:text="@string/dummy_content"
-        android:textColor="#33b5e5"
-        android:textSize="50sp"
-        android:textStyle="bold" />
+    <!--   <TextView
+       android:id="@+id/fullscreen_content"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:gravity="center"
+       android:keepScreenOn="true"
+       android:text="@string/dummy_content"
+       android:textColor="#33b5e5"
+       android:textSize="50sp"
+       android:textStyle="bold" />
 -->
     <!-- This FrameLayout insets its children based on system windows using
          android:fitsSystemWindows. -->
@@ -38,8 +38,7 @@
             android:layout_height="40dp"
             android:layout_marginRight="20dp"
             android:layout_marginLeft="20dp"
-            android:layout_marginTop="20dp"
-             >
+            android:layout_marginTop="20dp">
 
             <TextView
                 android:layout_width="70dp"
@@ -55,18 +54,16 @@
             <EditText
                 android:layout_width="150dp"
                 android:layout_height="fill_parent"
-                android:id="@+id/search_shop_name_et"
-                 />
-            
-            <ImageButton 
+                android:id="@+id/search_shop_name_et" />
+
+            <ImageButton
                 android:layout_marginLeft="10dp"
                 android:layout_width="40dp"
                 android:layout_height="fill_parent"
                 android:id="@+id/search_shop_ib"
                 android:scaleType="fitXY"
-                android:background="@drawable/sc_icon_search"
-                />
-            
+                android:background="@drawable/sc_icon_search" />
+
         </LinearLayout>
 
         <ListView
@@ -74,7 +71,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/good_item_lv"
-            android:layout_gravity="left|top"/>
+            android:layout_gravity="left|top" />
 
 
         <View
@@ -84,7 +81,7 @@
             android:layout_marginRight="10dp"
             android:background="#FF909090" />
 
-     
+
     </LinearLayout>
 
 </FrameLayout>

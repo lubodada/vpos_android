@@ -10,10 +10,10 @@ import com.ven.pos.GlobalContant;
 
 public class AppRegister extends BroadcastReceiver {
 
-	@Override
-	public void onReceive(Context context, Intent intent) {
-		final IWXAPI api = WXAPIFactory.createWXAPI(context, null);
+    @Override
+    public void onReceive(Context context, Intent intent) {
+        final IWXAPI api = WXAPIFactory.createWXAPI(context, null);
 
-		api.registerApp(GlobalContant.instance().wxConfig.APP_ID);
-	}
+        api.registerApp(GlobalContant.instance().wxConfig.APP_ID);
+    }
 }

@@ -3,20 +3,20 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#ffffff"
-    tools:context="${relativePackage}.${activityClass}" >
+    tools:context="${relativePackage}.${activityClass}">
 
-<com.example.clearedittext.ClearEditText
+    <com.example.clearedittext.ClearEditText
         android:id="@+id/username"
         android:layout_marginTop="60dp"
         android:layout_width="fill_parent"
-        android:background="@drawable/login_edittext_bg" 
+        android:background="@drawable/login_edittext_bg"
         android:drawableLeft="@drawable/icon_user"
         android:layout_marginLeft="10dip"
         android:layout_marginRight="10dip"
         android:singleLine="true"
         android:drawableRight="@drawable/delete_selector"
         android:hint="输入用户名"
-        android:layout_height="wrap_content" >
+        android:layout_height="wrap_content">
 
     </com.example.clearedittext.ClearEditText>
 

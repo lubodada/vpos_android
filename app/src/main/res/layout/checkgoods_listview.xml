@@ -2,58 +2,66 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical" 
+    android:orientation="vertical"
     android:background="@color/base_background">
-    
-    
-    <LinearLayout 
+
+
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:layout_marginTop="5dp">
-        <TextView 
+
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="商品条码:"
-            android:textColor="#ffffff"/>
-        <TextView 
+            android:textColor="#ffffff" />
+
+        <TextView
             android:id="@+id/productsn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingLeft="15dp"
-            android:textColor="#ffffff"/>
+            android:textColor="#ffffff" />
     </LinearLayout>
-    <LinearLayout 
+
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
-        <TextView 
+
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="商品名称:"
-            android:textColor="#ffffff"/>
-        <TextView 
+            android:textColor="#ffffff" />
+
+        <TextView
             android:id="@+id/title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingLeft="15dp"
-            android:textColor="#ffffff"/>
+            android:textColor="#ffffff" />
     </LinearLayout>
-    <LinearLayout 
+
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
-        <TextView 
+
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="商品数量:"
-            android:textColor="#ffffff"/>
-        <TextView 
+            android:textColor="#ffffff" />
+
+        <TextView
             android:id="@+id/quantity"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingLeft="15dp"
-            android:textColor="#ffffff"/>
+            android:textColor="#ffffff" />
     </LinearLayout>
 
 </LinearLayout>

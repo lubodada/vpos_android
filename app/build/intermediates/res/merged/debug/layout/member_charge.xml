@@ -1,54 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout 
-	android:id="@+id/widget33"
-	android:layout_width="fill_parent"
-	android:layout_height="fill_parent"
-	android:background="@color/bg_gray"
-	android:orientation="vertical"
-	xmlns:android="http://schemas.android.com/apk/res/android">
-	
- 
-    
-      <LinearLayout
+<LinearLayout android:id="@+id/widget33"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/bg_gray"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/min_interval_40"
         android:background="@color/bg_gray"
         android:orientation="horizontal"
         android:layout_marginLeft="@dimen/main_left_87"
-        android:layout_marginRight="@dimen/main_left_87"
-        >
-        
-           <Button   
-            android:id="@+id/remain_recharge_btn"  
-            android:layout_width="0dp"  
-            android:layout_height="wrap_content"  
-            android:layout_weight="1"  
-            android:background="@drawable/fc_blue_left"  
-            />  
-        <Button   
-            android:id="@+id/serivce_recharge_btn"  
-            android:layout_width="0dp"  
-            android:layout_height="wrap_content"  
-            android:layout_weight="1"  
-            android:background="@drawable/fc_white_right"  
-            />  
-           
+        android:layout_marginRight="@dimen/main_left_87">
 
-    
+        <Button
+            android:id="@+id/remain_recharge_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/fc_blue_left" />
+
+        <Button
+            android:id="@+id/serivce_recharge_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/fc_white_right" />
+
+
     </LinearLayout>
-    
-      <View
-                android:layout_width="match_parent"
-                android:layout_height="1.0px"
-                android:background="#BABABA" />
-      
-      
-        <!-- VIewPager 主要是加载内容的 -->  
-     <android.support.v4.view.ViewPager  
-        android:id="@+id/service_viewpager"   
-        android:layout_width="match_parent"  
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1.0px"
+        android:background="#BABABA" />
+
+
+    <!-- VIewPager 主要是加载内容的 -->
+    <android.support.v4.view.ViewPager
+        android:id="@+id/service_viewpager"
+        android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/bg_gray"/>  
+        android:background="@color/bg_gray" />
 
 </LinearLayout>

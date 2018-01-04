@@ -18,10 +18,10 @@ import com.ven.pos.GlobalContant;
 import com.ven.pos.alipay.util.AlipaySubmit;
 import com.ven.pos.alipay.util.UtilDate;
 
-public class AliPayCollection   extends PayCollectionBase {
+public class AliPayCollection extends PayCollectionBase {
 
-	private static final String TAG = "AliPayCollection";
-	public static AliPayCollection inst;
+    private static final String TAG = "AliPayCollection";
+    public static AliPayCollection inst;
 
 //	static AliPayCollection instance() {
 //		if (null == inst) {
@@ -29,97 +29,97 @@ public class AliPayCollection   extends PayCollectionBase {
 //		}
 //		return inst;
 //	}
-	
-	public AliPayCollection(Context c, PayQueryBase payQuery){
-		super(c, payQuery);
-	}
 
-	private Context parentContext;
-	PayReq req;
-	IWXAPI msgApi;
-	TextView show;
-	Map<String, String> resultunifiedorder;
-	StringBuffer sb;
-	String nTotalFee;
-	String outTradNo;
-	String authCode;
-	String currentPayDetails;
-	int oper;
+    public AliPayCollection(Context c, PayQueryBase payQuery) {
+        super(c, payQuery);
+    }
 
-	public void init(Context c) {
-		parentContext = c;
-	}
+    private Context parentContext;
+    PayReq req;
+    IWXAPI msgApi;
+    TextView show;
+    Map<String, String> resultunifiedorder;
+    StringBuffer sb;
+    String nTotalFee;
+    String outTradNo;
+    String authCode;
+    String currentPayDetails;
+    int oper;
 
-	private void collectionMoney() {
-		new Thread() {
-			@Override
-			public void run() {
-				try {
-					// 商户订单号
-					long i = (long) (Math.random() * 900000 + 1000000);
-					// String out_trade_no = "" + i;
-					// 商户网站订单系统中唯一订单号，必填
-					outTradNo = UtilDate.getOrderNum();
-					// 订单名称
-					String subject = "即时支付";
-					// 必填
+    public void init(Context c) {
+        parentContext = c;
+    }
 
-					// 订单业务类型
-					// String product_code = "QR_CODE_OFFLINE";
-					String product_code = "BARCODE_PAY_OFFLINE";
-					// 付款金额
-					String total_fee = nTotalFee;
-					// 必填
-					// 卖家支付宝帐户
+    private void collectionMoney() {
+        new Thread() {
+            @Override
+            public void run() {
+                try {
+                    // 商户订单号
+                    long i = (long) (Math.random() * 900000 + 1000000);
+                    // String out_trade_no = "" + i;
+                    // 商户网站订单系统中唯一订单号，必填
+                    outTradNo = UtilDate.getOrderNum();
+                    // 订单名称
+                    String subject = "即时支付";
+                    // 必填
+
+                    // 订单业务类型
+                    // String product_code = "QR_CODE_OFFLINE";
+                    String product_code = "BARCODE_PAY_OFFLINE";
+                    // 付款金额
+                    String total_fee = nTotalFee;
+                    // 必填
+                    // 卖家支付宝帐户
 //					String seller_email = "lckj020@126.com";
-					String seller_email = GlobalContant.instance().aliConfig.seller_email;
-					// 必填
-					// 订单描述
-					String body = GlobalContant.instance().companyName;
-					
-					
-					Map<String, String> sParaTemp = new HashMap<String, String>();
+                    String seller_email = GlobalContant.instance().aliConfig.seller_email;
+                    // 必填
+                    // 订单描述
+                    String body = GlobalContant.instance().companyName;
 
-					SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-					String time_expire= sdf.format(System.currentTimeMillis()+24*60*60*1000);
-					
-					//	sParaTemp.put("method", "alipay.trade.createandpay");
-					sParaTemp.put("method","alipay.trade.pay");
-					sParaTemp.put("charset",GlobalContant.instance().aliConfig.input_charset);
-					sParaTemp.put("timestamp", time_expire);
-					
-					JSONObject jsonBizContent = new JSONObject();					
-					jsonBizContent.put("out_trade_no", outTradNo);	 	
-					jsonBizContent.put("sence", "bar_code");	
-					jsonBizContent.put("auth_code", authCode);
-					jsonBizContent.put("subject", "即时支付");
-					jsonBizContent.put("total_amount", total_fee);
-					sParaTemp.put("biz_content", jsonBizContent.toString());
-					
 
-					String sHtmlText = AlipaySubmit.buildRequest("", "",
-							sParaTemp);
+                    Map<String, String> sParaTemp = new HashMap<String, String>();
 
-					JSONObject alipayResultJson = new JSONObject(sHtmlText);
+                    SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+                    String time_expire = sdf.format(System.currentTimeMillis() + 24 * 60 * 60 * 1000);
 
-					Iterator<?> it = alipayResultJson.keys();
-					while (it.hasNext()) {// 遍历JSONObject
-						String jsonKey = (String) it.next().toString();
+                    //	sParaTemp.put("method", "alipay.trade.createandpay");
+                    sParaTemp.put("method", "alipay.trade.pay");
+                    sParaTemp.put("charset", GlobalContant.instance().aliConfig.input_charset);
+                    sParaTemp.put("timestamp", time_expire);
 
-						if (jsonKey.contains("response")) {
-							JSONObject responseJson = alipayResultJson
-									.getJSONObject(jsonKey);
+                    JSONObject jsonBizContent = new JSONObject();
+                    jsonBizContent.put("out_trade_no", outTradNo);
+                    jsonBizContent.put("sence", "bar_code");
+                    jsonBizContent.put("auth_code", authCode);
+                    jsonBizContent.put("subject", "即时支付");
+                    jsonBizContent.put("total_amount", total_fee);
+                    sParaTemp.put("biz_content", jsonBizContent.toString());
 
-							if (!responseJson.getString("code").equals("10000")) {
-								Looper.prepare();
-								Toast.makeText(parentContext,
-										responseJson.getString("sub_msg"),
-										Toast.LENGTH_LONG).show();
-								Looper.loop();
-								return;
-							}
-							
-							payQuery.ModifyOrderId(outTradNo);
+
+                    String sHtmlText = AlipaySubmit.buildRequest("", "",
+                            sParaTemp);
+
+                    JSONObject alipayResultJson = new JSONObject(sHtmlText);
+
+                    Iterator<?> it = alipayResultJson.keys();
+                    while (it.hasNext()) {// 遍历JSONObject
+                        String jsonKey = (String) it.next().toString();
+
+                        if (jsonKey.contains("response")) {
+                            JSONObject responseJson = alipayResultJson
+                                    .getJSONObject(jsonKey);
+
+                            if (!responseJson.getString("code").equals("10000")) {
+                                Looper.prepare();
+                                Toast.makeText(parentContext,
+                                        responseJson.getString("sub_msg"),
+                                        Toast.LENGTH_LONG).show();
+                                Looper.loop();
+                                return;
+                            }
+
+                            payQuery.ModifyOrderId(outTradNo);
 
 //							Intent localIntent = new Intent(parentContext,
 //									PaymentCodeAct.class);
@@ -138,16 +138,16 @@ public class AliPayCollection   extends PayCollectionBase {
 //
 //							parentContext.startActivity(localIntent);
 
-							// AliPayQuery.instance().ModifyPayInfo(out_trade_no,
-							// totalFee, payDetails, oper);
+                            // AliPayQuery.instance().ModifyPayInfo(out_trade_no,
+                            // totalFee, payDetails, oper);
 
-							break;
-						}
-					}
+                            break;
+                        }
+                    }
 
-					// ////////////////////////////////////////////////////////////////////////////////
+                    // ////////////////////////////////////////////////////////////////////////////////
 
-					// 把请求参数打包成数组
+                    // 把请求参数打包成数组
 //					Map<String, String> sParaTemp = new HashMap<String, String>();
 //					// sParaTemp.put("service",
 //					// "AliPayCollection.acquire.precreate");
@@ -166,9 +166,9 @@ public class AliPayCollection   extends PayCollectionBase {
 //					sParaTemp.put("body", body);
 //					sParaTemp.put("dynamic_id_type ", "barcode");
 //					sParaTemp.put("dynamic_id ", authCode);
-					// sParaTemp.put("buyer_id",authCode);
+                    // sParaTemp.put("buyer_id",authCode);
 
-					// 建立请求
+                    // 建立请求
 //					String sHtmlText = null;
 //					try {
 //						sHtmlText = AlipaySubmit
@@ -209,40 +209,40 @@ public class AliPayCollection   extends PayCollectionBase {
 //						e.printStackTrace();
 //					}
 
-				} catch (Exception ex) {
-					ex.printStackTrace();
-				}
-			}
-		}.start();
-	}
+                } catch (Exception ex) {
+                    ex.printStackTrace();
+                }
+            }
+        }.start();
+    }
 
-	public void collectionMoney(String totalFee, String tAuthCode/* 顾客二维码 */, String payDetails, int oper) {
+    public void collectionMoney(String totalFee, String tAuthCode/* 顾客二维码 */, String payDetails, int oper) {
 
-		nTotalFee = totalFee;
-		authCode = tAuthCode;
-		currentPayDetails = payDetails;
-		this.oper = oper;
-		collectionMoney();
-		// PaymentMainActivity.PaymentMainActivity.DismissProDlg();
-		// if (sHtmlText != null) {
-		// Intent localIntent = new Intent( parentContext,
-		// PaymentCodeAct.class);
-		// localIntent.putExtra("BarCodeRet", sHtmlText);
-		// localIntent.putExtra("totalMoney", total_fee);
-		// localIntent.putExtra("Type",
-		// PaymentMainActivity.AliPayCollectionWAY);
-		// localIntent.putExtra("tradeNo", out_trade_no);
-		// parentContext.startActivity(localIntent);
-		// }else{
-		//
-		// }
-	}
+        nTotalFee = totalFee;
+        authCode = tAuthCode;
+        currentPayDetails = payDetails;
+        this.oper = oper;
+        collectionMoney();
+        // PaymentMainActivity.PaymentMainActivity.DismissProDlg();
+        // if (sHtmlText != null) {
+        // Intent localIntent = new Intent( parentContext,
+        // PaymentCodeAct.class);
+        // localIntent.putExtra("BarCodeRet", sHtmlText);
+        // localIntent.putExtra("totalMoney", total_fee);
+        // localIntent.putExtra("Type",
+        // PaymentMainActivity.AliPayCollectionWAY);
+        // localIntent.putExtra("tradeNo", out_trade_no);
+        // parentContext.startActivity(localIntent);
+        // }else{
+        //
+        // }
+    }
 
-	public void ModifyPayInfo() {
+    public void ModifyPayInfo() {
 
-		// Double dTotalFee = Double.valueOf(nTotalFee)/100;
+        // Double dTotalFee = Double.valueOf(nTotalFee)/100;
 
-		//AliPayQuery.instance().ModifyPayInfo(outTradNo, nTotalFee, currentPayDetails, oper);
-	}
+        //AliPayQuery.instance().ModifyPayInfo(outTradNo, nTotalFee, currentPayDetails, oper);
+    }
 
 }

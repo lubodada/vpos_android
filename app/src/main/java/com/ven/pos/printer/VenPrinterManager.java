@@ -30,131 +30,132 @@ import android.widget.Toast;
 
 import com.ven.pos.GlobalContant;
 
-public class VenPrinterManager{
-	private static final String TAG = "MagActivity";
+public class VenPrinterManager {
+    private static final String TAG = "MagActivity";
 
-	private SimpleDateFormat formatter = new SimpleDateFormat(
-			"yyyy年MM月dd日   HH:mm:ss:SSS    ");
-	private final static String PRNT_ACTION = "android.prnt.message";
-	PrinterManager printer = new PrinterManager();
+    private SimpleDateFormat formatter = new SimpleDateFormat(
+            "yyyy年MM月dd日   HH:mm:ss:SSS    ");
+    private final static String PRNT_ACTION = "android.prnt.message";
+    PrinterManager printer = new PrinterManager();
 
-	private final int DEF_TEMP_THROSHOLD = 50;
-	private int mTempThresholdValue = DEF_TEMP_THROSHOLD;
-	private Context context;
+    private final int DEF_TEMP_THROSHOLD = 50;
+    private int mTempThresholdValue = DEF_TEMP_THROSHOLD;
+    private Context context;
 
-	private static VenPrinterManager inst;
-	public static VenPrinterManager getInstance(){
-		if(null == inst){
-			inst = new VenPrinterManager();
-		}
-		
-		return inst;
-	}
+    private static VenPrinterManager inst;
 
+    public static VenPrinterManager getInstance() {
+        if (null == inst) {
+            inst = new VenPrinterManager();
+        }
 
-	public void setContext(Context context) {
-		this.context = context;
-	}
+        return inst;
+    }
 
 
-	private BroadcastReceiver mPrtReceiver = new BroadcastReceiver() {
-		@Override
-		public void onReceive(Context context, Intent intent) {
-			// TODO Auto-generated method stub
-			int ret = intent.getIntExtra("ret", 0);
-			if (ret == -1)
-				Toast.makeText(context, "缺纸！！！", Toast.LENGTH_SHORT).show();
-		}
-	};
-
-	public void onPause() {
-
-		context.unregisterReceiver(mPrtReceiver);
-	}
-
-	private boolean hasChineseChar(String text) {
-		boolean hasChar = false;
-		int length = text.length();
-		int byteSize = text.getBytes().length;
-
-		hasChar = (length != byteSize);
-
-		return hasChar;
-	}
-
-	public void onResume() {
+    public void setContext(Context context) {
+        this.context = context;
+    }
 
 
-		IntentFilter filter = new IntentFilter();
-		filter.addAction(PRNT_ACTION);
-		context.registerReceiver(mPrtReceiver, filter);
+    private BroadcastReceiver mPrtReceiver = new BroadcastReceiver() {
+        @Override
+        public void onReceive(Context context, Intent intent) {
+            // TODO Auto-generated method stub
+            int ret = intent.getIntExtra("ret", 0);
+            if (ret == -1)
+                Toast.makeText(context, "缺纸！！！", Toast.LENGTH_SHORT).show();
+        }
+    };
 
-	}
+    public void onPause() {
 
-	//设置纸的宽高
-	public void setPrintPage(int width, int height){
-		printer.setupPage(width, height);
-	}
-	
-	public int printLine(String msg, int x, int y, int nFontSize) {
-		
-		if( GlobalContant.MACHINE != GlobalContant.MACHINE_I9000S ){
-			return 0;
-		}
+        context.unregisterReceiver(mPrtReceiver);
+    }
 
-		return printer.drawTextEx(msg, x, y, 384, -1, "arial", nFontSize, 0, 0, 1);
-		
+    private boolean hasChineseChar(String text) {
+        boolean hasChar = false;
+        int length = text.length();
+        int byteSize = text.getBytes().length;
+
+        hasChar = (length != byteSize);
+
+        return hasChar;
+    }
+
+    public void onResume() {
+
+
+        IntentFilter filter = new IntentFilter();
+        filter.addAction(PRNT_ACTION);
+        context.registerReceiver(mPrtReceiver, filter);
+
+    }
+
+    //设置纸的宽高
+    public void setPrintPage(int width, int height) {
+        printer.setupPage(width, height);
+    }
+
+    public int printLine(String msg, int x, int y, int nFontSize) {
+
+        if (GlobalContant.MACHINE != GlobalContant.MACHINE_I9000S) {
+            return 0;
+        }
+
+        return printer.drawTextEx(msg, x, y, 384, -1, "arial", nFontSize, 0, 0, 1);
+
 //		Intent intentService = new Intent(context, PrintBillService.class);
 //		intentService.putExtra("SPRT", msg);
 //		context.startService(intentService);
-	}
-	
-	public void printTrack(String strHead, List<String> contentList, Bitmap bmp){
-		printer.setupPage(384, -1);
-		
-		int nY = 20;
-		printer.drawTextEx("\n\n" +strHead + "\n\n", 100, nY, 384, -1, "arial", 50, 0, 0, 1);
-		
-		nY = 200;
-		for( int i=0; i<contentList.size(); i++){
-			
-			nY+=40;
-			printer.drawTextEx(contentList.get(i)+ "\n", 10, nY, 384, -1, "arial", 25, 0, 0, 1);
-		}
-		
-		if( null != bmp){
-			nY += 40;
-			printBitmap(bmp, 50, nY);
-		}
-		nY += 40;
-		
-		printer.drawTextEx("\n\n", 10, nY, 384, -1, "arial", 25, 0, 0, 1);
-		
-		int ret = printer.printPage(0);
-		Intent intent = new Intent(PRNT_ACTION);
-		intent.putExtra("ret", ret);
-		context.sendBroadcast(intent);
-	}
-	
-	public int printBitmap(Bitmap img,int x, int y){
-		
-		//printer.setupPage(384, -1);
-		
-		BitmapFactory.Options opts = new BitmapFactory.Options();
-		opts.inPreferredConfig = Bitmap.Config.ARGB_8888;
-		opts.inDensity = context.getResources().getDisplayMetrics().densityDpi;
-		opts.inTargetDensity = context.getResources().getDisplayMetrics().densityDpi;
+    }
+
+    public void printTrack(String strHead, List<String> contentList, Bitmap bmp) {
+        printer.setupPage(384, -1);
+
+        int nY = 20;
+        printer.drawTextEx("\n\n" + strHead + "\n\n", 100, nY, 384, -1, "arial", 50, 0, 0, 1);
+
+        nY = 200;
+        for (int i = 0; i < contentList.size(); i++) {
+
+            nY += 40;
+            printer.drawTextEx(contentList.get(i) + "\n", 10, nY, 384, -1, "arial", 25, 0, 0, 1);
+        }
+
+        if (null != bmp) {
+            nY += 40;
+            printBitmap(bmp, 50, nY);
+        }
+        nY += 40;
+
+        printer.drawTextEx("\n\n", 10, nY, 384, -1, "arial", 25, 0, 0, 1);
+
+        int ret = printer.printPage(0);
+        Intent intent = new Intent(PRNT_ACTION);
+        intent.putExtra("ret", ret);
+        context.sendBroadcast(intent);
+    }
+
+    public int printBitmap(Bitmap img, int x, int y) {
+
+        //printer.setupPage(384, -1);
+
+        BitmapFactory.Options opts = new BitmapFactory.Options();
+        opts.inPreferredConfig = Bitmap.Config.ARGB_8888;
+        opts.inDensity = context.getResources().getDisplayMetrics().densityDpi;
+        opts.inTargetDensity = context.getResources().getDisplayMetrics().densityDpi;
 //		Bitmap img = BitmapFactory.decodeResource(getResources(),
 //				R.drawable.ticket, opts);
-		return printer.drawBitmap(img, x, y);
-		
+        return printer.drawBitmap(img, x, y);
+
 //		int ret = printer.printPage(0);
 //		Intent intent = new Intent("urovo.prnt.message");
 //		intent.putExtra("ret", ret);
 //		context.sendBroadcast(intent);
-	}
-	
-	void doPrint(int type) {
+    }
+
+    void doPrint(int type) {
 
 //		printer.setupPage(384, -1);
 //		switch (type) {
@@ -181,7 +182,7 @@ public class VenPrinterManager{
 //		Intent intent = new Intent("urovo.prnt.message");
 //		intent.putExtra("ret", ret);
 //		this.sendBroadcast(intent);
-	}
+    }
 
 
 }

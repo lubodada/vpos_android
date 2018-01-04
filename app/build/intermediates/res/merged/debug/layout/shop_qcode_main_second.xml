@@ -3,9 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#33FFFFFF"
-    android:orientation="vertical" >
-
-    
+    android:orientation="vertical">
 
 
     <TextView
@@ -24,7 +22,7 @@
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:gravity="center_horizontal"
-        android:orientation="horizontal" >
+        android:orientation="horizontal">
 
         <TextView
             android:layout_width="100dp"
@@ -54,7 +52,7 @@
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:gravity="center_horizontal"
-        android:orientation="horizontal" >
+        android:orientation="horizontal">
 
         <TextView
             android:layout_width="100dp"
@@ -84,7 +82,7 @@
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:gravity="center_horizontal"
-        android:orientation="horizontal" >
+        android:orientation="horizontal">
 
         <TextView
             android:layout_width="100dp"
@@ -98,7 +96,7 @@
             android:layout_height="fill_parent"
             android:layout_gravity="center_horizontal"
             android:gravity="center_horizontal"
-            android:orientation="horizontal" >
+            android:orientation="horizontal">
 
             <Button
                 android:id="@+id/shop_item_amount_minus"

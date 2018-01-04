@@ -1,11 +1,11 @@
 [
     {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\raw\\addmember.wav",
-        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\raw\\addmember.wav"
-    },
-    {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\raw\\eight.wav",
         "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\raw\\eight.wav"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\raw\\addmember.wav",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\raw\\addmember.wav"
     },
     {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\raw\\div.wav",
@@ -100,12 +100,12 @@
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\ac3bf6e66edcf462fb7b5b7e5d1041816793947e\\output\\res\\raw\\zxing_beep.ogg"
     },
     {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\raw\\consume.wav",
-        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\raw\\consume.wav"
-    },
-    {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\raw\\idright.wav",
         "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\raw\\idright.wav"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\raw\\consume.wav",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\raw\\consume.wav"
     },
     {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\raw\\nine.wav",

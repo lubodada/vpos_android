@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:background="#ff9d6f"
     android:orientation="vertical"
-    tools:context="${relativePackage}.${activityClass}" >
+    tools:context="${relativePackage}.${activityClass}">
 
     <TextView
         android:id="@+id/qr_code_tx"
@@ -31,7 +31,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="10dip"
-        
+
         android:textColor="#000000" />
 
     <TextView

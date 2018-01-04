@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
-    android:orientation="vertical" >
+    android:orientation="vertical">
 
     <FrameLayout
         android:id="@+id/cameraPreview"
@@ -15,7 +15,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:background="@color/white_alpha"
-        android:orientation="vertical" >
+        android:orientation="vertical">
 
         <View
             android:layout_width="match_parent"
@@ -48,7 +48,7 @@
             android:layout_marginLeft="20dip"
             android:layout_marginTop="20dip"
             android:background="@color/white_alpha"
-            android:orientation="horizontal" >
+            android:orientation="horizontal">
 
             <TextView
                 android:layout_width="wrap_content"
@@ -72,7 +72,7 @@
             android:layout_gravity="left"
             android:layout_marginLeft="20dip"
             android:background="@color/white_alpha"
-            android:orientation="horizontal" >
+            android:orientation="horizontal">
 
             <TextView
                 android:layout_width="wrap_content"
@@ -96,7 +96,7 @@
             android:layout_gravity="left"
             android:layout_marginLeft="20dip"
             android:background="@color/white_alpha"
-            android:orientation="horizontal" >
+            android:orientation="horizontal">
 
             <TextView
                 android:layout_width="wrap_content"
@@ -121,7 +121,7 @@
             android:layout_marginLeft="20dip"
             android:layout_marginTop="10dip"
             android:background="@color/white_alpha"
-            android:orientation="horizontal" >
+            android:orientation="horizontal">
 
             <TextView
                 android:layout_width="wrap_content"
@@ -137,7 +137,7 @@
                 android:layout_height="fill_parent"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginLeft="60dip"
-                android:orientation="horizontal" >
+                android:orientation="horizontal">
 
                 <Button
                     android:id="@+id/shop_item_amount_minus"
@@ -171,7 +171,7 @@
             android:layout_marginRight="20dip"
             android:layout_marginTop="10dip"
             android:background="@color/white_alpha"
-            android:orientation="horizontal" >
+            android:orientation="horizontal">
 
             <TextView
                 android:layout_width="wrap_content"

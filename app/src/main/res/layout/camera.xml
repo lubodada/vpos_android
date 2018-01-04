@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
-    android:layout_height="fill_parent" >
+    android:layout_height="fill_parent">
 
     <SurfaceView
         android:id="@+id/preview_view"
@@ -18,7 +18,7 @@
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:layout_gravity="center"
-        android:orientation="vertical" >
+        android:orientation="vertical">
 
         <TextView
             android:layout_width="fill_parent"
@@ -61,7 +61,7 @@
                 android:textSize="15sp"
                 android:textStyle="bold" />
         </LinearLayout> -->
-        
+
     </RelativeLayout>
 
 </FrameLayout>

@@ -8,7 +8,7 @@
     android:layout_marginRight="30dip"
     android:layout_marginTop="60dip"
     android:background="@drawable/txt_sharp"
-    android:orientation="vertical" >
+    android:orientation="vertical">
 
     <TextView
         android:id="@+id/textView1"
@@ -38,7 +38,7 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginBottom="20dip"
         android:layout_marginTop="30dip"
-        android:gravity="center_horizontal" >
+        android:gravity="center_horizontal">
 
         <Button
             android:id="@+id/shh_qx"

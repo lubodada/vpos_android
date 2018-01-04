@@ -4,12 +4,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#f0eff4"
-    android:orientation="vertical" >
+    android:orientation="vertical">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical" >
+        android:orientation="vertical">
 
         <TextView
             android:layout_width="match_parent"
@@ -27,7 +27,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
-        android:orientation="horizontal" >
+        android:orientation="horizontal">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -35,7 +35,7 @@
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
             android:layout_weight="1"
-            android:orientation="vertical" >
+            android:orientation="vertical">
 
             <Button
                 android:id="@+id/starttime"
@@ -79,7 +79,7 @@
             android:layout_gravity="center_vertical"
             android:layout_marginRight="5dp"
             android:layout_weight="2"
-            android:orientation="vertical" >
+            android:orientation="vertical">
 
             <Button
                 android:id="@+id/query_OrderDate"
@@ -117,12 +117,12 @@
                 android:textSize="15dp" />
         </LinearLayout>
     </LinearLayout>
-	<!-- 各支付类型金额统计表格 -->
+    <!-- 各支付类型金额统计表格 -->
     <LinearLayout
         android:id="@+id/ll_ordersum"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical" 
+        android:orientation="vertical"
         android:visibility="gone"
         android:layout_marginTop="10dp">
 
@@ -132,7 +132,7 @@
             android:layout_marginTop="15dp"
             android:layout_weight="1"
             android:orientation="horizontal"
-            android:showDividers="middle" 
+            android:showDividers="middle"
             android:padding="5dp"
             android:background="#189ad6">
 
@@ -174,7 +174,7 @@
             android:layout_height="0dp"
             android:layout_weight="1"
             android:orientation="horizontal"
-            android:showDividers="middle" 
+            android:showDividers="middle"
             android:padding="7dp"
             android:background="#add8e6">
 
@@ -208,7 +208,7 @@
                 android:textColor="#000000"
                 android:textSize="18sp" />
         </LinearLayout>
-        
+
         <!-- 余额 -->
 
         <LinearLayout
@@ -216,7 +216,7 @@
             android:layout_height="0dp"
             android:layout_weight="1"
             android:orientation="horizontal"
-            android:showDividers="middle" 
+            android:showDividers="middle"
             android:padding="7dp"
             android:background="#d1eeee">
 
@@ -257,7 +257,7 @@
             android:layout_height="0dp"
             android:layout_weight="1"
             android:orientation="horizontal"
-            android:showDividers="middle" 
+            android:showDividers="middle"
             android:padding="7dp"
             android:background="#add8e6">
 
@@ -298,7 +298,7 @@
             android:layout_height="0dp"
             android:layout_weight="1"
             android:orientation="horizontal"
-            android:showDividers="middle" 
+            android:showDividers="middle"
             android:padding="7dp"
             android:background="#d1eeee">
 
@@ -339,7 +339,7 @@
             android:layout_height="0dp"
             android:layout_weight="1"
             android:orientation="horizontal"
-            android:showDividers="middle" 
+            android:showDividers="middle"
             android:padding="7dp"
             android:background="#add8e6">
 
@@ -380,7 +380,7 @@
             android:layout_height="0dp"
             android:layout_weight="1"
             android:orientation="horizontal"
-            android:showDividers="middle" 
+            android:showDividers="middle"
             android:padding="7dp"
             android:background="#d1eeee">
 
@@ -421,7 +421,7 @@
             android:layout_height="0dp"
             android:layout_weight="1"
             android:orientation="horizontal"
-            android:showDividers="middle" 
+            android:showDividers="middle"
             android:padding="7dp"
             android:background="#add8e6">
 
@@ -455,17 +455,16 @@
         android:id="@+id/lv"
         android:layout_width="match_parent"
         android:layout_height="0dip"
-        android:layout_weight="3" >
-    </ListView>
+        android:layout_weight="3"></ListView>
 
-     <LinearLayout
-         android:id="@+id/ll_btn"
-         android:layout_width="match_parent"
-         android:layout_height="0dip"
-         android:layout_weight="0.34"
-         android:gravity="center_horizontal"
-         android:orientation="horizontal" 
-         android:layout_marginBottom="1dp">
+    <LinearLayout
+        android:id="@+id/ll_btn"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="0.34"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:layout_marginBottom="1dp">
 
         <Button
             android:id="@+id/leftButton"

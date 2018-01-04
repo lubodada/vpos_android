@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="cloudposSDKInterface_en">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/cloudposSDKInterface_en.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

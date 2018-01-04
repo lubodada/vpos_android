@@ -7,7 +7,7 @@ import android.os.Handler;
 import android.os.Message;
 
 public class MagReadService {
-    
+
     public final static int MESSAGE_OPEN_MAG = 1;
     public final static int MESSAGE_CHECK_FAILE = 2;
     public final static int MESSAGE_READ_MAG = 3;
@@ -17,21 +17,21 @@ public class MagReadService {
     public final static String CARD_TRACK2 = "track2";
     public final static String CARD_TRACK3 = "track3";
     public final static String CARD_VALIDTIME = "validtime";
-    
+
     private Context mContext;
     private Handler mHandler;
     private MagManager magManager;
     private MagReaderThread magReaderThread;
-    private static final int DEFAULT_TAG =1;
+    private static final int DEFAULT_TAG = 1;
     private byte[] magBuffer = new byte[1024];
-    
+
     public MagReadService(Context context, Handler handler) {
         mHandler = handler;
         mContext = context;
         magManager = new MagManager();
-        
+
     }
-    
+
     // 从字节数组到十六进制字符串转换
     public static String Bytes2HexString(byte[] b) {
         String ret = "";
@@ -47,30 +47,30 @@ public class MagReadService {
         }
         return ret;
     }
-    
+
     public synchronized void start() {
-        
-        if(magReaderThread != null) {
+
+        if (magReaderThread != null) {
             magReaderThread.stopMagReader();
             magReaderThread = null;
         }
         magReaderThread = new MagReaderThread("reader--" + DEFAULT_TAG);
         magReaderThread.start();
     }
-    
+
     public synchronized void stop() {
-        if(magManager != null) {
+        if (magManager != null) {
             magManager.close();
             //magManager = null;
         }
-        if(magReaderThread != null) {
+        if (magReaderThread != null) {
             magReaderThread.stopMagReader();
             magReaderThread = null;
         }
-        
-        
+
+
     }
-    
+
     private class MagReaderThread extends Thread {
         private boolean running = true;
 
@@ -137,7 +137,7 @@ public class MagReadService {
                 } catch (Exception e) {
                 }
             }
-           
+
         }
     }
 }

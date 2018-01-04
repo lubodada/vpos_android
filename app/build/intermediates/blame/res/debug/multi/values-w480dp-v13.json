@@ -11,13 +11,13 @@
                     "endOffset": 112
                 },
                 "from": {
-                    "file": "C:\\Users\\Administrator\\.android\\build-cache\\7a75df3497e219a93a33d15ceab3b4ee1c6c6c19\\output\\res\\values-w480dp\\values-w480dp.xml",
+                    "file": "C:\\Users\\Administrator\\.android\\build-cache\\42d4ce1b0e4036738c2c58f5936e3d8b5ab423e5\\output\\res\\values-w480dp-v13\\values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
-                        "startOffset": 289,
+                        "startOffset": 278,
                         "endColumn": 61,
-                        "endOffset": 346
+                        "endOffset": 335
                     }
                 }
             },
@@ -30,13 +30,13 @@
                     "endOffset": 184
                 },
                 "from": {
-                    "file": "C:\\Users\\Administrator\\.android\\build-cache\\7a75df3497e219a93a33d15ceab3b4ee1c6c6c19\\output\\res\\values-w480dp\\values-w480dp.xml",
+                    "file": "C:\\Users\\Administrator\\.android\\build-cache\\42d4ce1b0e4036738c2c58f5936e3d8b5ab423e5\\output\\res\\values-w480dp-v13\\values.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
-                        "startOffset": 586,
+                        "startOffset": 564,
                         "endColumn": 71,
-                        "endOffset": 653
+                        "endOffset": 631
                     }
                 }
             }

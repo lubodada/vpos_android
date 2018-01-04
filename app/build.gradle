@@ -1,7 +1,7 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 21
+    compileSdkVersion 22
     buildToolsVersion '25.0.0'
     aaptOptions.cruncherEnabled = false
     aaptOptions.useNewCruncher = false
@@ -13,8 +13,8 @@ android {
 
     defaultConfig {
         applicationId "com.cnyssj.pos"
-        minSdkVersion 14
-        targetSdkVersion 21
+        minSdkVersion 17
+        targetSdkVersion 22
         multiDexEnabled true
     }
 
@@ -24,11 +24,17 @@ android {
             proguardFiles 'proguard.cfg'
         }
     }
+    /*useLibrary  'org.apache.http.legacy'*/
 }
 
 dependencies {
-    compile 'com.android.support:support-v4:21.0.0'
-    //    compile 'com.android.support:appcompat-v7:21.0.0'
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    /*compile 'com.android.support:support-v4:25.1.0'
+                        compile 'com.android.support:appcompat-v7:22.0.0'*/
+    compile('com.android.support:appcompat-v7:22.0.0') {
+        exclude module: 'support-v4'
+    }
     compile 'com.google.code.gson:gson:2.2.4'
     compile files('libs/bw_pos_sdk2.0.18.jar')
     compile files('libs/codec.jar')
@@ -48,6 +54,11 @@ dependencies {
     compile files('libs/zbar.jar')
     compile 'com.journeyapps:zxing-android-embedded:3.5.0'
     compile 'com.google.zxing:core:3.3.0'
+    compile files('libs/cloudpossdkinterface.jar')
+    compile files('libs/cloudposSDKInterface_en.jar')
+    compile files('libs/cloudpossdkinterfaceextension.jar')
+    compile files('libs/allutils.jar')
+    compile files('libs/androidmvc.jar')
 }
 
 

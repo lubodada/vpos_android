@@ -15,6 +15,7 @@ import net.sourceforge.zbar.Image;
 import net.sourceforge.zbar.ImageScanner;
 import net.sourceforge.zbar.Symbol;
 import net.sourceforge.zbar.SymbolSet;
+
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.hardware.Camera;
@@ -33,7 +34,9 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.cnyssj.pos.R;
+import com.jhj.Agreement.ZYB.SharedPreferences_util;
 import com.ven.pos.ITitleBarLeftClick;
+import com.ven.pos.Payment.PaymentMainActivity;
 import com.ven.pos.TitleBar;
 import com.ven.pos.Payment.ConsumeListView;
 import com.ven.pos.Payment.PaymentCashierMainAct;
@@ -41,306 +44,318 @@ import com.ven.pos.Payment.ShopItem;
 import com.ven.pos.Payment.ShopItemMgr;
 import com.ven.pos.Util.BaseActivity;
 import com.ven.pos.Util.PlaySoundPool;
+import com.ven.pos.Util.Util_Screen;
 
 /* Import ZBar Class files */
 
 public class ShopCameraActivity extends BaseActivity implements OnClickListener {
 
-	private static ShopCameraActivity shopCameraActivity;
+    private static ShopCameraActivity shopCameraActivity;
 
-	private Camera mCamera;
-	private CameraPreview mPreview;
-	private Handler autoFocusHandler;
-	private boolean canCamera = true;
-	private PlaySoundPool playSoundPool;
-	private TextView scanText;
-	private TextView scanShopText;
-	private EditText shop_item_amount_edit;
-	private TextView priceText;
-	private TextView all_priceText;
-	private Button plusBtn;
-	private Button minusBtn;
-	// Button scanButton;
+    private Camera mCamera;
+    private CameraPreview mPreview;
+    private Handler autoFocusHandler;
+    private boolean canCamera = true;
+    private PlaySoundPool playSoundPool;
+    private TextView scanText;
+    private TextView scanShopText;
+    private EditText shop_item_amount_edit;
+    private TextView priceText;
+    private TextView all_priceText;
+    private Button plusBtn;
+    private Button minusBtn;
+    // Button scanButton;
 
-	ImageScanner scanner;
-	ShopItem item;
-	private boolean barcodeScanned = false;
-	private boolean previewing = true;
-	static {
-		System.loadLibrary("iconv");
-	}
+    ImageScanner scanner;
+    ShopItem item;
+    private boolean barcodeScanned = false;
+    private boolean previewing = true;
 
-	private class ScanEnd implements ITitleBarLeftClick {
-		public void click() {
-			// Intent intent = new Intent(ShopCameraActivity.this,
-			// ShopCameraActivity.class);
+    SharedPreferences_util su = new SharedPreferences_util();
+    boolean isLandScreen;
 
-			shopCameraActivity.onAddItemIntoList();
-			shopCameraActivity.finish();
+    static {
+        System.loadLibrary("iconv");
+    }
 
-			// startActivity(intent);
-		}
-	}
+    private class ScanEnd implements ITitleBarLeftClick {
+        public void click() {
+            // Intent intent = new Intent(ShopCameraActivity.this,
+            // ShopCameraActivity.class);
 
-	public void onCreate(Bundle savedInstanceState) {
-		super.onCreate(savedInstanceState);
-		TitleBar.setTitleBar(this, "", "商品扫码", "关闭", new ScanEnd());
-		setContentView(R.layout.shop_qcode_main);
-		shopCameraActivity = this;
+            shopCameraActivity.onAddItemIntoList();
+            shopCameraActivity.finish();
 
-		try {
-			setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
+            // startActivity(intent);
+        }
+    }
 
-			autoFocusHandler = new Handler();
-			mCamera = getCameraInstance();
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        isLandScreen = su.getPrefboolean(ShopCameraActivity.this, "isLandScreen", false);
+        if (isLandScreen)
+            Util_Screen.screenToFullOrLand(this, true, isLandScreen);
+        TitleBar.setTitleBar(this, "", "商品扫码", "关闭", new ScanEnd());
+        setContentView(R.layout.shop_qcode_main);
+        shopCameraActivity = this;
 
-			scanner = new ImageScanner();
-			scanner.setConfig(0, Config.X_DENSITY, 3);
-			scanner.setConfig(0, Config.Y_DENSITY, 3);
+        try {
+            /*setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);*/
 
-			mPreview = new CameraPreview(this, mCamera, previewCb, autoFocusCB);
-			FrameLayout preview = (FrameLayout) findViewById(R.id.cameraPreview);
-			preview.addView(mPreview);
+            autoFocusHandler = new Handler();
+            mCamera = getCameraInstance();
 
-			scanText = (TextView) findViewById(R.id.scanText);
-			// scanText.setText(R.string.msg_default_status);
-			scanText.setText("");
+            scanner = new ImageScanner();
+            scanner.setConfig(0, Config.X_DENSITY, 3);
+            scanner.setConfig(0, Config.Y_DENSITY, 3);
 
-			scanShopText = (TextView) findViewById(R.id.scanShopText);
-			scanShopText.setText("");
+            mPreview = new CameraPreview(this, mCamera, previewCb, autoFocusCB);
+            FrameLayout preview = (FrameLayout) findViewById(R.id.cameraPreview);
+            preview.addView(mPreview);
 
-			priceText = (TextView) findViewById(R.id.priceText);
-			priceText.setText("");
+            scanText = (TextView) findViewById(R.id.scanText);
+            // scanText.setText(R.string.msg_default_status);
+            scanText.setText("");
 
-			all_priceText = (TextView) findViewById(R.id.all_priceText);
-			all_priceText.setText("***");
+            scanShopText = (TextView) findViewById(R.id.scanShopText);
+            scanShopText.setText("");
 
-			shop_item_amount_edit = (EditText) findViewById(R.id.shop_item_amount_edit);
-			shop_item_amount_edit.setText("0");
-			shop_item_amount_edit.setOnClickListener(this);
+            priceText = (TextView) findViewById(R.id.priceText);
+            priceText.setText("");
 
-			plusBtn = (Button) findViewById(R.id.shop_item_amount_plus);
-			plusBtn.setOnClickListener(this);
+            all_priceText = (TextView) findViewById(R.id.all_priceText);
+            all_priceText.setText("***");
 
-			minusBtn = (Button) findViewById(R.id.shop_item_amount_minus);
-			minusBtn.setOnClickListener(this);
+            shop_item_amount_edit = (EditText) findViewById(R.id.shop_item_amount_edit);
+            shop_item_amount_edit.setText("0");
+            shop_item_amount_edit.setOnClickListener(this);
 
-			playSoundPool = new PlaySoundPool(getApplicationContext());
-			playSoundPool.loadSfx(R.raw.beep, 1);
-		} catch (Exception ex) {
-			ex.printStackTrace();
-			Toast.makeText(this, "扫描二维码错误，请检查摄像头是否正常", Toast.LENGTH_LONG);
-		}
+            plusBtn = (Button) findViewById(R.id.shop_item_amount_plus);
+            plusBtn.setOnClickListener(this);
 
-	}
+            minusBtn = (Button) findViewById(R.id.shop_item_amount_minus);
+            minusBtn.setOnClickListener(this);
 
-	public void onPause() {
-		super.onPause();
-		releaseCamera();
-	}
+            playSoundPool = new PlaySoundPool(getApplicationContext());
+            playSoundPool.loadSfx(R.raw.beep, 1);
+        } catch (Exception ex) {
+            ex.printStackTrace();
+            Toast.makeText(this, "扫描二维码错误，请检查摄像头是否正常", Toast.LENGTH_LONG);
+        }
 
-	public static Camera getCameraInstance() {
-		Camera c = null;
-		try {
-			c = Camera.open();
-		} catch (Exception e) {
-		}
-		return c;
-	}
+    }
 
-	private void releaseCamera() {
-		if (mCamera != null) {
-			previewing = false;
-			mCamera.setPreviewCallback(null);
-			mCamera.release();
-			mCamera = null;
-		}
-	}
+    public void onPause() {
+        super.onPause();
+        releaseCamera();
+    }
 
-	private Runnable doAutoFocus = new Runnable() {
-		public void run() {
-			if (previewing)
-				mCamera.autoFocus(autoFocusCB);
-		}
-	};
+    public static Camera getCameraInstance() {
+        Camera c = null;
+        try {
+            c = Camera.open(0);
+        } catch (Exception e) {
+        }
+        return c;
+    }
 
-	@SuppressWarnings("unused")
-	private void QuitTask(final int scanType, final String resultString) {
-		Intent intent = new Intent();
+    private void releaseCamera() {
+        if (mCamera != null) {
+            previewing = false;
+            mCamera.setPreviewCallback(null);
+            mCamera.release();
+            mCamera = null;
+        }
+    }
 
-		setResult(RESULT_OK, intent);
-		finish();
-	};
+    private Runnable doAutoFocus = new Runnable() {
+        public void run() {
+            if (previewing)
+                mCamera.autoFocus(autoFocusCB);
+        }
+    };
 
-	private void ResetCamera() {
-		canCamera = true;
-	};
+    @SuppressWarnings("unused")
+    private void QuitTask(final int scanType, final String resultString) {
+        Intent intent = new Intent();
 
-	PreviewCallback previewCb = new PreviewCallback() {
-		public void onPreviewFrame(byte[] data, Camera camera) {
+        setResult(RESULT_OK, intent);
+        finish();
+    }
 
-			if (!canCamera) {
-				return;
-			}
+    ;
 
-			Camera.Parameters parameters = camera.getParameters();
-			Size size = parameters.getPreviewSize();
+    private void ResetCamera() {
+        canCamera = true;
+    }
 
-			Image barcode = new Image(size.width, size.height, "Y800");
-			barcode.setData(data);
+    ;
 
-			int result = scanner.scanImage(barcode);
+    PreviewCallback previewCb = new PreviewCallback() {
+        public void onPreviewFrame(byte[] data, Camera camera) {
 
-			if (result != 0) {
-				// previewing = false;
-				// mCamera.setPreviewCallback(null);
-				// mCamera.stopPreview();
-				canCamera = false;
+            if (!canCamera) {
+                return;
+            }
 
-				playSoundPool.play(1, 0);
+            Camera.Parameters parameters = camera.getParameters();
+            Size size = parameters.getPreviewSize();
 
-				SymbolSet syms = scanner.getResults();
-				String rs = "";
-				for (Symbol sym : syms) {
-					rs = sym.getData();
+            Image barcode = new Image(size.width, size.height, "Y800");
+            barcode.setData(data);
 
-					barcodeScanned = true;
-				}
-				final String resultString = rs;
-				String itemNo = "";
+            int result = scanner.scanImage(barcode);
 
-				Pattern p = Pattern.compile("[0-9]*");
-				Matcher m = p.matcher(resultString);
-				if (m.matches()) {
-					itemNo = resultString;
-				} else {
-					String PRE_STR = "productsn=";
-					int start = resultString.indexOf(PRE_STR);
-					String subStr = resultString.substring(start
-							+ PRE_STR.length());
-					int end = subStr.indexOf("&");
-					itemNo = subStr.substring(0, end);
-				}
+            if (result != 0) {
+                // previewing = false;
+                // mCamera.setPreviewCallback(null);
+                // mCamera.stopPreview();
+                canCamera = false;
 
-				item = ShopItemMgr.instance().GetItem(itemNo);
-				if (item == null) {
+                playSoundPool.play(1, 0);
 
-					Toast.makeText(
-							getApplicationContext(),
-							getResources()
-									.getString(R.string.shop_item_no_find),
-							Toast.LENGTH_SHORT).show();
+                SymbolSet syms = scanner.getResults();
+                String rs = "";
+                for (Symbol sym : syms) {
+                    rs = sym.getData();
 
-				} else {
-					// 是之前扫过的商品，就加1
+                    barcodeScanned = true;
+                }
+                final String resultString = rs;
+                String itemNo = "";
 
-					String strOldItemNo = scanText.getText().toString();
+                Pattern p = Pattern.compile("[0-9]*");
+                Matcher m = p.matcher(resultString);
+                if (m.matches()) {
+                    itemNo = resultString;
+                } else {
+                    String PRE_STR = "productsn=";
+                    int start = resultString.indexOf(PRE_STR);
+                    String subStr = resultString.substring(start
+                            + PRE_STR.length());
+                    int end = subStr.indexOf("&");
+                    itemNo = subStr.substring(0, end);
+                }
 
-					if (itemNo.equals(strOldItemNo)) {
-						onIncreaseItem(itemNo);
-					} else {
+                item = ShopItemMgr.instance().GetItem(itemNo);
+                if (item == null) {
 
-						scanText.setText(item.itemProductsn);
-						scanShopText.setText(item.itemName);
-						priceText.setText((item.price).toString());
-						shop_item_amount_edit.setText("1");
-						all_priceText.setText(String.valueOf(item.price));
-						// onAddItemIntoList();
-					}
-				}
+                    Toast.makeText(
+                            getApplicationContext(),
+                            getResources()
+                                    .getString(R.string.shop_item_no_find),
+                            Toast.LENGTH_SHORT).show();
 
-				new Thread() {
-					@Override
-					public void run() {
-						try {
-							Thread.sleep(3000);
-							ResetCamera();
-						} catch (Exception e) {
-							e.printStackTrace();
-							System.out.println("thread error...");
-						}
-					}
-				}.start();
-			}
-		}
-	};
-	
-	AutoFocusCallback autoFocusCB = new AutoFocusCallback() {
-		public void onAutoFocus(boolean success, Camera camera) {
-			autoFocusHandler.postDelayed(doAutoFocus, 1000);
-		}
-	};
+                } else {
+                    // 是之前扫过的商品，就加1
 
-	public void onIncreaseItem(String strItemNo) {
-		if (item != null) {
+                    String strOldItemNo = scanText.getText().toString();
 
-			if (scanText.getText().toString().equals(strItemNo)) {
-				try {
-					String strItemAmount = shop_item_amount_edit.getText()
-							.toString();
-					int nItemAmount = Integer.parseInt(strItemAmount);
-					nItemAmount += 1;
-					if (nItemAmount > 999) {
-						return;
-					}
+                    if (itemNo.equals(strOldItemNo)) {
+                        onIncreaseItem(itemNo);
+                    } else {
 
-					shop_item_amount_edit.setText(String.valueOf(nItemAmount));
-					DecimalFormat fnum = new DecimalFormat("##0.00");
-					all_priceText.setText(fnum.format((item.price_100*nItemAmount)/ 100.0f));
+                        scanText.setText(item.itemProductsn);
+                        scanShopText.setText(item.itemName);
+                        priceText.setText((item.price).toString());
+                        shop_item_amount_edit.setText("1");
+                        all_priceText.setText(String.valueOf(item.price));
+                        // onAddItemIntoList();
+                    }
+                }
 
-				} catch (Exception ex) {
-					ex.printStackTrace();
-				}
-			}
-		}
-	}
+                new Thread() {
+                    @Override
+                    public void run() {
+                        try {
+                            Thread.sleep(3000);
+                            ResetCamera();
+                        } catch (Exception e) {
+                            e.printStackTrace();
+                            System.out.println("thread error...");
+                        }
+                    }
+                }.start();
+            }
+        }
+    };
 
-	public void onAddItemIntoList() {
-		String strOldItemNo = scanText.getText().toString();
-		ShopItem oldItem = ShopItemMgr.instance().GetItem(strOldItemNo);
-		if (!strOldItemNo.isEmpty() && oldItem != null) {
+    AutoFocusCallback autoFocusCB = new AutoFocusCallback() {
+        public void onAutoFocus(boolean success, Camera camera) {
+            autoFocusHandler.postDelayed(doAutoFocus, 1000);
+        }
+    };
 
-			int amount = Integer.parseInt(shop_item_amount_edit.getText()
-					.toString());
-			// 取到旧商品的价格
-			double price = ShopItemMgr.instance().GetItem(strOldItemNo).price_100;
-			// 商品不一致，加到列表里
-			int nTotalMoney = (int) (price * amount);
-			DecimalFormat fnum = new DecimalFormat("##0.00");
-			ConsumeListView.instance()
-					.insert(strOldItemNo, Integer.toString(amount),
-							fnum.format(nTotalMoney / 100.0f));
-			// 更新
-			Message message = new Message();
-			message.what = PaymentCashierMainAct.UpdateListMsg;
-			PaymentCashierMainAct.context.updateList.sendMessage(message);
-		}
-	}
+    public void onIncreaseItem(String strItemNo) {
+        if (item != null) {
 
-	// ID识别商品
-	@Override
-	public void onClick(View v) {
-		// TODO Auto-generated method stub
-		if (v.getId() == plusBtn.getId()) {
-			onIncreaseItem(scanText.getText().toString());
-		} else if (v.getId() == minusBtn.getId()) {
-			try {
-				String strItemAmount = shop_item_amount_edit.getText()
-						.toString();
-				int nItemAmount = Integer.parseInt(strItemAmount);
-				nItemAmount -= 1;
+            if (scanText.getText().toString().equals(strItemNo)) {
+                try {
+                    String strItemAmount = shop_item_amount_edit.getText()
+                            .toString();
+                    int nItemAmount = Integer.parseInt(strItemAmount);
+                    nItemAmount += 1;
+                    if (nItemAmount > 999) {
+                        return;
+                    }
 
-				if (nItemAmount < 0) {
-					return;
-				}
+                    shop_item_amount_edit.setText(String.valueOf(nItemAmount));
+                    DecimalFormat fnum = new DecimalFormat("##0.00");
+                    all_priceText.setText(fnum.format((item.price_100 * nItemAmount) / 100.0f));
 
-				shop_item_amount_edit.setText(String.valueOf(nItemAmount));
-				DecimalFormat fnum = new DecimalFormat("##0.00");
-				all_priceText.setText(fnum.format((item.price_100*nItemAmount)/ 100.0f));
+                } catch (Exception ex) {
+                    ex.printStackTrace();
+                }
+            }
+        }
+    }
 
-			} catch (Exception ex) {
-				ex.printStackTrace();
-			}
-		}
-	}
+    public void onAddItemIntoList() {
+        String strOldItemNo = scanText.getText().toString();
+        ShopItem oldItem = ShopItemMgr.instance().GetItem(strOldItemNo);
+        if (!strOldItemNo.isEmpty() && oldItem != null) {
+
+            int amount = Integer.parseInt(shop_item_amount_edit.getText()
+                    .toString());
+            // 取到旧商品的价格
+            double price = ShopItemMgr.instance().GetItem(strOldItemNo).price_100;
+            // 商品不一致，加到列表里
+            int nTotalMoney = (int) (price * amount);
+            DecimalFormat fnum = new DecimalFormat("##0.00");
+            ConsumeListView.instance()
+                    .insert(strOldItemNo, Integer.toString(amount),
+                            fnum.format(nTotalMoney / 100.0f));
+            // 更新
+            Message message = new Message();
+            message.what = PaymentCashierMainAct.UpdateListMsg;
+            PaymentCashierMainAct.context.updateList.sendMessage(message);
+        }
+    }
+
+    // ID识别商品
+    @Override
+    public void onClick(View v) {
+        // TODO Auto-generated method stub
+        if (v.getId() == plusBtn.getId()) {
+            onIncreaseItem(scanText.getText().toString());
+        } else if (v.getId() == minusBtn.getId()) {
+            try {
+                String strItemAmount = shop_item_amount_edit.getText()
+                        .toString();
+                int nItemAmount = Integer.parseInt(strItemAmount);
+                nItemAmount -= 1;
+
+                if (nItemAmount < 0) {
+                    return;
+                }
+
+                shop_item_amount_edit.setText(String.valueOf(nItemAmount));
+                DecimalFormat fnum = new DecimalFormat("##0.00");
+                all_priceText.setText(fnum.format((item.price_100 * nItemAmount) / 100.0f));
+
+            } catch (Exception ex) {
+                ex.printStackTrace();
+            }
+        }
+    }
 }

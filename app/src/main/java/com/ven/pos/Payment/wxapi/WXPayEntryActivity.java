@@ -16,42 +16,42 @@ import com.ven.pos.Util.BaseActivity;
 
 public class WXPayEntryActivity extends BaseActivity implements IWXAPIEventHandler {
 
-	private static final String TAG = "MicroMsg.SDKSample.WXPayEntryActivity";
+    private static final String TAG = "MicroMsg.SDKSample.WXPayEntryActivity";
 
-	private IWXAPI api;
+    private IWXAPI api;
 
-	@Override
-	public void onCreate(Bundle savedInstanceState) {
-		super.onCreate(savedInstanceState);
-		setContentView(R.layout.pay_result);
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.pay_result);
 
-		api = WXAPIFactory.createWXAPI(this,
-				GlobalContant.instance().wxConfig.APP_ID);
+        api = WXAPIFactory.createWXAPI(this,
+                GlobalContant.instance().wxConfig.APP_ID);
 
-		api.handleIntent(getIntent(), this);
-	}
+        api.handleIntent(getIntent(), this);
+    }
 
-	@Override
-	protected void onNewIntent(Intent intent) {
-		super.onNewIntent(intent);
-		setIntent(intent);
-		api.handleIntent(intent, this);
-	}
+    @Override
+    protected void onNewIntent(Intent intent) {
+        super.onNewIntent(intent);
+        setIntent(intent);
+        api.handleIntent(intent, this);
+    }
 
-	@Override
-	public void onReq(BaseReq req) {
-	}
+    @Override
+    public void onReq(BaseReq req) {
+    }
 
-	@Override
-	public void onResp(BaseResp resp) {
-		Log.d(TAG, "onPayFinish, errCode = " + resp.errCode);
+    @Override
+    public void onResp(BaseResp resp) {
+        Log.d(TAG, "onPayFinish, errCode = " + resp.errCode);
 
-		if (resp.getType() == ConstantsAPI.COMMAND_PAY_BY_WX) {
-			// AlertDialog.Builder builder = new AlertDialog.Builder(this);
-			// builder.setTitle(R.string.app_tip);
-			// builder.setMessage(getString(R.string.pay_result_callback_msg,
-			// resp.errStr +";code=" + String.valueOf(resp.errCode)));
-			// builder.show();
-		}
-	}
+        if (resp.getType() == ConstantsAPI.COMMAND_PAY_BY_WX) {
+            // AlertDialog.Builder builder = new AlertDialog.Builder(this);
+            // builder.setTitle(R.string.app_tip);
+            // builder.setMessage(getString(R.string.pay_result_callback_msg,
+            // resp.errStr +";code=" + String.valueOf(resp.errCode)));
+            // builder.show();
+        }
+    }
 }

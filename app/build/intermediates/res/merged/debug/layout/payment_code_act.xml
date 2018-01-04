@@ -3,7 +3,7 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:background="#ffffffff"
-    android:keepScreenOn="true" >
+    android:keepScreenOn="true">
 
     <LinearLayout
         android:id="@+id/money_ll"
@@ -12,7 +12,7 @@
         android:layout_above="@+id/code_img_ll"
         android:background="@color/pay_bg"
         android:gravity="center"
-        android:orientation="horizontal" >
+        android:orientation="horizontal">
 
         <TextView
             style="@style/LargeText"
@@ -42,7 +42,7 @@
         android:layout_centerVertical="true"
         android:layout_marginTop="1.0dip"
         android:background="@color/white"
-        android:orientation="vertical" >
+        android:orientation="vertical">
 
         <!-- <Button android:layout_gravity="center" android:id="@+id/code_img" android:background="@android:color/transparent" android:layout_width="250.0dip" android:layout_height="250.0dip" style="@style/LargeText" /> -->
 
@@ -66,8 +66,7 @@
         android:layout_marginTop="1.0dip"
         android:background="@color/white"
         android:orientation="vertical"
-        android:visibility="gone"
-         >
+        android:visibility="gone">
 
         <LinearLayout
             android:layout_width="fill_parent"
@@ -75,7 +74,7 @@
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
             android:layout_marginTop="80dp"
-            android:orientation="horizontal" 
+            android:orientation="horizontal"
             android:visibility="invisible">
 
             <TextView
@@ -100,7 +99,7 @@
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
             android:layout_marginTop="20dp"
-            android:orientation="horizontal" >
+            android:orientation="horizontal">
 
             <TextView
                 android:layout_width="100dp"
@@ -128,9 +127,9 @@
             android:layout_marginTop="20dp"
             android:layout_weight="0.31"
             android:background="#ff33f3f3"
-            android:orientation="horizontal" >
-            
-          
+            android:orientation="horizontal">
+
+
             <TextView
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
@@ -138,7 +137,7 @@
                 android:text="确认支付"
                 android:textColor="#ff000000"
                 android:textSize="16sp" />
-            
+
         </LinearLayout>
     </LinearLayout>
 

@@ -20,8 +20,7 @@
         android:layout_marginTop="5dp"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
-        android:layout_marginBottom="5dp"
-        >
+        android:layout_marginBottom="5dp">
 
         <ImageView
             android:layout_width="40dp"
@@ -30,8 +29,7 @@
             android:id="@+id/good_image"
             android:scaleType="fitXY"
             android:adjustViewBounds="true"
-            android:layout_gravity="center"
-            />
+            android:layout_gravity="center" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -55,8 +53,7 @@
                     android:id="@+id/good_name"
                     android:gravity="left|top"
                     android:textColor="#000000"
-                    android:textSize="12sp"
-                     />
+                    android:textSize="12sp" />
 
             </LinearLayout>
 
@@ -73,7 +70,7 @@
                     android:text="单价："
                     android:textColor="#000000"
                     android:gravity="center"
-                    android:textSize="14sp"/>
+                    android:textSize="14sp" />
 
                 <TextView
                     android:id="@+id/good_price"
@@ -81,15 +78,14 @@
                     android:layout_height="match_parent"
                     android:hint="0.00"
                     android:gravity="center_vertical"
-                    android:textSize="18sp"
-                    />
+                    android:textSize="18sp" />
 
             </LinearLayout>
-            
-             <LinearLayout
+
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-   
+
                 android:layout_gravity="center"
                 android:orientation="horizontal">
 
@@ -100,31 +96,30 @@
                     android:text="数量："
                     android:textColor="#000000"
                     android:gravity="center"
-                    android:textSize="14sp"/>
-                
+                    android:textSize="14sp" />
+
                 <ImageButton
                     android:id="@+id/good_reduce_ib"
                     android:layout_width="40dp"
                     android:layout_height="match_parent"
                     android:scaleType="fitXY"
                     android:background="@drawable/fc_btn_sub" />
-   
+
                 <EditText
                     android:id="@+id/good_amount_ev"
                     android:layout_width="80dp"
                     android:layout_height="match_parent"
-                	android:numeric="integer"
-                	android:maxLength="3"
+                    android:numeric="integer"
+                    android:maxLength="3"
                     android:gravity="center_vertical"
-                    android:textSize="18sp"
-                    />
-                
-                 <ImageButton
-                     android:id="@+id/good_add_ib"
-                     android:layout_width="40dp"
-                     android:layout_height="match_parent"
-                     android:scaleType="fitXY"
-                     android:background="@drawable/fc_btn_add" />
+                    android:textSize="18sp" />
+
+                <ImageButton
+                    android:id="@+id/good_add_ib"
+                    android:layout_width="40dp"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:background="@drawable/fc_btn_add" />
 
             </LinearLayout>
 

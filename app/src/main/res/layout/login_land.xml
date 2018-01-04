@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:myspace="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tableLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/red_background"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        myspace:layout_gravity="center_horizontal"
+        myspace:layout_marginTop="@dimen/login_top_256px"
+        android:src="@drawable/yi_pos_logo" />
+
+    <LinearLayout
+        android:id="@+id/account_linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/login_mid_276px"
+        myspace:layout_gravity="center"
+        android:background="@drawable/login_input_login">
+
+        <EditText
+            android:id="@+id/login_account_edt"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            myspace:layout_marginLeft="@dimen/login_edit_left_181_1px"
+            android:digits="0123456789"
+            android:hint="请输入账号"
+            android:inputType="text"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:textColor="@color/base_text"
+            android:textSize="@dimen/font_size_sa"
+            myspace:background="@null"
+            myspace:minEms="11" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/password_linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/line_interval"
+        myspace:layout_gravity="center"
+        android:background="@drawable/login_input_mima">
+
+        <EditText
+            android:id="@+id/androidclient_login_pwd_edt"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            myspace:layout_marginLeft="@dimen/login_edit_left_181_1px"
+            myspace:layout_weight="0.62"
+            android:background="@null"
+            android:digits="0123456789"
+            android:hint="请输入密码"
+            android:inputType="textPassword"
+            android:password="true"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:textColor="@color/base_text"
+            android:textSize="@dimen/font_size_sa"
+            myspace:minEms="6" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        myspace:layout_marginTop="@dimen/login_98px"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/rember_linearLayout"
+            android:layout_width="270px"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/login_remberpassword_chx"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:button="@drawable/login_check"
+                android:checked="true"
+                android:text="记住密码"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font_size_sa"
+                myspace:background="@null" />
+
+            <CheckBox
+                android:id="@+id/login_autoLogin_chx"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:button="@drawable/login_check"
+                android:checked="true"
+                android:text="自动登陆"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font_size_sa" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/androidclient_login_login_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        myspace:layout_gravity="center"
+        myspace:layout_marginTop="@dimen/login_top_250px"
+        android:background="@drawable/login_btn_login" />
+
+</LinearLayout>

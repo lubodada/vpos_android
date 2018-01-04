@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:background="@color/base_background"
     android:orientation="vertical"
-    tools:context="${relativePackage}.${activityClass}" >
+    tools:context="${relativePackage}.${activityClass}">
 
     <Button
         android:id="@+id/storage_but"
@@ -17,8 +17,8 @@
         android:textSize="30dip"
         android:textColor="#272727"
         android:background="@anim/round_imageview_col" />
-    
-     <Button
+
+    <Button
         android:id="@+id/inventory_but"
         android:layout_width="match_parent"
         android:layout_height="100dip"
@@ -29,7 +29,8 @@
         android:textSize="30dip"
         android:textColor="#272727"
         android:background="@anim/round_imageview_grw" />
-     <Button
+
+    <Button
         android:id="@+id/peisong_but"
         android:layout_width="match_parent"
         android:layout_height="100dip"

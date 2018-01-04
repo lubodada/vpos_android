@@ -9,7 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dip"
-        android:orientation="horizontal" >
+        android:orientation="horizontal">
 
         <TextView
             android:layout_width="wrap_content"
@@ -33,7 +33,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dip"
-        android:orientation="horizontal" >
+        android:orientation="horizontal">
 
         <TextView
             android:layout_width="wrap_content"
@@ -49,8 +49,7 @@
             android:layout_marginRight="20dip"
             android:background="#ffe332"
             android:digits="1234567890."
-            android:inputType="numberDecimal" >
-        </EditText>
+            android:inputType="numberDecimal"></EditText>
     </LinearLayout>
 
     <TextView
@@ -65,7 +64,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dip"
-        android:orientation="horizontal" >
+        android:orientation="horizontal">
 
         <Button
             android:id="@+id/but_invent_updata"
@@ -93,7 +92,6 @@
         android:layout_marginTop="2dip"
         android:layout_weight="0.56"
         android:gravity="center_horizontal"
-        android:orientation="horizontal" >
-    </LinearLayout>
+        android:orientation="horizontal"></LinearLayout>
 
 </LinearLayout>

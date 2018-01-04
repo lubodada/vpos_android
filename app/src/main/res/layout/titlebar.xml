@@ -3,7 +3,7 @@
     android:id="@+id/titlebar_background"
     android:layout_width="fill_parent"
     android:layout_height="50.0dip"
-    android:background="@color/titlebar_bg_new" >
+    android:background="@color/titlebar_bg_new">
 
     <Button
         android:id="@+id/btnBack"
@@ -22,7 +22,7 @@
         android:id="@+id/titlebar_text"
         android:layout_width="240dp"
         android:layout_height="fill_parent"
-        android:layout_weight = "1"
+        android:layout_weight="1"
         android:layout_toLeftOf="@+id/rimageview"
         android:layout_toRightOf="@+id/btnBack"
         android:gravity="center_vertical|center"
@@ -38,7 +38,7 @@
         android:id="@+id/rimageview"
         android:layout_width="80dp"
         android:layout_height="fill_parent"
-        android:layout_weight = "1"
+        android:layout_weight="1"
         android:layout_alignParentRight="true"
         android:layout_centerVertical="true"
         android:layout_marginRight="10.0dip"

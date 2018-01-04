@@ -4,7 +4,7 @@
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
     android:minWidth="280dip"
-    android:orientation="vertical" 
+    android:orientation="vertical"
     android:background="@null">
 
 
@@ -15,7 +15,7 @@
         android:layout_weight="1"
         android:background="@drawable/bg_middle_custom_dialog"
         android:gravity="center"
-        android:orientation="vertical" >
+        android:orientation="vertical">
 
         <DatePicker
             android:id="@+id/DatePicker"
@@ -27,7 +27,7 @@
             android:id="@+id/TimePicker"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content" />
-        
+
     </LinearLayout>
 
     <LinearLayout
@@ -39,7 +39,7 @@
         android:paddingBottom="5dip"
         android:paddingLeft="5dip"
         android:paddingRight="5dip"
-        android:paddingTop="5dip" >
+        android:paddingTop="5dip">
 
         <Button
             android:id="@+id/positiveButton"

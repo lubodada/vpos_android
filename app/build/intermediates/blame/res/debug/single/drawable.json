@@ -1,31 +1,39 @@
 [
     {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\check_off_bg.xml",
-        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\check_off_bg.xml"
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\payment_button.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\payment_button.xml"
     },
     {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rounded_shape_bottom.xml",
-        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\rounded_shape_bottom.xml"
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\check_off_bg.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\check_off_bg.xml"
     },
     {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\new_mian_view_btn_show_slidingmenu.xml",
         "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\new_mian_view_btn_show_slidingmenu.xml"
     },
     {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rounded_shape_bottom.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\rounded_shape_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\lakala_gridview_05.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\lakala_gridview_05.xml"
+    },
+    {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\corner_list_item_noclick.xml",
         "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\corner_list_item_noclick.xml"
     },
     {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\11e7fa2c4f48adf6e5b2bd788ea64be4b52e8ab2\\output\\res\\drawable\\abc_ic_menu_overflow_material.xml"
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\multiselect_checkbox.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\multiselect_checkbox.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\slidind_layout_pressure_background.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\slidind_layout_pressure_background.xml"
     },
     {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\login_password_bg.png",
         "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\login_password_bg.png"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_vector_test.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\11e7fa2c4f48adf6e5b2bd788ea64be4b52e8ab2\\output\\res\\drawable\\abc_vector_test.xml"
     },
     {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mm_title_back_btn.xml",
@@ -41,11 +49,23 @@
     },
     {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7a75df3497e219a93a33d15ceab3b4ee1c6c6c19\\output\\res\\drawable\\abc_tab_indicator_material.xml"
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\42d4ce1b0e4036738c2c58f5936e3d8b5ab423e5\\output\\res\\drawable\\abc_tab_indicator_material.xml"
     },
     {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\banner.jpg",
         "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\banner.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\login_btn_bg.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\login_btn_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_oncleck_item_num.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\button_oncleck_item_num.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_2.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\selector_2.xml"
     },
     {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\corner_list_first_item.xml",
@@ -54,6 +74,18 @@
     {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\account_bg.png",
         "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\account_bg.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\gerenshezhi.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\gerenshezhi.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_update_button_ok_bg_selector.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\umeng_update_button_ok_bg_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pay_checkox_bg.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\pay_checkox_bg.xml"
     },
     {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\corner_list_last_item.xml",
@@ -68,20 +100,36 @@
         "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\button_time.xml"
     },
     {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tagpage_button_single_bg.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\tagpage_button_single_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_press.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\selector_press.xml"
+    },
+    {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_bottom_custom_dialog.xml",
         "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\bg_bottom_custom_dialog.xml"
     },
     {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7a75df3497e219a93a33d15ceab3b4ee1c6c6c19\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\42d4ce1b0e4036738c2c58f5936e3d8b5ab423e5\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
     },
     {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7a75df3497e219a93a33d15ceab3b4ee1c6c6c19\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\42d4ce1b0e4036738c2c58f5936e3d8b5ab423e5\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_white_stroke.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\bg_white_stroke.xml"
     },
     {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\denglu.png",
         "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\denglu.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pay_checkbox_pack_bg.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\pay_checkbox_pack_bg.xml"
     },
     {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\exchange_check.png",
@@ -92,44 +140,80 @@
         "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\lakala_gridview_02.xml"
     },
     {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\corners_bg.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\corners_bg.xml"
+    },
+    {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\member_manager.png",
         "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\member_manager.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\kuaisushoukuan.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\kuaisushoukuan.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tabhost_item_line_bg.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\tabhost_item_line_bg.xml"
     },
     {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\swipelistview.xml",
         "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\swipelistview.xml"
     },
     {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7a75df3497e219a93a33d15ceab3b4ee1c6c6c19\\output\\res\\drawable\\abc_switch_thumb_material.xml"
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_update_button_cancel_bg_focused.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\umeng_update_button_cancel_bg_focused.xml"
     },
     {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\textview_bottom_link.xml",
         "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\textview_bottom_link.xml"
     },
     {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_update_button_cancel_bg_focused.xml",
-        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\umeng_update_button_cancel_bg_focused.xml"
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\42d4ce1b0e4036738c2c58f5936e3d8b5ab423e5\\output\\res\\drawable\\abc_switch_thumb_material.xml"
     },
     {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\11e7fa2c4f48adf6e5b2bd788ea64be4b52e8ab2\\output\\res\\drawable\\abc_ratingbar_small_material.xml"
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\huiyuanchongzhi.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\huiyuanchongzhi.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\42d4ce1b0e4036738c2c58f5936e3d8b5ab423e5\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\42d4ce1b0e4036738c2c58f5936e3d8b5ab423e5\\output\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pay_record.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\pay_record.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\duihuanrenzheng.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\duihuanrenzheng.png"
     },
     {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tb_munion_item_selector.xml",
         "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\tb_munion_item_selector.xml"
     },
     {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\29a7116cbccf8cd2514de3fe32ee5c373e0473a8\\output\\res\\drawable\\abc_ic_clear.xml"
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\42d4ce1b0e4036738c2c58f5936e3d8b5ab423e5\\output\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\list_selector_background_transition_holo_light.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\list_selector_background_transition_holo_light.xml"
     },
     {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\xiaofeijilu.png",
         "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\xiaofeijilu.png"
     },
     {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\11e7fa2c4f48adf6e5b2bd788ea64be4b52e8ab2\\output\\res\\drawable\\abc_ratingbar_material.xml"
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_update_wifi_disable.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\umeng_update_wifi_disable.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pay_result.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\pay_result.xml"
     },
     {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\order_manager.png",
@@ -144,8 +228,12 @@
         "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\umeng_update_button_cancel_bg_normal.xml"
     },
     {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_update_title_bg.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\umeng_update_title_bg.xml"
+    },
+    {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7a75df3497e219a93a33d15ceab3b4ee1c6c6c19\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\42d4ce1b0e4036738c2c58f5936e3d8b5ab423e5\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
     },
     {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\message.jpg",
@@ -156,440 +244,12 @@
         "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\umeng_update_button_ok_bg_normal.xml"
     },
     {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_searchview_holo_light.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\29a7116cbccf8cd2514de3fe32ee5c373e0473a8\\output\\res\\drawable\\abc_textfield_searchview_holo_light.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\payment_calculator_delete_background.xml",
-        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\payment_calculator_delete_background.xml"
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\main_background.jpg",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\main_background.jpg"
     },
     {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\recharge_record.png",
         "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\recharge_record.png"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7a75df3497e219a93a33d15ceab3b4ee1c6c6c19\\output\\res\\drawable\\abc_btn_colored_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_common_gradient_orange.xml",
-        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\umeng_common_gradient_orange.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\lakala_bg_02.xml",
-        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\lakala_bg_02.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\main_pic.png",
-        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\main_pic.png"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bbuton_info_rounded.xml",
-        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\bbuton_info_rounded.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\qq_edit_login.xml",
-        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\qq_edit_login.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mm_title_right_btn.xml",
-        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\mm_title_right_btn.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tabhost_item_bg.xml",
-        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\tabhost_item_bg.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_checkbox1.xml",
-        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\selector_checkbox1.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_ab_holo_dark.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\29a7116cbccf8cd2514de3fe32ee5c373e0473a8\\output\\res\\drawable\\abc_spinner_ab_holo_dark.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7a75df3497e219a93a33d15ceab3b4ee1c6c6c19\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tagpage_button_right_bg.xml",
-        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\tagpage_button_right_bg.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\membe_list.png",
-        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\membe_list.png"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_launcher.png",
-        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\ic_launcher.png"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\quick_pay.png",
-        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\quick_pay.png"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\listitem.xml",
-        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\listitem.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_searchview_holo_dark.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\29a7116cbccf8cd2514de3fe32ee5c373e0473a8\\output\\res\\drawable\\abc_textfield_searchview_holo_dark.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_common_gradient_red.xml",
-        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\umeng_common_gradient_red.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\key.png",
-        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\key.png"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\11e7fa2c4f48adf6e5b2bd788ea64be4b52e8ab2\\output\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rounded_shape_top.xml",
-        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\rounded_shape_top.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\index.xml",
-        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\index.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_searchview_right_holo_dark.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\29a7116cbccf8cd2514de3fe32ee5c373e0473a8\\output\\res\\drawable\\abc_textfield_searchview_right_holo_dark.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7a75df3497e219a93a33d15ceab3b4ee1c6c6c19\\output\\res\\drawable\\abc_edit_text_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rounded_green_bg.xml",
-        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\rounded_green_bg.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_update_button_ok_bg_tap.xml",
-        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\umeng_update_button_ok_bg_tap.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_bg.xml",
-        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\button_bg.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7a75df3497e219a93a33d15ceab3b4ee1c6c6c19\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_search_dropdown_dark.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\29a7116cbccf8cd2514de3fe32ee5c373e0473a8\\output\\res\\drawable\\abc_search_dropdown_dark.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\login_check_bg.xml",
-        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\login_check_bg.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bbuton_danger_rounded.xml",
-        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\bbuton_danger_rounded.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\list_bg.xml",
-        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\list_bg.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shop_pay.png",
-        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\shop_pay.png"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\register_btn_bg.xml",
-        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\register_btn_bg.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\lakala_bg_01.xml",
-        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\lakala_bg_01.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pg.xml",
-        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\pg.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\login_bg.png",
-        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\login_bg.png"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7a75df3497e219a93a33d15ceab3b4ee1c6c6c19\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_update_dialog_bg.xml",
-        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\umeng_update_dialog_bg.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tb_munion_icon.xml",
-        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\tb_munion_icon.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\complaint.png",
-        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\complaint.png"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tagpage_button_middle_bg.xml",
-        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\tagpage_button_middle_bg.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tagpage_button_left_bg.xml",
-        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\tagpage_button_left_bg.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_update_button_ok_bg_focused.xml",
-        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\umeng_update_button_ok_bg_focused.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\11e7fa2c4f48adf6e5b2bd788ea64be4b52e8ab2\\output\\res\\drawable\\abc_ic_go_search_api_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\lakala_gridview_01.xml",
-        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\lakala_gridview_01.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\11e7fa2c4f48adf6e5b2bd788ea64be4b52e8ab2\\output\\res\\drawable\\notification_bg.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_search_dropdown_light.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\29a7116cbccf8cd2514de3fe32ee5c373e0473a8\\output\\res\\drawable\\abc_search_dropdown_light.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\account.jpg",
-        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\account.jpg"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\member_charge_money_button.xml",
-        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\member_charge_money_button.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_oncleck_item.xml",
-        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\button_oncleck_item.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\member_charge.png",
-        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\member_charge.png"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\chongzhichaxun.png",
-        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\chongzhichaxun.png"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\print_icon_bg.xml",
-        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\print_icon_bg.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\color_progress.xml",
-        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\color_progress.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rounded_shape_single.xml",
-        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\rounded_shape_single.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dia_sytle.xml",
-        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\dia_sytle.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\11e7fa2c4f48adf6e5b2bd788ea64be4b52e8ab2\\output\\res\\drawable\\abc_dialog_material_background.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\11e7fa2c4f48adf6e5b2bd788ea64be4b52e8ab2\\output\\res\\drawable\\abc_ic_voice_search_api_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\wait_pay.gif",
-        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\wait_pay.gif"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rounded_half_bg.xml",
-        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\rounded_half_bg.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\corner_list_item.xml",
-        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\corner_list_item.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\radio.xml",
-        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\radio.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_ab_holo.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\29a7116cbccf8cd2514de3fe32ee5c373e0473a8\\output\\res\\drawable\\abc_tab_indicator_ab_holo.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\delete_selector.xml",
-        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\delete_selector.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\esign.bmp",
-        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\esign.bmp"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pot_background.xml",
-        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\pot_background.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector.xml",
-        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\selector.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\txt_sharp.xml",
-        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\txt_sharp.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_update_button_check_selector.xml",
-        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\umeng_update_button_check_selector.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_update_button_cancel_bg_tap.xml",
-        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\umeng_update_button_cancel_bg_tap.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\payment_button.xml",
-        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\payment_button.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\11e7fa2c4f48adf6e5b2bd788ea64be4b52e8ab2\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\lakala_gridview_05.xml",
-        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\lakala_gridview_05.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\multiselect_checkbox.xml",
-        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\multiselect_checkbox.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\11e7fa2c4f48adf6e5b2bd788ea64be4b52e8ab2\\output\\res\\drawable\\notification_bg_low.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\slidind_layout_pressure_background.xml",
-        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\slidind_layout_pressure_background.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_search_api_material.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\11e7fa2c4f48adf6e5b2bd788ea64be4b52e8ab2\\output\\res\\drawable\\abc_ic_search_api_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\11e7fa2c4f48adf6e5b2bd788ea64be4b52e8ab2\\output\\res\\drawable\\abc_ic_clear_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\login_btn_bg.xml",
-        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\login_btn_bg.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\11e7fa2c4f48adf6e5b2bd788ea64be4b52e8ab2\\output\\res\\drawable\\abc_ratingbar_indicator_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_oncleck_item_num.xml",
-        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\button_oncleck_item_num.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_2.xml",
-        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\selector_2.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pay_checkox_bg.xml",
-        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\pay_checkox_bg.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\gerenshezhi.png",
-        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\gerenshezhi.png"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_update_button_ok_bg_selector.xml",
-        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\umeng_update_button_ok_bg_selector.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tagpage_button_single_bg.xml",
-        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\tagpage_button_single_bg.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\11e7fa2c4f48adf6e5b2bd788ea64be4b52e8ab2\\output\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_press.xml",
-        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\selector_press.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_white_stroke.xml",
-        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\bg_white_stroke.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pay_checkbox_pack_bg.xml",
-        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\pay_checkbox_pack_bg.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\corners_bg.xml",
-        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\corners_bg.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\kuaisushoukuan.png",
-        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\kuaisushoukuan.png"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tabhost_item_line_bg.xml",
-        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\tabhost_item_line_bg.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\huiyuanchongzhi.png",
-        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\huiyuanchongzhi.png"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7a75df3497e219a93a33d15ceab3b4ee1c6c6c19\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7a75df3497e219a93a33d15ceab3b4ee1c6c6c19\\output\\res\\drawable\\abc_btn_radio_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pay_record.png",
-        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\pay_record.png"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\duihuanrenzheng.png",
-        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\duihuanrenzheng.png"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7a75df3497e219a93a33d15ceab3b4ee1c6c6c19\\output\\res\\drawable\\abc_btn_check_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\list_selector_background_transition_holo_light.xml",
-        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\list_selector_background_transition_holo_light.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_update_wifi_disable.png",
-        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\umeng_update_wifi_disable.png"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7a75df3497e219a93a33d15ceab3b4ee1c6c6c19\\output\\res\\drawable\\abc_seekbar_track_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pay_result.xml",
-        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\pay_result.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_update_title_bg.xml",
-        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\umeng_update_title_bg.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\main_background.jpg",
-        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\main_background.jpg"
     },
     {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shadow.xml",
@@ -600,12 +260,28 @@
         "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\corner_list_single_item.xml"
     },
     {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\payment_calculator_delete_background.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\payment_calculator_delete_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_common_gradient_orange.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\umeng_common_gradient_orange.xml"
+    },
+    {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shangjiashoufei.png",
         "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\shangjiashoufei.png"
     },
     {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\lakala_gridview_03.xml",
         "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\lakala_gridview_03.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\lakala_bg_02.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\lakala_bg_02.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\main_pic.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\main_pic.png"
     },
     {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\search_button_bg.xml",
@@ -616,20 +292,36 @@
         "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\select_icon_bg.xml"
     },
     {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bbuton_info_rounded.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\bbuton_info_rounded.xml"
+    },
+    {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\login_check.xml",
         "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\login_check.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mm_title_right_btn.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\mm_title_right_btn.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\qq_edit_login.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\qq_edit_login.xml"
     },
     {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cart_reduce.xml",
         "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\cart_reduce.xml"
     },
     {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tabhost_item_bg.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\tabhost_item_bg.xml"
+    },
+    {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\exception_dialog_tv_background.xml",
         "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\exception_dialog_tv_background.xml"
     },
     {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\date_button_bg.xml",
-        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\date_button_bg.xml"
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_checkbox1.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\selector_checkbox1.xml"
     },
     {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\select_button_bg.xml",
@@ -640,16 +332,16 @@
         "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\umeng_common_gradient_green.xml"
     },
     {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_holo_light.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\29a7116cbccf8cd2514de3fe32ee5c373e0473a8\\output\\res\\drawable\\abc_ic_clear_holo_light.xml"
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\date_button_bg.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\date_button_bg.xml"
     },
     {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7a75df3497e219a93a33d15ceab3b4ee1c6c6c19\\output\\res\\drawable\\abc_text_cursor_material.xml"
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tagpage_button_right_bg.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\tagpage_button_right_bg.xml"
     },
     {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7a75df3497e219a93a33d15ceab3b4ee1c6c6c19\\output\\res\\drawable\\abc_cab_background_top_material.xml"
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\42d4ce1b0e4036738c2c58f5936e3d8b5ab423e5\\output\\res\\drawable\\abc_cab_background_top_material.xml"
     },
     {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\memberconsume_serch.xml",
@@ -668,6 +360,18 @@
         "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\index_guide.xml"
     },
     {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\membe_list.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\membe_list.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_launcher.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\quick_pay.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\quick_pay.png"
+    },
+    {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cart_add.xml",
         "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\cart_add.xml"
     },
@@ -676,16 +380,32 @@
         "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\scan_bg.xml"
     },
     {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\listitem.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\listitem.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_common_gradient_red.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\umeng_common_gradient_red.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\key.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\key.png"
+    },
+    {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7a75df3497e219a93a33d15ceab3b4ee1c6c6c19\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\42d4ce1b0e4036738c2c58f5936e3d8b5ab423e5\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
     },
     {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tagpage_button_text.xml",
         "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\tagpage_button_text.xml"
     },
     {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\11e7fa2c4f48adf6e5b2bd788ea64be4b52e8ab2\\output\\res\\drawable\\notification_tile_bg.xml"
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rounded_shape_top.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\rounded_shape_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\index.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\index.xml"
     },
     {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pay_checkbox_point_bg.xml",
@@ -696,52 +416,120 @@
         "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\add_button_bg.xml"
     },
     {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\42d4ce1b0e4036738c2c58f5936e3d8b5ab423e5\\output\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\lakala_bg_03.xml",
         "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\lakala_bg_03.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rounded_green_bg.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\rounded_green_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_update_button_ok_bg_tap.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\umeng_update_button_ok_bg_tap.xml"
     },
     {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\gridviewitem_bg.xml",
         "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\gridviewitem_bg.xml"
     },
     {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_bg.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\button_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\42d4ce1b0e4036738c2c58f5936e3d8b5ab423e5\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bbuton_danger_rounded.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\bbuton_danger_rounded.xml"
+    },
+    {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\memberconsume_account.xml",
         "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\memberconsume_account.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\login_check_bg.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\login_check_bg.xml"
     },
     {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\topback.png",
         "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\topback.png"
     },
     {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\list_bg.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\list_bg.xml"
+    },
+    {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\qq_btn_check.xml",
         "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\qq_btn_check.xml"
     },
     {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7a75df3497e219a93a33d15ceab3b4ee1c6c6c19\\output\\res\\drawable\\abc_btn_borderless_material.xml"
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shop_pay.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\shop_pay.png"
     },
     {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rounded_shape_middle.xml",
         "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\rounded_shape_middle.xml"
     },
     {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\register_btn_bg.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\register_btn_bg.xml"
+    },
+    {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\deng.png",
         "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\deng.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\lakala_bg_01.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\lakala_bg_01.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pg.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\pg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\login_bg.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\login_bg.png"
     },
     {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_middle_custom_dialog.xml",
         "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\bg_middle_custom_dialog.xml"
     },
     {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\42d4ce1b0e4036738c2c58f5936e3d8b5ab423e5\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_update_dialog_bg.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\umeng_update_dialog_bg.xml"
+    },
+    {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\login_edittext_bg.xml",
         "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\login_edittext_bg.xml"
     },
     {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_light.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7a75df3497e219a93a33d15ceab3b4ee1c6c6c19\\output\\res\\drawable\\abc_dialog_material_background_light.xml"
-    },
-    {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\radiobtn_selector.xml",
         "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\radiobtn_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tb_munion_icon.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\tb_munion_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\complaint.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\complaint.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tagpage_button_left_bg.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\tagpage_button_left_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tagpage_button_middle_bg.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\tagpage_button_middle_bg.xml"
     },
     {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_update_button_close_bg_selector.xml",
@@ -756,24 +544,24 @@
         "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\umeng_update_button_cancel_bg_selector.xml"
     },
     {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_update_button_ok_bg_focused.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\umeng_update_button_ok_bg_focused.xml"
+    },
+    {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\report_form.png",
         "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\report_form.png"
     },
     {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7a75df3497e219a93a33d15ceab3b4ee1c6c6c19\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\42d4ce1b0e4036738c2c58f5936e3d8b5ab423e5\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
     },
     {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_full_material.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7a75df3497e219a93a33d15ceab3b4ee1c6c6c19\\output\\res\\drawable\\abc_ratingbar_full_material.xml"
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\42d4ce1b0e4036738c2c58f5936e3d8b5ab423e5\\output\\res\\drawable\\abc_ratingbar_full_material.xml"
     },
     {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\list_selector_holo_light.xml",
         "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\list_selector_holo_light.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_searchview_right_holo_light.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\29a7116cbccf8cd2514de3fe32ee5c373e0473a8\\output\\res\\drawable\\abc_textfield_searchview_right_holo_light.xml"
     },
     {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_white_btn.xml",
@@ -784,16 +572,24 @@
         "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\pg_all.xml"
     },
     {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_dark.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7a75df3497e219a93a33d15ceab3b4ee1c6c6c19\\output\\res\\drawable\\abc_dialog_material_background_dark.xml"
-    },
-    {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7a75df3497e219a93a33d15ceab3b4ee1c6c6c19\\output\\res\\drawable\\abc_textfield_search_material.xml"
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\42d4ce1b0e4036738c2c58f5936e3d8b5ab423e5\\output\\res\\drawable\\abc_textfield_search_material.xml"
     },
     {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_title_custom_dialog.xml",
         "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\bg_title_custom_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\lakala_gridview_01.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\lakala_gridview_01.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\account.jpg",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\account.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\member_charge_money_button.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\member_charge_money_button.xml"
     },
     {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\payment_calculator_confirm_background.xml",
@@ -804,24 +600,44 @@
         "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\memberconsume_delete.xml"
     },
     {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_oncleck_item.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\button_oncleck_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\member_charge.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\member_charge.png"
+    },
+    {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7a75df3497e219a93a33d15ceab3b4ee1c6c6c19\\output\\res\\drawable\\abc_item_background_holo_light.xml"
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\42d4ce1b0e4036738c2c58f5936e3d8b5ab423e5\\output\\res\\drawable\\abc_item_background_holo_light.xml"
     },
     {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_ab_holo_light.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\29a7116cbccf8cd2514de3fe32ee5c373e0473a8\\output\\res\\drawable\\abc_spinner_ab_holo_light.xml"
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\chongzhichaxun.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\chongzhichaxun.png"
     },
     {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\main_activity_bg.png",
-        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\main_activity_bg.png"
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\print_icon_bg.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\print_icon_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\color_progress.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\color_progress.xml"
     },
     {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\share_via_barcode.png",
         "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\share_via_barcode.png"
     },
     {
-        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\11e7fa2c4f48adf6e5b2bd788ea64be4b52e8ab2\\output\\res\\drawable\\notification_icon_background.xml"
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\main_activity_bg.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\main_activity_bg.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rounded_shape_single.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\rounded_shape_single.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dia_sytle.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\dia_sytle.xml"
     },
     {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\member_query_button.xml",
@@ -836,8 +652,28 @@
         "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\payment_titlebar_leftbutton_background.xml"
     },
     {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\wait_pay.gif",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\wait_pay.gif"
+    },
+    {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\divider_line_shape.xml",
         "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\divider_line_shape.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\corner_list_item.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\corner_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\radio.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\radio.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rounded_half_bg.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\rounded_half_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\delete_selector.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\delete_selector.xml"
     },
     {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\orders_activity.xml",
@@ -848,6 +684,22 @@
         "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\pay_conupon.xml"
     },
     {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\esign.bmp",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\esign.bmp"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pot_background.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\pot_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\txt_sharp.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\txt_sharp.xml"
+    },
+    {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\check_on_bg.xml",
         "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\check_on_bg.xml"
     },
@@ -856,7 +708,15 @@
         "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\payment_checkbox.xml"
     },
     {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_update_button_check_selector.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\umeng_update_button_check_selector.xml"
+    },
+    {
         "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\text_enable.xml",
         "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\text_enable.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_update_button_cancel_bg_tap.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\demo\\vpos_android\\app\\src\\main\\res\\drawable\\umeng_update_button_cancel_bg_tap.xml"
     }
 ]

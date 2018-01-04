@@ -4,24 +4,24 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:background="@color/bg_gray"
-    android:orientation="vertical" >
+    android:orientation="vertical">
 
     <ScrollView
         android:layout_width="fill_parent"
         android:layout_height="match_parent"
         android:fadingEdge="vertical"
-        android:scrollbars="vertical" >
+        android:scrollbars="vertical">
 
         <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:orientation="horizontal" >
+            android:orientation="horizontal">
 
             <LinearLayout
                 android:id="@+id/layout_member_info"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:orientation="vertical" >
+                android:orientation="vertical">
 
                 <LinearLayout
                     android:layout_width="fill_parent"
@@ -29,7 +29,7 @@
                     android:layout_marginLeft="@dimen/min_interval_40"
                     android:layout_marginRight="@dimen/min_interval_40"
                     android:layout_marginTop="@dimen/person_center_exit_login_140"
-                    android:orientation="horizontal" >
+                    android:orientation="horizontal">
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -37,15 +37,15 @@
                         android:gravity="center"
                         android:layout_gravity="center_vertical"
                         android:text="服务项:"
-                       android:textColor="@color/nomal_font_color"
-            android:textSize="@dimen/font_size_mf" />
+                        android:textColor="@color/nomal_font_color"
+                        android:textSize="@dimen/font_size_mf" />
 
                     <Spinner
                         android:id="@+id/service_list_spinner"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" 
+                        android:layout_height="wrap_content"
                         android:layout_marginLeft="@dimen/min_interval_40"
-                        android:background="@drawable/fc_input"/>
+                        android:background="@drawable/fc_input" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -54,23 +54,22 @@
                     android:layout_marginLeft="@dimen/min_interval_40"
                     android:layout_marginRight="@dimen/min_interval_40"
                     android:layout_marginTop="@dimen/line_interval_80"
-                    android:orientation="horizontal" >
+                    android:orientation="horizontal">
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="数量:"
                         android:layout_gravity="center_vertical"
-                       android:textColor="@color/nomal_font_color"
-            android:textSize="@dimen/font_size_mf"/>
+                        android:textColor="@color/nomal_font_color"
+                        android:textSize="@dimen/font_size_mf" />
 
                     <Button
                         android:id="@+id/service_amount_minus"
                         android:layout_marginLeft="@dimen/main_left_87"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="@drawable/fc_btn_sub"
-                         />
+                        android:background="@drawable/fc_btn_sub" />
 
                     <EditText
                         android:id="@+id/service_amount_edit"
@@ -79,75 +78,72 @@
                         android:gravity="center"
                         android:layout_marginLeft="@dimen/min_interval_40"
                         android:numeric="integer"
-                        
+
                         android:textColor="@color/nomal_font_color"
-            			android:textSize="@dimen/font_size_mf"
-            			android:background="@drawable/bg_white_stroke" />
+                        android:textSize="@dimen/font_size_mf"
+                        android:background="@drawable/bg_white_stroke" />
 
                     <Button
                         android:id="@+id/service_amount_plus"
                         android:layout_marginLeft="@dimen/main_left_87"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="@drawable/fc_btn_add"
-                        />
-                    <TextView 
+                        android:background="@drawable/fc_btn_add" />
+
+                    <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
                         android:text="8.5折"
                         android:textColor="@color/text_discount_red"
-            			android:textSize="@dimen/font_size_mf"
-            			android:visibility="gone"
-                        />
+                        android:textSize="@dimen/font_size_mf"
+                        android:visibility="gone" />
                 </LinearLayout>
-                <ImageView 
-                    android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center_horizontal"
-                        android:src="@drawable/fc_icon_moneybag"
-                        android:layout_marginTop="@dimen/person_center_exit_login"
-                        />
 
-                    <TextView 
-                        android:id="@+id/service_total_money"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center_horizontal"
-                        android:text="总价0.00元"
-                        android:layout_marginTop="@dimen/min_interval_74"
-                        android:textColor="@color/nomal_font_color"
-            			android:textSize="@dimen/font_size_md_20"
-                        />
-             
-					<RelativeLayout 
-    				android:layout_width="match_parent"
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/fc_icon_moneybag"
+                    android:layout_marginTop="@dimen/person_center_exit_login" />
+
+                <TextView
+                    android:id="@+id/service_total_money"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="总价0.00元"
+                    android:layout_marginTop="@dimen/min_interval_74"
+                    android:textColor="@color/nomal_font_color"
+                    android:textSize="@dimen/font_size_md_20" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="@dimen/min_interval_40"
                     android:layout_marginRight="@dimen/min_interval_40"
-                    
-                     >
-                    <TextView 
+
+                    >
+
+                    <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="折扣说明"
                         android:visibility="gone"
                         android:layout_marginTop="@dimen/main_left_87"
                         android:textColor="@color/text_discount_red"
-            			android:textSize="@dimen/font_size_sc"
-                        />
-					    
-					    <Button
+                        android:textSize="@dimen/font_size_sc" />
+
+                    <Button
                         android:id="@+id/service_confirm"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_centerHorizontal="true" 
+                        android:layout_centerHorizontal="true"
                         android:layout_marginTop="@dimen/login_mid_318px"
-                        android:background="@drawable/member_charge_money_button"
-                        />
-					</RelativeLayout>
-                    
-               
+                        android:background="@drawable/member_charge_money_button" />
+                </RelativeLayout>
+
+
             </LinearLayout>
         </LinearLayout>
     </ScrollView>

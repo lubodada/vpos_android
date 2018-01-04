@@ -4,7 +4,7 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:background="@drawable/bule_background"
-    android:orientation="vertical" >
+    android:orientation="vertical">
 
     <ProgressBar
         android:id="@+id/progressBar"
@@ -50,7 +50,7 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dip"
-        android:orientation="horizontal" >
+        android:orientation="horizontal">
 
         <ImageButton
             android:id="@+id/quick_pay"
@@ -78,18 +78,18 @@
     <ScrollView
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:scrollbars="none" >
-"
+        android:scrollbars="none">
+        "
 
         <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" >
+            android:orientation="vertical">
 
             <RelativeLayout
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/login_left_169px" >
+                android:layout_marginTop="@dimen/login_left_169px">
 
                 <ImageButton
                     android:id="@+id/member_list"
@@ -151,7 +151,7 @@
             <RelativeLayout
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/main_top_112px" >
+                android:layout_marginTop="@dimen/main_top_112px">
 
                 <ImageButton
                     android:id="@+id/person_setting"
@@ -213,7 +213,7 @@
             <RelativeLayout
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/main_top_112px" >
+                android:layout_marginTop="@dimen/main_top_112px">
 
                 <ImageButton
                     android:id="@+id/score_rechange"
@@ -275,7 +275,7 @@
             <RelativeLayout
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/main_top_112px" >
+                android:layout_marginTop="@dimen/main_top_112px">
 
                 <ImageButton
                     android:id="@+id/quota_IB"

@@ -16,7 +16,7 @@ public class ShapeLoadingView extends View {
 
 
     private static final float genhao3 = 1.7320508075689f;
-    private static  final  float mTriangle2Circle =0.25555555f;
+    private static final float mTriangle2Circle = 0.25555555f;
 
     private Shape mShape = Shape.SHAPE_CIRCLE;
 
@@ -68,7 +68,7 @@ public class ShapeLoadingView extends View {
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
 
-        if(getVisibility()==GONE){
+        if (getVisibility() == GONE) {
             return;
         }
         // FIXME: 15/6/15  动画待优化
@@ -84,18 +84,18 @@ public class ShapeLoadingView extends View {
                     if (mAnimPercent >= 1) {
                         mShape = Shape.SHAPE_CIRCLE;
                         mIsLoading = false;
-                        mAnimPercent=1;
+                        mAnimPercent = 1;
                     }
-                    float controlX = mControlX - relativeXFromView(mAnimPercent* mTriangle2Circle)
+                    float controlX = mControlX - relativeXFromView(mAnimPercent * mTriangle2Circle)
                             * genhao3;
 
-                    float controlY = mControlY - relativeYFromView(mAnimPercent* mTriangle2Circle);
+                    float controlY = mControlY - relativeYFromView(mAnimPercent * mTriangle2Circle);
 
 
                     path.quadTo(relativeXFromView(1) - controlX, controlY, relativeXFromView(0.5f + genhao3 / 4), relativeYFromView(0.75f));
 
 
-                    path.quadTo(relativeXFromView(0.5f), relativeYFromView(0.75f + 2 * mAnimPercent* mTriangle2Circle), relativeXFromView(0.5f - genhao3 / 4), relativeYFromView(0.75f));
+                    path.quadTo(relativeXFromView(0.5f), relativeYFromView(0.75f + 2 * mAnimPercent * mTriangle2Circle), relativeXFromView(0.5f - genhao3 / 4), relativeYFromView(0.75f));
 
                     path.quadTo(controlX, controlY, relativeXFromView(0.5f), relativeYFromView(0f));
                     path.close();
@@ -109,7 +109,7 @@ public class ShapeLoadingView extends View {
 
                     path.moveTo(relativeXFromView(0.5f), relativeYFromView(0f));
                     path.lineTo(relativeXFromView(1), relativeYFromView(genhao3 / 2f));
-                    path.lineTo(relativeXFromView(0), relativeYFromView(genhao3/2f));
+                    path.lineTo(relativeXFromView(0), relativeYFromView(genhao3 / 2f));
 
                     mControlX = relativeXFromView(0.5f - genhao3 / 8.0f);
                     mControlY = relativeYFromView(3 / 8.0f);
@@ -258,7 +258,7 @@ public class ShapeLoadingView extends View {
     public void setVisibility(int visibility) {
         super.setVisibility(visibility);
 
-        if(visibility==VISIBLE){
+        if (visibility == VISIBLE) {
             invalidate();
         }
     }

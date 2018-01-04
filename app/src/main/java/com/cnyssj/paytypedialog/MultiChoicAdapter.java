@@ -16,122 +16,122 @@ import android.widget.TextView;
 import com.cnyssj.pos.R;
 
 public class MultiChoicAdapter<T> extends BaseAdapter implements
-		OnItemClickListener {
+        OnItemClickListener {
 
-	private Context mContext;
-	private List<T> mObjects = new ArrayList<T>();
-	private int mCheckBoxResourceID = 0;
-	private boolean mBoolean[] = null;
+    private Context mContext;
+    private List<T> mObjects = new ArrayList<T>();
+    private int mCheckBoxResourceID = 0;
+    private boolean mBoolean[] = null;
 
-	private LayoutInflater mInflater;
+    private LayoutInflater mInflater;
 
-	public MultiChoicAdapter(Context context, int checkBoxResourceId) {
-		init(context, checkBoxResourceId);
-	}
+    public MultiChoicAdapter(Context context, int checkBoxResourceId) {
+        init(context, checkBoxResourceId);
+    }
 
-	public MultiChoicAdapter(Context context, List<T> objects, boolean[] flag,
-			int checkBoxResourceId) {
-		init(context, checkBoxResourceId);
-		if (objects != null) {
-			mObjects = objects;
-			mBoolean = flag;
-		}
+    public MultiChoicAdapter(Context context, List<T> objects, boolean[] flag,
+                             int checkBoxResourceId) {
+        init(context, checkBoxResourceId);
+        if (objects != null) {
+            mObjects = objects;
+            mBoolean = flag;
+        }
 
-	}
+    }
 
-	private void init(Context context, int checkBoResourceId) {
-		mContext = context;
-		mInflater = (LayoutInflater) context
-				.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-		mCheckBoxResourceID = checkBoResourceId;
-	}
+    private void init(Context context, int checkBoResourceId) {
+        mContext = context;
+        mInflater = (LayoutInflater) context
+                .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+        mCheckBoxResourceID = checkBoResourceId;
+    }
 
-	public void refreshData(List<T> objects, boolean[] flag) {
-		if (objects != null) {
-			mObjects = objects;
-			mBoolean = flag;
-		}
-	}
+    public void refreshData(List<T> objects, boolean[] flag) {
+        if (objects != null) {
+            mObjects = objects;
+            mBoolean = flag;
+        }
+    }
 
-	public void setSelectItem(boolean[] flag) {
-		if (flag != null) {
-			mBoolean = flag;
-			notifyDataSetChanged();
-		}
+    public void setSelectItem(boolean[] flag) {
+        if (flag != null) {
+            mBoolean = flag;
+            notifyDataSetChanged();
+        }
 
-	}
+    }
 
-	public boolean[] getSelectItem() {
-		return mBoolean;
-	}
+    public boolean[] getSelectItem() {
+        return mBoolean;
+    }
 
-	public void clear() {
-		mObjects.clear();
-		notifyDataSetChanged();
-	}
+    public void clear() {
+        mObjects.clear();
+        notifyDataSetChanged();
+    }
 
-	public int getCount() {
-		return mObjects.size();
-	}
+    public int getCount() {
+        return mObjects.size();
+    }
 
-	public T getItem(int position) {
-		return mObjects.get(position);
-	}
+    public T getItem(int position) {
+        return mObjects.get(position);
+    }
 
-	public int getPosition(T item) {
-		return mObjects.indexOf(item);
-	}
+    public int getPosition(T item) {
+        return mObjects.indexOf(item);
+    }
 
-	public long getItemId(int position) {
-		return position;
-	}
+    public long getItemId(int position) {
+        return position;
+    }
 
-	public View getView(int position, View convertView, ViewGroup parent) {
+    public View getView(int position, View convertView, ViewGroup parent) {
 
-		ViewHolder viewHolder;
+        ViewHolder viewHolder;
 
-		if (convertView == null) {
-			convertView = mInflater.inflate(R.layout.choice_list_item_layout,
-					null);
-			viewHolder = new ViewHolder();
-			viewHolder.mTextView = (TextView) convertView
-					.findViewById(R.id.textView);
-			viewHolder.mCheckBox = (CheckBox) convertView
-					.findViewById(R.id.checkBox);
-			convertView.setTag(viewHolder);
+        if (convertView == null) {
+            convertView = mInflater.inflate(R.layout.choice_list_item_layout,
+                    null);
+            viewHolder = new ViewHolder();
+            viewHolder.mTextView = (TextView) convertView
+                    .findViewById(R.id.textView);
+            viewHolder.mCheckBox = (CheckBox) convertView
+                    .findViewById(R.id.checkBox);
+            convertView.setTag(viewHolder);
 
-			if (mCheckBoxResourceID != 0) {
-				viewHolder.mCheckBox.setButtonDrawable(mCheckBoxResourceID);
-			}
+            if (mCheckBoxResourceID != 0) {
+                viewHolder.mCheckBox.setButtonDrawable(mCheckBoxResourceID);
+            }
 
-		} else {
-			viewHolder = (ViewHolder) convertView.getTag();
-		}
+        } else {
+            viewHolder = (ViewHolder) convertView.getTag();
+        }
 
-		viewHolder.mCheckBox.setChecked(mBoolean[position]);
+        viewHolder.mCheckBox.setChecked(mBoolean[position]);
 
-		T item = getItem(position);
-		if (item instanceof CharSequence) {
-			viewHolder.mTextView.setText((CharSequence) item);
-		} else {
-			viewHolder.mTextView.setText(item.toString());
-		}
+        T item = getItem(position);
+        if (item instanceof CharSequence) {
+            viewHolder.mTextView.setText((CharSequence) item);
+        } else {
+            viewHolder.mTextView.setText(item.toString());
+        }
 
-		return convertView;
-	}
+        return convertView;
+    }
 
-	public static class ViewHolder {
-		public TextView mTextView;
-		public CheckBox mCheckBox;
-	}
+    public static class ViewHolder {
+        public TextView mTextView;
+        public CheckBox mCheckBox;
+    }
 
-	@Override
-	public void onItemClick(AdapterView<?> parent, View view, int position,
-			long id) {
-		// TODO Auto-generated method stub
+    @Override
+    public void onItemClick(AdapterView<?> parent, View view, int position,
+                            long id) {
+        // TODO Auto-generated method stub
 
-		mBoolean[position] = !mBoolean[position];
-		notifyDataSetChanged();
-	}
+        mBoolean[position] = !mBoolean[position];
+        notifyDataSetChanged();
+    }
 
 }

@@ -20,71 +20,67 @@ import com.ven.pos.alipay.util.httpClient.HttpResultType;
 
 public class HttpConnection {
 
-	private static Map<String, String> buildRequestPara(
-			Map<String, String> sParaTemp) {
-		// 除去数组中的空值和签名参数
-		Map<String, String> sPara = AlipayCore.paraFilter(sParaTemp);
-		// 生成签名结果
-		return sPara;
-	}
+    private static Map<String, String> buildRequestPara(
+            Map<String, String> sParaTemp) {
+        // 除去数组中的空值和签名参数
+        Map<String, String> sPara = AlipayCore.paraFilter(sParaTemp);
+        // 生成签名结果
+        return sPara;
+    }
 
-	/**
-	 * 建立请求，以模拟远程HTTP的POST请求方式构造并获取支付宝的处理结果
-	 * 如果接口中没有上传文件参数，那么strParaFileName与strFilePath设置为空值 如：buildRequest("",
-	 * "",sParaTemp)
-	 * 
-	 * @param strParaFileName
-	 *            文件类型的参数名
-	 * @param strFilePath
-	 *            文件路径
-	 * @param sParaTemp
-	 *            请求参数数组
-	 * @return 支付宝处理结果
-	 * @throws Exception
-	 */
-	public static String buildRequest(String Url, Map<String, String> sParaTemp)
-			throws Exception {
-		// 待请求参数数组
-		Map<String, String> sPara = buildRequestPara(sParaTemp);
+    /**
+     * 建立请求，以模拟远程HTTP的POST请求方式构造并获取支付宝的处理结果
+     * 如果接口中没有上传文件参数，那么strParaFileName与strFilePath设置为空值 如：buildRequest("",
+     * "",sParaTemp)
+     *
+     * @param strParaFileName 文件类型的参数名
+     * @param strFilePath     文件路径
+     * @param sParaTemp       请求参数数组
+     * @return 支付宝处理结果
+     * @throws Exception
+     */
+    public static String buildRequest(String Url, Map<String, String> sParaTemp)
+            throws Exception {
+        // 待请求参数数组
+        Map<String, String> sPara = buildRequestPara(sParaTemp);
 
-		HttpProtocolHandler httpProtocolHandler = HttpProtocolHandler
-				.getInstance();
+        HttpProtocolHandler httpProtocolHandler = HttpProtocolHandler
+                .getInstance();
 
-		HttpRequest request = new HttpRequest(HttpResultType.BYTES);
-		// 设置编码集
-		request.setCharset(GlobalContant.instance().aliConfig.input_charset);
+        HttpRequest request = new HttpRequest(HttpResultType.BYTES);
+        // 设置编码集
+        request.setCharset(GlobalContant.instance().aliConfig.input_charset);
 
-		request.setParameters(generatNameValuePair(sPara));
-		// request.setUrl(Url+"_input_charset="+GlobalContant.instance().aliConfig.input_charset);
-		request.setUrl(Url);
-		Log.e("request", String.valueOf(request));
-		HttpResponse response = httpProtocolHandler.execute(request, "", "");
-		if (response == null) {
-			return null;
-		}
+        request.setParameters(generatNameValuePair(sPara));
+        // request.setUrl(Url+"_input_charset="+GlobalContant.instance().aliConfig.input_charset);
+        request.setUrl(Url);
+        Log.e("request", String.valueOf(request));
+        HttpResponse response = httpProtocolHandler.execute(request, "", "");
+        if (response == null) {
+            return null;
+        }
 
-		String strResult = response.getStringResult();
+        String strResult = response.getStringResult();
 
-		return strResult;
-	}
+        return strResult;
+    }
 
-	/**
-	 * MAP类型数组转换成NameValuePair类型
-	 * 
-	 * @param properties
-	 *            MAP类型数组
-	 * @return NameValuePair类型数组
-	 */
-	private static NameValuePair[] generatNameValuePair(
-			Map<String, String> properties) {
-		NameValuePair[] nameValuePair = new NameValuePair[properties.size()];
-		int i = 0;
-		for (Map.Entry<String, String> entry : properties.entrySet()) {
-			nameValuePair[i++] = new NameValuePair(entry.getKey(),
-					entry.getValue());
-		}
+    /**
+     * MAP类型数组转换成NameValuePair类型
+     *
+     * @param properties MAP类型数组
+     * @return NameValuePair类型数组
+     */
+    private static NameValuePair[] generatNameValuePair(
+            Map<String, String> properties) {
+        NameValuePair[] nameValuePair = new NameValuePair[properties.size()];
+        int i = 0;
+        for (Map.Entry<String, String> entry : properties.entrySet()) {
+            nameValuePair[i++] = new NameValuePair(entry.getKey(),
+                    entry.getValue());
+        }
 
-		return nameValuePair;
-	}
+        return nameValuePair;
+    }
 
 }

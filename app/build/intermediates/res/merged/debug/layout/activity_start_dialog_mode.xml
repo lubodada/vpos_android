@@ -8,7 +8,7 @@
     android:layout_marginRight="30dip"
     android:layout_marginTop="60dip"
     android:background="@drawable/txt_sharp"
-    android:orientation="vertical" >
+    android:orientation="vertical">
 
     <TextView
         android:id="@+id/textView1"
@@ -30,7 +30,7 @@
         android:layout_marginTop="10dip"
         android:layout_x="3px"
         android:layout_y="54px"
-        android:orientation="vertical" >
+        android:orientation="vertical">
 
         <RadioButton
             android:id="@+id/RB_camera"

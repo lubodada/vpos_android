@@ -116,11 +116,11 @@
         <item name="android:textSize">10sp</item>
     </style>
 
-     <!-- 自定义Dialog风格 -->
+    <!-- 自定义Dialog风格 -->
     <style name="Theme_dialog" parent="@android:style/Theme.Dialog">
         <item name="android:windowBackground">@drawable/dia_sytle</item>
     </style>
-    
+
     <style name="custom_dialog" parent="@android:style/Theme.Dialog">
         <item name="android:windowFrame">@null</item>
         <!-- Dialog的windowFrame框为无 -->
@@ -137,7 +137,7 @@
         <!-- 屏幕背景是否变暗 -->
         <item name="android:backgroundDimAmount">0.85</item>
     </style>
-    
+
     <style name="AppBaseTheme" parent="android:Theme.Light">
         <!--
             Theme customizations available in newer API levels can go in
@@ -150,5 +150,5 @@
     <style name="AppTheme" parent="AppBaseTheme">
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
     </style>
-    
+
 </resources>

@@ -15,7 +15,9 @@ import android.util.Log;
 import android.view.SurfaceHolder;
 import android.view.SurfaceView;
 
-/** A basic Camera preview class */
+/**
+ * A basic Camera preview class
+ */
 public class CameraPreview extends SurfaceView implements SurfaceHolder.Callback {
     private SurfaceHolder mHolder;
     private Camera mCamera;
@@ -72,16 +74,16 @@ public class CameraPreview extends SurfaceView implements SurfaceHolder.Callback
          * If your preview can change or rotate, take care of those events here.
          * Make sure to stop the preview before resizing or reformatting it.
          */
-        if (mHolder.getSurface() == null){
-          // preview surface does not exist
-          return;
+        if (mHolder.getSurface() == null) {
+            // preview surface does not exist
+            return;
         }
 
         // stop preview before making changes
         try {
             mCamera.stopPreview();
-        } catch (Exception e){
-          // ignore: tried to stop a non-existent preview
+        } catch (Exception e) {
+            // ignore: tried to stop a non-existent preview
         }
 
         try {
@@ -92,7 +94,7 @@ public class CameraPreview extends SurfaceView implements SurfaceHolder.Callback
             mCamera.setPreviewCallback(previewCallback);
             mCamera.startPreview();
             mCamera.autoFocus(autoFocusCallback);
-        } catch (Exception e){
+        } catch (Exception e) {
             Log.d("DBG", "Error starting camera preview: " + e.getMessage());
         }
     }

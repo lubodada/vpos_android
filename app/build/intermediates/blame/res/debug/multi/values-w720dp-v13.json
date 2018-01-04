@@ -11,13 +11,13 @@
                     "endOffset": 127
                 },
                 "from": {
-                    "file": "C:\\Users\\Administrator\\.android\\build-cache\\7a75df3497e219a93a33d15ceab3b4ee1c6c6c19\\output\\res\\values-w720dp\\values-w720dp.xml",
+                    "file": "C:\\Users\\Administrator\\.android\\build-cache\\42d4ce1b0e4036738c2c58f5936e3d8b5ab423e5\\output\\res\\values-w720dp-v13\\values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
-                        "startOffset": 289,
+                        "startOffset": 278,
                         "endColumn": 76,
-                        "endOffset": 361
+                        "endOffset": 350
                     }
                 }
             }

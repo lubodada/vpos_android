@@ -13,83 +13,86 @@ import com.cnyssj.pos.R;
 
 /**
  * 入库操作详情适配器
+ *
  * @author Administrator
  */
 public class StorageDetailAdapter extends CursorAdapter {
 
-	Context mContext;
-	Cursor mCursor;
-	Model mModel;
-	LayoutInflater mInflater;
-	double quantity;
-	public StorageDetailAdapter(Context context, Cursor c, Model model) {
-		super(context, c);
-		System.out.println("c = " + c);
-		this.mContext = context;
-		this.mCursor = c;
-		this.mModel = model;
-		mInflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-	}
+    Context mContext;
+    Cursor mCursor;
+    Model mModel;
+    LayoutInflater mInflater;
+    double quantity;
 
-	@Override
-	public View newView(Context context, Cursor cursor, ViewGroup parent) {
-		return  mInflater.inflate(R.layout.checkdetail_listview, parent, false);
-	}
+    public StorageDetailAdapter(Context context, Cursor c, Model model) {
+        super(context, c);
+        System.out.println("c = " + c);
+        this.mContext = context;
+        this.mCursor = c;
+        this.mModel = model;
+        mInflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+    }
 
-	@Override
-	public void bindView(View view, Context context, Cursor cursor) {
-		ViewHolder holder = null;
+    @Override
+    public View newView(Context context, Cursor cursor, ViewGroup parent) {
+        return mInflater.inflate(R.layout.checkdetail_listview, parent, false);
+    }
 
-		Object tag = view.getTag();
-		if(tag instanceof ViewHolder) {
-			holder = (ViewHolder) view.getTag();
-		}
-		if(holder == null) {
-			holder = new ViewHolder();
-			view.setTag(holder);
-			//寻找控件ID
-			holder.productsn = (TextView)view.findViewById(R.id.productsn);
-			holder.title = (TextView)view.findViewById(R.id.title);
-			holder.quantity = (TextView)view.findViewById(R.id.quantity);
-			holder.updatetime = (TextView)view.findViewById(R.id.updatetime);
-			holder.updatetype = (TextView)view.findViewById(R.id.updatetype);
-			
-		}
-		int updatetypes=cursor.getInt(cursor.getColumnIndexOrThrow("updatetype"));
-		String updatetype=getUpdateType(updatetypes);
-		
-		//将从数据库中查询到的title设为ListView的Item项。
-		holder.productsn.setText(cursor.getString(cursor.getColumnIndexOrThrow("productsn")));
-		holder.title.setText(cursor.getString(cursor.getColumnIndexOrThrow("title")));
-		holder.quantity.setText(String.valueOf(cursor.getDouble(cursor.getColumnIndexOrThrow("quantity"))));
-		holder.updatetime.setText(cursor.getString(cursor.getColumnIndexOrThrow("updatetime")));
-		holder.updatetype.setText(updatetype);
+    @Override
+    public void bindView(View view, Context context, Cursor cursor) {
+        ViewHolder holder = null;
 
-	}
+        Object tag = view.getTag();
+        if (tag instanceof ViewHolder) {
+            holder = (ViewHolder) view.getTag();
+        }
+        if (holder == null) {
+            holder = new ViewHolder();
+            view.setTag(holder);
+            //寻找控件ID
+            holder.productsn = (TextView) view.findViewById(R.id.productsn);
+            holder.title = (TextView) view.findViewById(R.id.title);
+            holder.quantity = (TextView) view.findViewById(R.id.quantity);
+            holder.updatetime = (TextView) view.findViewById(R.id.updatetime);
+            holder.updatetype = (TextView) view.findViewById(R.id.updatetype);
 
-	static class ViewHolder {
-		TextView productsn;//商品条码
-		TextView title;//商品名称
-		TextView quantity;//商品数量
-		TextView updatetime;//数量更新时间
-		TextView updatetype;//数量更新方式
+        }
+        int updatetypes = cursor.getInt(cursor.getColumnIndexOrThrow("updatetype"));
+        String updatetype = getUpdateType(updatetypes);
 
-	}
-	
-	/**
-	 * 数量更新类型
-	 * @param updatetypes
-	 * @return
-	 */
-	public String getUpdateType(int updatetypes){
-		String updatetype = null;
-		if(updatetypes==0){
-			updatetype="新增";
-		}
-		if(updatetypes==1){
-			updatetype="减少";
-		}
-		return updatetype;
-		
-	}
+        //将从数据库中查询到的title设为ListView的Item项。
+        holder.productsn.setText(cursor.getString(cursor.getColumnIndexOrThrow("productsn")));
+        holder.title.setText(cursor.getString(cursor.getColumnIndexOrThrow("title")));
+        holder.quantity.setText(String.valueOf(cursor.getDouble(cursor.getColumnIndexOrThrow("quantity"))));
+        holder.updatetime.setText(cursor.getString(cursor.getColumnIndexOrThrow("updatetime")));
+        holder.updatetype.setText(updatetype);
+
+    }
+
+    static class ViewHolder {
+        TextView productsn;//商品条码
+        TextView title;//商品名称
+        TextView quantity;//商品数量
+        TextView updatetime;//数量更新时间
+        TextView updatetype;//数量更新方式
+
+    }
+
+    /**
+     * 数量更新类型
+     *
+     * @param updatetypes
+     * @return
+     */
+    public String getUpdateType(int updatetypes) {
+        String updatetype = null;
+        if (updatetypes == 0) {
+            updatetype = "新增";
+        }
+        if (updatetypes == 1) {
+            updatetype = "减少";
+        }
+        return updatetype;
+
+    }
 }

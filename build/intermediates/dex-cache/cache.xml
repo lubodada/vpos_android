@@ -2,40 +2,13 @@
 <items version="2" >
 
     <item
-        is-multidex="false"
-        jar="E:\AS\android-studio\gradle\m2repository\com\google\code\gson\gson\2.2.4\gson-2.2.4.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="a60a5e993c98c864010053cb901b7eab25306568">
-        <dex dex="C:\Users\Administrator\Desktop\demo\vpos_android\app\build\intermediates\pre-dexed\debug\gson-2.2.4_bc781f63317b7791fbba9a6519ba3664738ce683.jar" />
-    </item>
-    <item
         is-multidex="true"
-        jar="C:\Users\Administrator\.android\build-cache\b79c1f0295a993f3dc559e5c37ee0e878df8a6a0\output\jars\classes.jar"
+        jar="C:\Users\Administrator\Desktop\demo\vpos_android\app\libs\android-support-v7-appcompat.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
-        <dex dex="C:\Users\Administrator\Desktop\demo\vpos_android\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4b84bd4cce0b4d3bc5c4f2173e9e519deeac4881\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="E:\AS\Sdk\extras\android\m2repository\com\android\support\support-annotations\25.1.0\support-annotations-25.1.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
-        <dex dex="C:\Users\Administrator\Desktop\demo\vpos_android\app\build\intermediates\pre-dexed\debug\support-annotations-25.1.0_1d814a9d4de7c2c7af9815473d820ecdb5409819.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Administrator\.android\build-cache\518ecb270622a030547c268e01557a04ce423645\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
-        <dex dex="C:\Users\Administrator\Desktop\demo\vpos_android\app\build\intermediates\pre-dexed\debug\classes_93d13900b41d31b27b15c7e4aa3afb2c66763f5b.jar" />
+        sha1="b2d9f83181635731db297fd7c59a9049c5ccbffd">
+        <dex dex="C:\Users\Administrator\Desktop\demo\vpos_android\app\build\intermediates\transforms\dex\debug\folders\1000\2\android-support-v7-appcompat_421ce47edc4cc55a29117e34b4c6bc66ed98b31b\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -56,40 +29,22 @@
         <dex dex="C:\Users\Administrator\Desktop\demo\vpos_android\app\build\intermediates\transforms\dex\debug\folders\1000\2\commons-httpclient-3.0.1_0f572588179da0872b88977f87a7429a9a1b2eb7\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Administrator\Desktop\demo\vpos_android\app\libs\glide-3.6.1.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Administrator\Desktop\demo\vpos_android\app\libs\commons-logging-1.1.1.jar"
+        jumboMode="true"
         optimize="true"
-        revision="25.0.0"
-        sha1="86b122e640af09b0723e1fa44083c354ba6d9089">
-        <dex dex="C:\Users\Administrator\Desktop\demo\vpos_android\app\build\intermediates\pre-dexed\debug\glide-3.6.1_6b2607d8238aeb5556a446c4355a06816663e4dd.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Administrator\Desktop\demo\vpos_android\app\libs\libammsdk.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="d7c2f29c05b35e8c8713be2b81c41cf18f98b64a">
-        <dex dex="C:\Users\Administrator\Desktop\demo\vpos_android\app\build\intermediates\pre-dexed\debug\libammsdk_57d9c3db55606c9112a339d91c397a2c824321e9.jar" />
+        revision="25.0.3"
+        sha1="5043bfebc3db072ed80fbd362e7caf00e885d8ae">
+        <dex dex="C:\Users\Administrator\Desktop\demo\vpos_android\app\build\intermediates\transforms\dex\debug\folders\1000\2\commons-logging-1.1.1_c0e81d013f59bfb0712d18a0bbf177dc715570ed\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Administrator\.android\build-cache\6c91df3a6a5d4f267da98e9eb01449841ff61dae\output\jars\classes.jar"
+        jar="C:\Users\Administrator\Desktop\demo\vpos_android\app\libs\bw_pos_sdk2.0.18.jar"
         jumboMode="true"
         optimize="true"
-        revision="25.0.0"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Users\Administrator\Desktop\demo\vpos_android\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_64447ad5616f636f163c7db7b22afe653a37d64a\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Administrator\Desktop\demo\vpos_android\app\libs\commons-codec-1.9.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="9ce04e34240f674bc72680f8b843b1457383161a">
-        <dex dex="C:\Users\Administrator\Desktop\demo\vpos_android\app\build\intermediates\pre-dexed\debug\commons-codec-1.9_1327175c39cd777ddc283f462c0444116caf8c51.jar" />
+        revision="25.0.3"
+        sha1="f62f50f120a3b68bd435417b4a90e7c77ab9377d">
+        <dex dex="C:\Users\Administrator\Desktop\demo\vpos_android\app\build\intermediates\transforms\dex\debug\folders\1000\2\bw_pos_sdk2.0.18_1b15a070fdc41c7466c5fa9c71f007a5b75dd2ae\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -101,58 +56,13 @@
         <dex dex="C:\Users\Administrator\Desktop\demo\vpos_android\app\build\intermediates\transforms\dex\debug\folders\1000\2\zbar_06d99edae1e5a2418b1590c000c7cb9e161f060b\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Administrator\Desktop\demo\vpos_android\app\libs\umeng-analytics-v5.5.3.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Administrator\Desktop\demo\vpos_android\app\libs\commons-httpclient-3.0.1.jar"
+        jumboMode="true"
         optimize="true"
-        revision="25.0.0"
-        sha1="5d503ec571e2e98d972209afa203f94d11882c15">
-        <dex dex="C:\Users\Administrator\Desktop\demo\vpos_android\app\build\intermediates\pre-dexed\debug\umeng-analytics-v5.5.3_57fb9a7c0526c554b82baee0a443fb297a990340.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Administrator\Desktop\demo\vpos_android\app\libs\platform_sdk_v2.2.3.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="0498fc6a0086eae4a3a06eac5041acae362fffa1">
-        <dex dex="C:\Users\Administrator\Desktop\demo\vpos_android\app\build\intermediates\pre-dexed\debug\platform_sdk_v2.2.3_358a0eccb956121b6fd05297ad2c94f6d7628f1a.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Administrator\Desktop\demo\vpos_android\app\libs\J1013.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="7daf0fa2faf69d32cf828b0211af1d8f322a4bd8">
-        <dex dex="C:\Users\Administrator\Desktop\demo\vpos_android\app\build\intermediates\pre-dexed\debug\J1013_3cfb9e0a082758c390fafb7c6650d0b22898594c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Administrator\Desktop\demo\vpos_android\app\libs\commons-logging-1.1.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="5043bfebc3db072ed80fbd362e7caf00e885d8ae">
-        <dex dex="C:\Users\Administrator\Desktop\demo\vpos_android\app\build\intermediates\pre-dexed\debug\commons-logging-1.1.1_c0e81d013f59bfb0712d18a0bbf177dc715570ed.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Administrator\Desktop\demo\vpos_android\app\libs\codec.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="a42ebfad39f2287abc34adaae0633f867e1d65e0">
-        <dex dex="C:\Users\Administrator\Desktop\demo\vpos_android\app\build\intermediates\pre-dexed\debug\codec_6562354921d6d33cc587baa7fb080b8f6ffe19bb.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.google.zxing\core\3.3.0\73c49077166faa4c3c0059c5f583d1d7bd1475fe\core-3.3.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="73c49077166faa4c3c0059c5f583d1d7bd1475fe">
-        <dex dex="C:\Users\Administrator\Desktop\demo\vpos_android\app\build\intermediates\pre-dexed\debug\core-3.3.0_e4230aaa92ad3b83a7280de82bf4c7ebfefd4ee6.jar" />
+        revision="25.0.3"
+        sha1="d6364bcc1b2b2aa69d008602d36a700453648560">
+        <dex dex="C:\Users\Administrator\Desktop\demo\vpos_android\app\build\intermediates\transforms\dex\debug\folders\1000\2\commons-httpclient-3.0.1_0f572588179da0872b88977f87a7429a9a1b2eb7\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -174,30 +84,48 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Administrator\.android\build-cache\b1f8064f58c70b1fe8ad4f7949395916bb799c70\output\jars\classes.jar"
+        jar="C:\Users\Administrator\Desktop\demo\vpos_android\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
-        revision="25.0.0"
-        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
-        <dex dex="C:\Users\Administrator\Desktop\demo\vpos_android\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c8cb6e000eb5887de9ca0820b19ae46e24655683\classes.dex" />
+        revision="25.0.3"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\Users\Administrator\Desktop\demo\vpos_android\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_85ae1b2702f433429bbbdb45af054c6791434bb5\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Administrator\.android\build-cache\a66cee983c0747ff8333a01df8d32bf45770c2ea\output\jars\classes.jar"
+        jar="C:\Users\Administrator\Desktop\demo\vpos_android\app\libs\zbar.jar"
         jumboMode="true"
         optimize="true"
-        revision="25.0.0"
-        sha1="aee64634871d88a419d59eb743c1258a60f19700">
-        <dex dex="C:\Users\Administrator\Desktop\demo\vpos_android\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_45e96698609eaa3c258e40d1df9e5fe1c0755caf\classes.dex" />
+        revision="25.0.3"
+        sha1="7bbdf7ba57a8a157c0cad51e455609c70887812e">
+        <dex dex="C:\Users\Administrator\Desktop\demo\vpos_android\app\build\intermediates\transforms\dex\debug\folders\1000\2\zbar_06d99edae1e5a2418b1590c000c7cb9e161f060b\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Administrator\.android\build-cache\eea5bf9869a3cb3cb80f31d01c15f002f98c9341\output\jars\classes.jar"
+        jar="C:\Users\Administrator\Desktop\demo\vpos_android\app\libs\cloudpossdkinterfaceextension.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
-        <dex dex="C:\Users\Administrator\Desktop\demo\vpos_android\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d5a43a74be34ee88b981bb30779e466e3259a70e\classes.dex" />
+        sha1="a3ebc5009d19107caebd9902b4634069c0b063b5">
+        <dex dex="C:\Users\Administrator\Desktop\demo\vpos_android\app\build\intermediates\transforms\dex\debug\folders\1000\2\cloudpossdkinterfaceextension_ae1d5795a2af35357f0ee03dda8add8a7430ca46\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\AS\android-studio\gradle\m2repository\com\google\code\gson\gson\2.2.4\gson-2.2.4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="a60a5e993c98c864010053cb901b7eab25306568">
+        <dex dex="C:\Users\Administrator\Desktop\demo\vpos_android\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.2.4_bc781f63317b7791fbba9a6519ba3664738ce683\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\Desktop\demo\vpos_android\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="36905b618849fc010171954118a113aec7c39253">
+        <dex dex="C:\Users\Administrator\Desktop\demo\vpos_android\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_6e85edd0b6c08e6bba7311438a4d028f14e96c9e\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -209,13 +137,31 @@
         <dex dex="C:\Users\Administrator\Desktop\demo\vpos_android\app\build\intermediates\transforms\dex\debug\folders\1000\2\dom4j-1.6.1_b78700abef8897d8a8deb2000521645d56ea846a\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Administrator\Desktop\demo\vpos_android\app\libs\umeng-update-v2.6.0.1.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Administrator\Desktop\demo\vpos_android\app\libs\android-support-v4.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="7bfeea30c4995f90a4374ce4177772a4579f2797">
-        <dex dex="C:\Users\Administrator\Desktop\demo\vpos_android\app\build\intermediates\pre-dexed\debug\umeng-update-v2.6.0.1_a1c1a1c9705c136e475470be5ceb1a246a58ef2f.jar" />
+        sha1="307c1cc532eabbf1d135b43e5c983c9da700449d">
+        <dex dex="C:\Users\Administrator\Desktop\demo\vpos_android\app\build\intermediates\transforms\dex\debug\folders\1000\2\android-support-v4_8aad255a9bab5ef0783c73b360909696e2964cc8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\Desktop\demo\vpos_android\app\libs\poslib20160411.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="89c6953c5113d47890e6422982c468066998cd96">
+        <dex dex="C:\Users\Administrator\Desktop\demo\vpos_android\app\build\intermediates\transforms\dex\debug\folders\1000\2\poslib20160411_f383e6782d2e3b6eaf875c47a493530db1cf6e93\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\Desktop\demo\vpos_android\app\libs\dom4j-1.6.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="5d3ccc056b6f056dbf0dddfdf43894b9065a8f94">
+        <dex dex="C:\Users\Administrator\Desktop\demo\vpos_android\app\build\intermediates\transforms\dex\debug\folders\1000\2\dom4j-1.6.1_b78700abef8897d8a8deb2000521645d56ea846a\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -223,8 +169,17 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="7f18bf9fef24cb49da0e2fe715a8f3f6a9e6c600">
+        sha1="0d4e82af7dcc246fe06d9a3687dad021c0ff2fde">
         <dex dex="C:\Users\Administrator\Desktop\demo\vpos_android\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_6e85edd0b6c08e6bba7311438a4d028f14e96c9e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\Desktop\demo\vpos_android\app\libs\cloudposSDKInterface_en.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f3ada7f8d5040a66d9603cdd85b2ff815ee19685">
+        <dex dex="C:\Users\Administrator\Desktop\demo\vpos_android\app\build\intermediates\transforms\dex\debug\folders\1000\2\cloudposSDKInterface_en_29eecd48a4403eca5da8eb2185ea5538dd9f5b51\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -246,30 +201,30 @@
     </item>
     <item
         is-multidex="true"
-        jar="E:\AS\Sdk\extras\android\m2repository\com\android\support\support-annotations\25.1.0\support-annotations-25.1.0.jar"
+        jar="C:\Users\Administrator\Desktop\demo\vpos_android\app\libs\android-support-v4.jar"
         jumboMode="true"
         optimize="true"
-        revision="25.0.0"
-        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
-        <dex dex="C:\Users\Administrator\Desktop\demo\vpos_android\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.1.0_1d814a9d4de7c2c7af9815473d820ecdb5409819\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Administrator\.android\build-cache\b79c1f0295a993f3dc559e5c37ee0e878df8a6a0\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
-        <dex dex="C:\Users\Administrator\Desktop\demo\vpos_android\app\build\intermediates\pre-dexed\debug\classes_4b84bd4cce0b4d3bc5c4f2173e9e519deeac4881.jar" />
+        revision="25.0.3"
+        sha1="307c1cc532eabbf1d135b43e5c983c9da700449d">
+        <dex dex="C:\Users\Administrator\Desktop\demo\vpos_android\app\build\intermediates\transforms\dex\debug\folders\1000\2\android-support-v4_8aad255a9bab5ef0783c73b360909696e2964cc8\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Administrator\.android\build-cache\518ecb270622a030547c268e01557a04ce423645\output\jars\classes.jar"
+        jar="C:\Users\Administrator\Desktop\demo\vpos_android\app\libs\android-support-v7-appcompat.jar"
         jumboMode="true"
         optimize="true"
-        revision="25.0.0"
-        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
-        <dex dex="C:\Users\Administrator\Desktop\demo\vpos_android\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_93d13900b41d31b27b15c7e4aa3afb2c66763f5b\classes.dex" />
+        revision="25.0.3"
+        sha1="b2d9f83181635731db297fd7c59a9049c5ccbffd">
+        <dex dex="C:\Users\Administrator\Desktop\demo\vpos_android\app\build\intermediates\transforms\dex\debug\folders\1000\2\android-support-v7-appcompat_421ce47edc4cc55a29117e34b4c6bc66ed98b31b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\Desktop\demo\vpos_android\app\libs\commons-codec-1.9.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="9ce04e34240f674bc72680f8b843b1457383161a">
+        <dex dex="C:\Users\Administrator\Desktop\demo\vpos_android\app\build\intermediates\transforms\dex\debug\folders\1000\2\commons-codec-1.9_1327175c39cd777ddc283f462c0444116caf8c51\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -299,22 +254,22 @@
         <dex dex="C:\Users\Administrator\Desktop\demo\vpos_android\app\build\intermediates\transforms\dex\debug\folders\1000\2\glide-3.6.1_6b2607d8238aeb5556a446c4355a06816663e4dd\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Administrator\Desktop\demo\vpos_android\app\libs\commons-httpclient-3.0.1.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Administrator\Desktop\demo\vpos_android\app\libs\core4.7.5.jar"
+        jumboMode="true"
         optimize="true"
-        revision="25.0.0"
-        sha1="d6364bcc1b2b2aa69d008602d36a700453648560">
-        <dex dex="C:\Users\Administrator\Desktop\demo\vpos_android\app\build\intermediates\pre-dexed\debug\commons-httpclient-3.0.1_0f572588179da0872b88977f87a7429a9a1b2eb7.jar" />
+        revision="25.0.3"
+        sha1="3e070d20fe4c3c5d06d5eb3465fb5fb621edc816">
+        <dex dex="C:\Users\Administrator\Desktop\demo\vpos_android\app\build\intermediates\transforms\dex\debug\folders\1000\2\core4.7.5_957a542c6cfb66c8da61d542464d240eee743afb\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Administrator\Desktop\demo\vpos_android\app\libs\bw_pos_sdk2.0.18.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Administrator\Desktop\demo\vpos_android\app\libs\libammsdk.jar"
+        jumboMode="true"
         optimize="true"
-        revision="25.0.0"
-        sha1="f62f50f120a3b68bd435417b4a90e7c77ab9377d">
-        <dex dex="C:\Users\Administrator\Desktop\demo\vpos_android\app\build\intermediates\pre-dexed\debug\bw_pos_sdk2.0.18_1b15a070fdc41c7466c5fa9c71f007a5b75dd2ae.jar" />
+        revision="25.0.3"
+        sha1="d7c2f29c05b35e8c8713be2b81c41cf18f98b64a">
+        <dex dex="C:\Users\Administrator\Desktop\demo\vpos_android\app\build\intermediates\transforms\dex\debug\folders\1000\2\libammsdk_57d9c3db55606c9112a339d91c397a2c824321e9\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -326,22 +281,22 @@
         <dex dex="C:\Users\Administrator\Desktop\demo\vpos_android\app\build\intermediates\transforms\dex\debug\folders\1000\2\commons-codec-1.9_1327175c39cd777ddc283f462c0444116caf8c51\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Administrator\Desktop\demo\vpos_android\app\libs\zbar.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Administrator\.android\build-cache\ac3bf6e66edcf462fb7b5b7e5d1041816793947e\output\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
-        revision="25.0.0"
-        sha1="7bbdf7ba57a8a157c0cad51e455609c70887812e">
-        <dex dex="C:\Users\Administrator\Desktop\demo\vpos_android\app\build\intermediates\pre-dexed\debug\zbar_06d99edae1e5a2418b1590c000c7cb9e161f060b.jar" />
+        revision="25.0.3"
+        sha1="77e3f210322743390ab44e667cc8988ba5d9433b">
+        <dex dex="C:\Users\Administrator\Desktop\demo\vpos_android\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_3407cffcc72d68f21e6b34f71a1025ae7a2a0715\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Administrator\.android\build-cache\6c91df3a6a5d4f267da98e9eb01449841ff61dae\output\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Administrator\Desktop\demo\vpos_android\app\libs\codec.jar"
+        jumboMode="true"
         optimize="true"
-        revision="25.0.0"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Users\Administrator\Desktop\demo\vpos_android\app\build\intermediates\pre-dexed\debug\classes_64447ad5616f636f163c7db7b22afe653a37d64a.jar" />
+        revision="25.0.3"
+        sha1="a42ebfad39f2287abc34adaae0633f867e1d65e0">
+        <dex dex="C:\Users\Administrator\Desktop\demo\vpos_android\app\build\intermediates\transforms\dex\debug\folders\1000\2\codec_6562354921d6d33cc587baa7fb080b8f6ffe19bb\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -351,6 +306,15 @@
         revision="25.0.0"
         sha1="d7c2f29c05b35e8c8713be2b81c41cf18f98b64a">
         <dex dex="C:\Users\Administrator\Desktop\demo\vpos_android\app\build\intermediates\transforms\dex\debug\folders\1000\2\libammsdk_57d9c3db55606c9112a339d91c397a2c824321e9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\Desktop\demo\vpos_android\app\libs\platform_sdk_v2.2.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="0498fc6a0086eae4a3a06eac5041acae362fffa1">
+        <dex dex="C:\Users\Administrator\Desktop\demo\vpos_android\app\build\intermediates\transforms\dex\debug\folders\1000\2\platform_sdk_v2.2.3_358a0eccb956121b6fd05297ad2c94f6d7628f1a\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -381,6 +345,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\Administrator\Desktop\demo\vpos_android\app\libs\androidmvc.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ad4a80545c7a5b081d1855fc52f46acf591db5a0">
+        <dex dex="C:\Users\Administrator\Desktop\demo\vpos_android\app\build\intermediates\transforms\dex\debug\folders\1000\2\androidmvc_825bdca0e83bc9ec2736fc9b55f9414f6a8528d4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\Administrator\Desktop\demo\vpos_android\app\libs\umeng-analytics-v5.5.3.jar"
         jumboMode="true"
         optimize="true"
@@ -398,13 +371,13 @@
         <dex dex="C:\Users\Administrator\Desktop\demo\vpos_android\app\build\intermediates\transforms\dex\debug\folders\1000\2\commons-logging-1.1.1_c0e81d013f59bfb0712d18a0bbf177dc715570ed\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Administrator\Desktop\demo\vpos_android\app\libs\dom4j-1.6.1.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Administrator\Desktop\demo\vpos_android\app\libs\glide-3.6.1.jar"
+        jumboMode="true"
         optimize="true"
-        revision="25.0.0"
-        sha1="5d3ccc056b6f056dbf0dddfdf43894b9065a8f94">
-        <dex dex="C:\Users\Administrator\Desktop\demo\vpos_android\app\build\intermediates\pre-dexed\debug\dom4j-1.6.1_b78700abef8897d8a8deb2000521645d56ea846a.jar" />
+        revision="25.0.3"
+        sha1="86b122e640af09b0723e1fa44083c354ba6d9089">
+        <dex dex="C:\Users\Administrator\Desktop\demo\vpos_android\app\build\intermediates\transforms\dex\debug\folders\1000\2\glide-3.6.1_6b2607d8238aeb5556a446c4355a06816663e4dd\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -416,49 +389,49 @@
         <dex dex="C:\Users\Administrator\Desktop\demo\vpos_android\app\build\intermediates\transforms\dex\debug\folders\1000\10\core-3.3.0_e4230aaa92ad3b83a7280de82bf4c7ebfefd4ee6\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Administrator\.android\build-cache\ac3bf6e66edcf462fb7b5b7e5d1041816793947e\output\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Administrator\Desktop\demo\vpos_android\app\libs\J1013.jar"
+        jumboMode="true"
         optimize="true"
-        revision="25.0.0"
-        sha1="77e3f210322743390ab44e667cc8988ba5d9433b">
-        <dex dex="C:\Users\Administrator\Desktop\demo\vpos_android\app\build\intermediates\pre-dexed\debug\classes_3407cffcc72d68f21e6b34f71a1025ae7a2a0715.jar" />
+        revision="25.0.3"
+        sha1="7daf0fa2faf69d32cf828b0211af1d8f322a4bd8">
+        <dex dex="C:\Users\Administrator\Desktop\demo\vpos_android\app\build\intermediates\transforms\dex\debug\folders\1000\2\J1013_3cfb9e0a082758c390fafb7c6650d0b22898594c\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Administrator\.android\build-cache\b1f8064f58c70b1fe8ad4f7949395916bb799c70\output\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Administrator\Desktop\demo\vpos_android\app\libs\umeng-analytics-v5.5.3.jar"
+        jumboMode="true"
         optimize="true"
-        revision="25.0.0"
-        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
-        <dex dex="C:\Users\Administrator\Desktop\demo\vpos_android\app\build\intermediates\pre-dexed\debug\classes_c8cb6e000eb5887de9ca0820b19ae46e24655683.jar" />
+        revision="25.0.3"
+        sha1="5d503ec571e2e98d972209afa203f94d11882c15">
+        <dex dex="C:\Users\Administrator\Desktop\demo\vpos_android\app\build\intermediates\transforms\dex\debug\folders\1000\2\umeng-analytics-v5.5.3_57fb9a7c0526c554b82baee0a443fb297a990340\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Administrator\.android\build-cache\eea5bf9869a3cb3cb80f31d01c15f002f98c9341\output\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Administrator\Desktop\demo\vpos_android\app\libs\cloudpossdkinterface.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
-        <dex dex="C:\Users\Administrator\Desktop\demo\vpos_android\app\build\intermediates\pre-dexed\debug\classes_d5a43a74be34ee88b981bb30779e466e3259a70e.jar" />
+        sha1="18a4ea582b1f5732b1d8709e17fe280a93fcbd14">
+        <dex dex="C:\Users\Administrator\Desktop\demo\vpos_android\app\build\intermediates\transforms\dex\debug\folders\1000\2\cloudpossdkinterface_697d7af61af5f3ef86a98f2d3a1e1bd50a13f978\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Administrator\.android\build-cache\a66cee983c0747ff8333a01df8d32bf45770c2ea\output\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Administrator\Desktop\demo\vpos_android\app\libs\allutils.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="aee64634871d88a419d59eb743c1258a60f19700">
-        <dex dex="C:\Users\Administrator\Desktop\demo\vpos_android\app\build\intermediates\pre-dexed\debug\classes_45e96698609eaa3c258e40d1df9e5fe1c0755caf.jar" />
+        sha1="2fd005020956e2019d966766669d6532be309319">
+        <dex dex="C:\Users\Administrator\Desktop\demo\vpos_android\app\build\intermediates\transforms\dex\debug\folders\1000\2\allutils_152d480454381dcfaf85936d2aecbac5be63df0f\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Administrator\Desktop\demo\vpos_android\app\libs\poslib20160411.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Administrator\Desktop\demo\vpos_android\app\libs\umeng-update-v2.6.0.1.jar"
+        jumboMode="true"
         optimize="true"
-        revision="25.0.0"
-        sha1="89c6953c5113d47890e6422982c468066998cd96">
-        <dex dex="C:\Users\Administrator\Desktop\demo\vpos_android\app\build\intermediates\pre-dexed\debug\poslib20160411_f383e6782d2e3b6eaf875c47a493530db1cf6e93.jar" />
+        revision="25.0.3"
+        sha1="7bfeea30c4995f90a4374ce4177772a4579f2797">
+        <dex dex="C:\Users\Administrator\Desktop\demo\vpos_android\app\build\intermediates\transforms\dex\debug\folders\1000\2\umeng-update-v2.6.0.1_a1c1a1c9705c136e475470be5ceb1a246a58ef2f\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -468,15 +441,6 @@
         revision="25.0.0"
         sha1="7bfeea30c4995f90a4374ce4177772a4579f2797">
         <dex dex="C:\Users\Administrator\Desktop\demo\vpos_android\app\build\intermediates\transforms\dex\debug\folders\1000\2\umeng-update-v2.6.0.1_a1c1a1c9705c136e475470be5ceb1a246a58ef2f\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Administrator\Desktop\demo\vpos_android\app\libs\core4.7.5.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="3e070d20fe4c3c5d06d5eb3465fb5fb621edc816">
-        <dex dex="C:\Users\Administrator\Desktop\demo\vpos_android\app\build\intermediates\pre-dexed\debug\core4.7.5_957a542c6cfb66c8da61d542464d240eee743afb.jar" />
     </item>
 
 </items>

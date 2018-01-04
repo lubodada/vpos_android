@@ -1,5 +1,5 @@
 /**
- * 
+ *
  */
 package com.ven.pos;
 
@@ -21,112 +21,110 @@ import com.ven.pos.Util.UtilTool;
 
 /**
  * @author Administrator
- *
  */
-public class MemberRechargeActivity extends FragmentActivity  implements OnClickListener  {
-	
-	private ViewPager viewPager;
-	private Button remianRechargeBtn;
-	private Button serviceRechargeBtn;
-	 private MemberRechargePagerAdapter mAdapter;
-	 private Fragment fg;
-	
-	List<Fragment> fragmentList = new ArrayList<Fragment>();
-	
-	@Override
-	protected void onCreate(Bundle savedInstanceState) {
-		super.onCreate(savedInstanceState);
+public class MemberRechargeActivity extends FragmentActivity implements OnClickListener {
 
-		com.ven.pos.Util.ActivityManager.getInstance().addActivity(this);
-		TitleBar.setTitleBar(this, "后退", " 会员充值", "", null);
-		
-		setContentView(R.layout.member_charge);
-		initView();
-		UtilTool.checkLoginStatusAndReturnLoginActivity(this, null);
-	}
-	
-	private void initView(){
-		remianRechargeBtn = (Button)findViewById(R.id.remain_recharge_btn);
-		serviceRechargeBtn= (Button)findViewById(R.id.serivce_recharge_btn);
-		
-		remianRechargeBtn.setOnClickListener(this);
-		serviceRechargeBtn.setOnClickListener(this);
-		
-		viewPager = (ViewPager)findViewById(R.id.service_viewpager);
-		fragmentList.add(new RemainRechargeFragment(this));
-		fragmentList.add(new ServiceRechargeFragment(this));
+    private ViewPager viewPager;
+    private Button remianRechargeBtn;
+    private Button serviceRechargeBtn;
+    private MemberRechargePagerAdapter mAdapter;
+    private Fragment fg;
+
+    List<Fragment> fragmentList = new ArrayList<Fragment>();
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+
+        com.ven.pos.Util.ActivityManager.getInstance().addActivity(this);
+        TitleBar.setTitleBar(this, "后退", " 会员充值", "", null);
+
+        setContentView(R.layout.member_charge);
+        initView();
+        UtilTool.checkLoginStatusAndReturnLoginActivity(this, null);
+    }
+
+    private void initView() {
+        remianRechargeBtn = (Button) findViewById(R.id.remain_recharge_btn);
+        serviceRechargeBtn = (Button) findViewById(R.id.serivce_recharge_btn);
+
+        remianRechargeBtn.setOnClickListener(this);
+        serviceRechargeBtn.setOnClickListener(this);
+
+        viewPager = (ViewPager) findViewById(R.id.service_viewpager);
+        fragmentList.add(new RemainRechargeFragment(this));
+        fragmentList.add(new ServiceRechargeFragment(this));
 
 
-		mAdapter = new MemberRechargePagerAdapter(getSupportFragmentManager(), fragmentList);
-		viewPager.setAdapter(mAdapter);
+        mAdapter = new MemberRechargePagerAdapter(getSupportFragmentManager(), fragmentList);
+        viewPager.setAdapter(mAdapter);
 
-	}
-	
-	@Override
-	public void onStart() {
+    }
 
-		TitleBar.setActivity(this);
+    @Override
+    public void onStart() {
 
-		super.onStart();
-	}
+        TitleBar.setActivity(this);
 
-	@Override
-	public void onBackPressed() {
+        super.onStart();
+    }
 
-		super.onBackPressed();
-	}
+    @Override
+    public void onBackPressed() {
 
-	@Override
-	protected void onDestroy() {
-		// OpenIntegralWall.getInstance().onUnbind();
-		super.onDestroy();
-		com.ven.pos.Util.ActivityManager.getInstance().removeActivity(this);
-	}
+        super.onBackPressed();
+    }
 
-	@Override
-	public void onClick(View arg0) {
-		// TODO Auto-generated method stub
-		if(arg0.getId() == remianRechargeBtn.getId()){
-			viewPager.setCurrentItem(0);
-			remianRechargeBtn.setBackgroundResource(R.drawable.fc_blue_left);
-			serviceRechargeBtn.setBackgroundResource(R.drawable.fc_white_right);
-			
-		}
-		else if(arg0.getId() == serviceRechargeBtn.getId()){
-			viewPager.setCurrentItem(1);
-			serviceRechargeBtn.setBackgroundResource(R.drawable.fc_blue_right);
-			remianRechargeBtn.setBackgroundResource(R.drawable.fc_white_left);
-		}
-	}
-	
-	 class MemberRechargePagerAdapter extends FragmentPagerAdapter {
+    @Override
+    protected void onDestroy() {
+        // OpenIntegralWall.getInstance().onUnbind();
+        super.onDestroy();
+        com.ven.pos.Util.ActivityManager.getInstance().removeActivity(this);
+    }
 
-	        private List<Fragment> fragmentList;
+    @Override
+    public void onClick(View arg0) {
+        // TODO Auto-generated method stub
+        if (arg0.getId() == remianRechargeBtn.getId()) {
+            viewPager.setCurrentItem(0);
+            remianRechargeBtn.setBackgroundResource(R.drawable.fc_blue_left);
+            serviceRechargeBtn.setBackgroundResource(R.drawable.fc_white_right);
 
-	        public MemberRechargePagerAdapter(FragmentManager fm, List<Fragment> fragmentList){
+        } else if (arg0.getId() == serviceRechargeBtn.getId()) {
+            viewPager.setCurrentItem(1);
+            serviceRechargeBtn.setBackgroundResource(R.drawable.fc_blue_right);
+            remianRechargeBtn.setBackgroundResource(R.drawable.fc_white_left);
+        }
+    }
 
-	            super(fm);
-	            this.fragmentList = fragmentList;
-	
-	        }
+    class MemberRechargePagerAdapter extends FragmentPagerAdapter {
 
-	        /**
-	         * 得到每个页面
-	         */
+        private List<Fragment> fragmentList;
 
-	        @Override
-	        public Fragment getItem(int arg0) {
-	            return (fragmentList == null || fragmentList.size() == 0) ? null : fragmentList.get(arg0);
-	        }
+        public MemberRechargePagerAdapter(FragmentManager fm, List<Fragment> fragmentList) {
 
-	        /**
-	         * 页面的总个数
-	         */
-	        @Override
-	        public int getCount() {
-	           return fragmentList == null ? 0 : fragmentList.size();
-	        }
-	    }
-	 
-	
+            super(fm);
+            this.fragmentList = fragmentList;
+
+        }
+
+        /**
+         * 得到每个页面
+         */
+
+        @Override
+        public Fragment getItem(int arg0) {
+            return (fragmentList == null || fragmentList.size() == 0) ? null : fragmentList.get(arg0);
+        }
+
+        /**
+         * 页面的总个数
+         */
+        @Override
+        public int getCount() {
+            return fragmentList == null ? 0 : fragmentList.size();
+        }
+    }
+
+
 }

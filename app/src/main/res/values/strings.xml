@@ -189,7 +189,7 @@
     <string name="company_name">力凯科技</string>
     <string name="please_relogin">请重新登陆</string>
     <string name="main_score_recharge">仓储管理</string>
-    <string name ="quota_text">定额消费</string>
+    <string name="quota_text">定额消费</string>
     <string name="services_name">操作人</string>
     <string name="ven_total_platform_api_url">http://ven.656.so/VEN/addons/jin_platform/webapi/message.php</string>
     <string name="title_activity_exchange">ExchangeActivity</string>
